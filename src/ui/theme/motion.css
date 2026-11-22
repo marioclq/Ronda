@@ -144,6 +144,10 @@
 .list__item { animation: settle var(--dur-state) var(--ease-arrive) both; }
 
 dialog.sheet[open] { animation: sheet-rise var(--dur-view) var(--ease-arrive); }
+dialog.sheet--top[open] { animation: sheet-drop var(--dur-view) var(--ease-arrive); }
+@keyframes sheet-drop {
+  from { transform: translateY(-100%); }
+}
 dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-arrive); }
 @keyframes sheet-rise {
   from { transform: translateY(100%); }

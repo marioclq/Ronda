@@ -151,6 +151,25 @@ test('the level chosen on home is preselected in setup, and a change in setup sh
   await expect(page.getByTestId('home-level-SOFT')).toHaveAttribute('aria-pressed', 'true');
 });
 
+test('the game menu drops from the top and closes with a tap outside it, not inside', async ({ page }) => {
+  await reachSetup(page);
+  await page.getByTestId('setup-start').click();
+  await page.getByTestId('play-menu').click();
+  const menu = page.getByTestId('play-menu-dialog');
+  await expect(menu).toBeVisible();
+
+  const box = await menu.boundingBox();
+  if (box === null) throw new Error('The menu has no box');
+  expect(box.y).toBeLessThan(5);
+  await page.mouse.click(box.x + box.width / 2, box.y + 8);
+  await expect(menu).toBeVisible();
+
+  const viewport = page.viewportSize();
+  if (viewport === null) throw new Error('No viewport');
+  await page.mouse.click(viewport.width / 2, viewport.height - 10);
+  await expect(menu).toHaveCount(0);
+});
+
 test('random choice is staged before the card appears, and the card shows on its own', async ({ page }) => {
   await reachSetup(page);
   await page.getByTestId('setup-start').click();

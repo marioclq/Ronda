@@ -96,6 +96,13 @@ dialog.sheet {
   overflow: auto;
 }
 dialog.sheet::backdrop { background: var(--scrim); backdrop-filter: blur(4px); }
+/* A sheet opened from the top bar drops from the top edge, under the safe area. */
+dialog.sheet--top {
+  margin: 0 auto auto;
+  padding-top: max(var(--space-5), var(--safe-area-inset-top, env(safe-area-inset-top)));
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+.sheet--top .sheet__handle { margin: var(--space-4) auto 0; }
 
 pre.banner { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--font-body); font-size: var(--step--1); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

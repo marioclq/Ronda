@@ -45,7 +45,7 @@ export function PlayMenu({ game, savedPlayers, dispatch, loadExtreme, loadError,
 
   if (pending === 'EXTREME') {
     return (
-      <Dialog title={es.setup.adult.title} onClose={() => (busy ? undefined : onClose())} locked={busy} testId="play-menu-dialog">
+      <Dialog title={es.setup.adult.title} onClose={() => (busy ? undefined : onClose())} locked={busy} placement="top" testId="play-menu-dialog">
         <p>{es.setup.adult.body}</p>
         {busy ? <p>{es.setup.loadingExtreme}</p> : null}
         {loadError === null ? null : (
@@ -67,7 +67,7 @@ export function PlayMenu({ game, savedPlayers, dispatch, loadExtreme, loadError,
 
   if (pending === 'END') {
     return (
-      <Dialog title={es.play.menu.end} onClose={onClose} testId="play-menu-dialog">
+      <Dialog title={es.play.menu.end} onClose={onClose} placement="top" testId="play-menu-dialog">
         <p>{es.play.menu.endConfirm}</p>
         <div className="stack">
           <Button
@@ -89,7 +89,7 @@ export function PlayMenu({ game, savedPlayers, dispatch, loadExtreme, loadError,
   }
 
   return (
-    <Dialog title={es.play.menu.title} onClose={onClose} testId="play-menu-dialog">
+    <Dialog title={es.play.menu.title} onClose={onClose} placement="top" testId="play-menu-dialog">
       <section className="stack stack--tight" aria-label={es.play.menu.players}>
         <h3>{es.play.menu.players}</h3>
         <ul className="list">
