@@ -151,6 +151,26 @@ test('the level chosen on home is preselected in setup, and a change in setup sh
   await expect(page.getByTestId('home-level-SOFT')).toHaveAttribute('aria-pressed', 'true');
 });
 
+test('a game in progress comes back on the same card after the app is closed and opened again', async ({ page }) => {
+  await reachSetup(page);
+  await page.getByTestId('setup-start').click();
+  await page.getByTestId('choice-truth').click();
+  const card = await page.getByTestId('card-text').innerText();
+
+  // Android closing the app in the background: the page starts again from the root, without the hash.
+  await page.evaluate(() => history.replaceState(null, '', '/'));
+  await page.reload();
+  await expect(page.getByTestId('card-text')).toHaveText(card);
+
+  // Once the game ends, opening the app goes back to home.
+  await page.getByTestId('play-menu').click();
+  await page.getByTestId('menu-end').click();
+  await page.getByTestId('menu-end-yes').click();
+  await page.evaluate(() => history.replaceState(null, '', '/'));
+  await page.reload();
+  await expect(page.getByTestId('home')).toBeVisible();
+});
+
 test('the game menu drops from the top and closes with a tap outside it, not inside', async ({ page }) => {
   await reachSetup(page);
   await page.getByTestId('setup-start').click();

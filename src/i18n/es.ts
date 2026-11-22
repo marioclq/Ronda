@@ -125,6 +125,8 @@ export const es = {
     ended: 'Partida terminada',
     backHome: 'Volver al inicio',
     errorTitle: 'No se pudo continuar',
+    restoreFailed: (detail: string) => `No se pudo recuperar la partida en curso: ${detail}`,
+    restoreExtremeMissing: 'no cargaron las cartas del nivel extremo.',
     startFailed: (config: string, players: number, detail: string) =>
       `No se pudo empezar con ${config} y ${players} jugadores: ${detail}`,
     actionFailed: (type: string, action: string, detail: string) => `Falló la acción ${type} (${action}): ${detail}`,

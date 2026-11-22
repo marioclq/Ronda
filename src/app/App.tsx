@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Level } from '../core/content/types';
 import { es } from '../i18n/es';
 import type { UserStore } from '../store/userStore';
@@ -106,7 +106,12 @@ function renderRoute(route: Route, ctx: RouteContext) {
 function Shell() {
   const route = useRoute();
   const { state, saveError } = useUserState();
-  const { discard, start } = useGame();
+  const { game, discard, start, restoreError } = useGame();
+  // Android may close the app in the background; a game saved then reopens on the game screen.
+  const resumeGame = useRef(game !== null && route.name === 'home');
+  useEffect(() => {
+    if (resumeGame.current) navigate('play', { replace: true });
+  }, []);
   useTheme(state.settings.theme);
   const [tonight, setTonight] = useState<readonly string[]>(() => state.players.map((p) => p.id));
   const [level, setLevel] = useState<Level>(() => state.settings.lastConfig?.level ?? 'SOFT');
@@ -135,6 +140,11 @@ function Shell() {
       {saveError === null ? null : (
         <p className="banner" role="alert" data-testid="save-error">
           {saveError}
+        </p>
+      )}
+      {restoreError === null ? null : (
+        <p className="banner" role="alert" data-testid="restore-error">
+          {restoreError}
         </p>
       )}
       {renderRoute(route, { tonight, setTonight, discardGame: discard, replay, newGameRoute, level, setLevel })}

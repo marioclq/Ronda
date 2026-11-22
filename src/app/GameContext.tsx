@@ -6,6 +6,7 @@ import type { Player } from '../core/game/player';
 import { newId } from '../ui/newId';
 import { createMathRng } from '../core/game/rng';
 import { es } from '../i18n/es';
+import { clearActiveGame, isResumable, loadActiveGame, saveActiveGame, type SavedGame } from '../store/activeGame';
 import { useCards } from './CardsContext';
 import { useUserState } from './UserStateContext';
 
@@ -24,6 +25,8 @@ interface GameApi {
   readonly error: string | null;
   /** Set for UNDO_MS after a card is closed: what happened, so the toast can name it. */
   readonly undoable: { readonly outcome: PlayOutcome } | null;
+  /** Why the game saved before Android closed the app could not be restored, or null. */
+  readonly restoreError: string | null;
   start(config: GameConfig, players: readonly Player[], adultConfirmed: boolean): boolean;
   dispatch(action: GameAction): void;
   /** Restores the card that was just closed and drops its event. */
@@ -43,16 +46,28 @@ function messageOf(error: unknown): string {
   return error instanceof Error ? error.message : String(error);
 }
 
+/** Reads the game saved before the app was closed; a broken save is reported and removed so the app can start. */
+function restoreSavedGame(): { readonly saved: SavedGame | null; readonly failure: string | null } {
+  try {
+    return { saved: loadActiveGame(window.localStorage), failure: null };
+  } catch (failure) {
+    clearActiveGame(window.localStorage);
+    return { saved: null, failure: es.play.restoreFailed(messageOf(failure)) };
+  }
+}
+
 export function GameProvider({ children }: { children: ReactNode }) {
   const { state, update } = useUserState();
-  const { getCards } = useCards();
-  const [game, setGame] = useState<GameState | null>(null);
+  const { getCards, loadExtreme } = useCards();
+  const [restored] = useState(restoreSavedGame);
+  const [game, setGame] = useState<GameState | null>(restored.saved?.game ?? null);
   const [error, setError] = useState<string | null>(null);
-  const gameRef = useRef<GameState | null>(null);
+  const [restoreError, setRestoreError] = useState<string | null>(restored.failure);
+  const gameRef = useRef<GameState | null>(restored.saved?.game ?? null);
   const historyRef = useRef(state.history);
   const savedHistory = useRef<GameState['history'] | null>(null);
   const rng = useMemo(() => createMathRng(), []);
-  const sessionRef = useRef<string>('');
+  const sessionRef = useRef<string>(restored.saved?.session ?? '');
   const [undoable, setUndoable] = useState<Undoable | null>(null);
   const undoTimer = useRef<number | null>(null);
 
@@ -125,6 +140,21 @@ export function GameProvider({ children }: { children: ReactNode }) {
     setError(null);
   }, [publish, clearUndo]);
 
+  // A restored extreme game needs its cards before the next draw; they live in a separate chunk.
+  useEffect(() => {
+    const saved = restored.saved;
+    if (saved === null || (saved.game.config.level !== 'EXTREME' && !saved.game.adultConfirmed)) return;
+    void loadExtreme().then((loaded) => {
+      if (!loaded) setRestoreError(es.play.restoreFailed(es.play.restoreExtremeMissing));
+    });
+  }, [restored, loadExtreme]);
+
+  // Kept on every change so the game survives Android closing the app; gone once it ends or is discarded.
+  useEffect(() => {
+    if (isResumable(game)) saveActiveGame(window.localStorage, sessionRef.current, game);
+    else clearActiveGame(window.localStorage);
+  }, [game]);
+
   // The engine keeps the history; persist it after every card shown (decision 9).
   useEffect(() => {
     if (game === null || game.history === savedHistory.current) return;
@@ -137,12 +167,13 @@ export function GameProvider({ children }: { children: ReactNode }) {
       game,
       error,
       undoable: undoable === null ? null : { outcome: undoable.outcome },
+      restoreError,
       start,
       dispatch,
       undo,
       discard,
     }),
-    [game, error, undoable, start, dispatch, undo, discard],
+    [game, error, undoable, restoreError, start, dispatch, undo, discard],
   );
   return <Context.Provider value={api}>{children}</Context.Provider>;
 }
