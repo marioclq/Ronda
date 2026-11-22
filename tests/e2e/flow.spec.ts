@@ -151,24 +151,15 @@ test('the level chosen on home is preselected in setup, and a change in setup sh
   await expect(page.getByTestId('home-level-SOFT')).toHaveAttribute('aria-pressed', 'true');
 });
 
-test('random choice spins until stopped, lands, and shows the card only when revealed', async ({ page }) => {
+test('random choice is staged before the card appears, and the card shows on its own', async ({ page }) => {
   await reachSetup(page);
   await page.getByTestId('setup-start').click();
   await page.getByTestId('choice-random').click();
   await expect(page.getByTestId('random-reveal')).toBeVisible();
-  await page.getByTestId('random-stop').click();
-  await expect(page.getByTestId('random-show')).toBeVisible({ timeout: 5000 });
   await expect(page.getByTestId('card-text')).toHaveCount(0);
-  await page.getByTestId('random-show').click();
-  await expect(page.getByTestId('card-text')).not.toBeEmpty();
+  // The whole reveal takes about two seconds and needs no tap.
+  await expect(page.getByTestId('card-text')).not.toBeEmpty({ timeout: 3000 });
   await expect(page.getByTestId('random-reveal')).toHaveCount(0);
-});
-
-test('random choice stops on its own when nobody stops it', async ({ page }) => {
-  await reachSetup(page);
-  await page.getByTestId('setup-start').click();
-  await page.getByTestId('choice-random').click();
-  await expect(page.getByTestId('random-show')).toBeVisible({ timeout: 8000 });
 });
 
 test('date mode: agreement, closeness before, the 36 questions in order, closeness after', async ({ page }) => {

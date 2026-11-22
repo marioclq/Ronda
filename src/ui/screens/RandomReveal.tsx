@@ -1,99 +1,51 @@
 import { useEffect, useState } from 'react';
 import type { PersonalType } from '../../core/game/engine';
 import { es } from '../../i18n/es';
-import { Button } from '../components/Button';
 import { cx } from '../components/cx';
 import { Icon } from '../components/Icon';
 import { CARD_TYPE_ICONS } from '../components/typeIcons';
-import { brakeFaces, brakeGap, OTHER_FACE } from '../logic/roulette';
+import { FLIP_GAPS, revealFaces } from '../logic/roulette';
 
-/** Spinning flips at a steady pace until someone stops it, or on its own after a while. */
-const SPIN_GAP_MS = 75;
-const AUTO_STOP_MS = 3000;
-
-type Stage = 'SPINNING' | 'BRAKING' | 'LANDED';
+const LANDED_HOLD_MS = 520;
+const REDUCED_HOLD_MS = 450;
 
 const WORDS: Readonly<Record<PersonalType, string>> = { TRUTH: es.play.truth, DARE: es.play.dare };
 
 /**
- * "Al azar": the engine has already chosen. This only stages the choice so the group sees it land:
- * it spins, brakes when stopped (by hand or on its own) and always lands on `result`.
- * The card appears only when someone taps "Revelar pregunta". With reduced motion it starts landed.
+ * "Al azar": the engine has already chosen; this only stages the choice so the group sees it land,
+ * then the card appears on its own. With reduced motion it shows the result directly, briefly.
  */
 export function RandomReveal({ result, onDone }: { result: PersonalType; onDone: () => void }) {
+  const [step, setStep] = useState(0);
   const [reduced] = useState(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-  const [stage, setStage] = useState<Stage>(reduced ? 'LANDED' : 'SPINNING');
-  const [face, setFace] = useState<PersonalType>(reduced ? result : OTHER_FACE[result]);
-  const [braking, setBraking] = useState<{ readonly faces: readonly PersonalType[]; readonly step: number } | null>(null);
+  const faces = revealFaces(result);
+  const last = faces.length - 1;
+  const shown = reduced ? result : (faces[step] ?? result);
+  const landed = reduced || step === last;
 
   useEffect(() => {
-    if (stage !== 'SPINNING') return;
-    const flip = window.setInterval(() => setFace((current) => OTHER_FACE[current]), SPIN_GAP_MS);
-    const autoStop = window.setTimeout(() => setStage('BRAKING'), AUTO_STOP_MS);
-    return () => {
-      window.clearInterval(flip);
-      window.clearTimeout(autoStop);
-    };
-  }, [stage]);
-
-  useEffect(() => {
-    if (stage !== 'BRAKING') return;
-    if (braking === null) {
-      setBraking({ faces: brakeFaces(face, result), step: 0 });
-      return;
+    if (reduced) {
+      const id = window.setTimeout(onDone, REDUCED_HOLD_MS);
+      return () => window.clearTimeout(id);
     }
-    const next = braking.faces[braking.step];
-    if (next === undefined) {
-      setStage('LANDED');
-      if ('vibrate' in navigator) navigator.vibrate(30);
-      return;
+    if (step < last) {
+      const id = window.setTimeout(() => setStep(step + 1), FLIP_GAPS[step]);
+      return () => window.clearTimeout(id);
     }
-    const id = window.setTimeout(() => {
-      setFace(next);
-      setBraking({ faces: braking.faces, step: braking.step + 1 });
-    }, brakeGap(braking.step));
+    if ('vibrate' in navigator) navigator.vibrate(30);
+    const id = window.setTimeout(onDone, LANDED_HOLD_MS);
     return () => window.clearTimeout(id);
-  }, [stage, braking, face, result]);
+  }, [step, last, reduced, onDone]);
 
-  const landed = stage === 'LANDED';
   return (
-    <div className="reveal" data-testid="random-reveal">
-      <div className="reveal__status">
-        <span className="pill">
-          <Icon name="random" size={16} />
-          {es.play.roulette.mode}
-        </span>
-        <span className="pill pill--live" data-stage={stage}>
-          <span className="pill__dot" />
-          {es.play.roulette[stage]}
-        </span>
-      </div>
-
-      <div className={cx('roulette glass glass--thick', landed && 'roulette--landed')}>
-        <span key={face} className="roulette__face">
-          <span className="roulette__icon">
-            <Icon name={CARD_TYPE_ICONS[face]} size={34} />
-          </span>
-          <span className="roulette__word">{WORDS[face]}</span>
-        </span>
-        {landed ? <p className="roulette__hint">{es.play.choiceHints[result]}</p> : null}
-      </div>
+    <div className={cx('roulette glass glass--thick', landed && 'roulette--landed')} data-testid="random-reveal">
+      <span key={step} className="roulette__face">
+        <Icon name={CARD_TYPE_ICONS[shown]} size={40} />
+        <span className="roulette__word">{WORDS[shown]}</span>
+      </span>
       <span className="visually-hidden" role="status">
         {landed ? WORDS[result] : es.play.random}
       </span>
-
-      {landed ? (
-        <Button variant="primary" icon="next" onClick={onDone} data-testid="random-show">
-          {es.play.roulette.reveal}
-        </Button>
-      ) : (
-        <>
-          <p className="reveal__hint">{es.play.roulette.deciding}</p>
-          <Button variant="primary" icon="pause" disabled={stage !== 'SPINNING'} onClick={() => setStage('BRAKING')} data-testid="random-stop">
-            {es.play.roulette.stop}
-          </Button>
-        </>
-      )}
     </div>
   );
 }

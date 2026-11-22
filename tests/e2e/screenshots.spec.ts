@@ -77,14 +77,10 @@ test.describe('dark', () => {
     await shot('turno-eleccion');
     await page.getByTestId('choice-random').click();
     await page.waitForTimeout(350);
-    await shot('al-azar-girando', { settle: false });
-    await page.getByTestId('random-stop').click();
-    await page.waitForTimeout(250);
-    await shot('al-azar-frenando', { settle: false });
-    await expect(page.getByTestId('random-show')).toBeVisible({ timeout: 5000 });
-    await shot('al-azar-resultado');
-    await page.getByTestId('random-show').click();
-    await expect(page.getByTestId('card-text')).toBeVisible();
+    await shot('al-azar-ruleta', { settle: false });
+    await page.waitForTimeout(1150);
+    await shot('al-azar-resultado', { settle: false });
+    await expect(page.getByTestId('card-text')).toBeVisible({ timeout: 3000 });
     await shot('carta-personal');
     await page.getByTestId('card-replace').click();
     await shot('otra-carta-motivo');

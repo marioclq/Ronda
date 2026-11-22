@@ -219,13 +219,9 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 
 /* Random choice: one glass slab where the two options take turns until one lands. */
 .roulette {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-4);
-  min-height: 16rem;
-  padding: var(--space-5);
+  display: grid;
+  place-items: center;
+  min-height: 14rem;
   border-radius: var(--radius-lg);
   perspective: 700px;
 }
@@ -233,27 +229,15 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-4);
+  gap: var(--space-3);
   font-family: var(--font-display);
   font-size: var(--step-4);
   font-weight: 800;
   letter-spacing: var(--tracking-tight);
   line-height: 1;
 }
-.roulette__icon {
-  display: grid;
-  place-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
-  background: linear-gradient(180deg, var(--accent-hi), var(--accent-lo));
-  color: var(--accent-ink);
-  box-shadow:
-    inset 0 1px 1px rgb(255 255 255 / 0.6),
-    0 12px 32px -6px color-mix(in srgb, var(--accent) 55%, transparent);
-}
-.roulette__hint { max-width: 18rem; text-align: center; color: var(--text-muted); }
 .roulette--landed { box-shadow: inset 0 0 0 2px var(--accent), 0 24px 60px -20px var(--accent); }
+.roulette--landed .roulette__face { color: var(--accent); }
 
 
 /* Countdown: a ring that drains for the whole duration, digits that roll each second. */
@@ -640,12 +624,6 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
   color: var(--text-muted);
 }
 .play-card__rule .icon { flex: none; color: var(--accent); }
-
-/* ---------- Play: random choice ---------- */
-
-.reveal { display: flex; flex-direction: column; gap: var(--space-4); }
-.reveal__status { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2); }
-.reveal__hint { text-align: center; color: var(--text-muted); }
 
 /* ---------- Play: menu sheet ---------- */
 
