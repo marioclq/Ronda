@@ -1,18 +1,13 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
+import { useGlassStyle } from '../../app/GlassStyleContext';
 import { Glass, type GlassProps } from '../components/Glass';
-import { effectiveBezel, lensPrimitives, type LensParams } from './lensFilter';
+import { effectiveBezel, lensPrimitives } from './lensFilter';
 import { renderDisplacementMapUrl } from './renderMap';
 import { supportsRefraction } from './supportsRefraction';
 
-/** Lens and backdrop settings, until they come from Ajustes → Vidrio. */
-export const DEFAULT_LENS: LensParams & { readonly frost: number; readonly saturation: number } = {
-  curvature: 1,
-  bezel: 16,
-  dispersion: 0.04,
-  magnify: 0,
-  frost: 28,
-  saturation: 190,
-};
+function systemReducesTransparency(): boolean {
+  return window.matchMedia('(prefers-reduced-transparency: reduce)').matches;
+}
 
 interface Shape {
   readonly width: number;
@@ -25,11 +20,12 @@ interface Shape {
  * The lens follows the element's real size and corner radius and is redrawn when either changes.
  */
 export function LensGlass({ style, children, ...rest }: GlassProps) {
-  const supported = useMemo(() => supportsRefraction(), []);
+  const { style: glass } = useGlassStyle();
+  const supported = useMemo(() => supportsRefraction(), []) && !glass.reduceTransparency && !systemReducesTransparency();
   const ref = useRef<HTMLDivElement>(null);
   const filterId = `lens-${useId().replace(/[^a-zA-Z0-9]/g, '')}`;
   const [shape, setShape] = useState<Shape | null>(null);
-  const lens = DEFAULT_LENS;
+  const lens = { curvature: glass.curvature, bezel: glass.rimDepth, dispersion: glass.dispersion, magnify: glass.magnify };
 
   useEffect(() => {
     const element = ref.current;
@@ -55,7 +51,7 @@ export function LensGlass({ style, children, ...rest }: GlassProps) {
   );
   const primitives = mapUrl === null || shape === null ? null : lensPrimitives(mapUrl, shape.width, shape.height, bezel, lens);
   // Blur after bending stays light so the bend at the rim reads; the frost elsewhere comes from the glass tokens.
-  const backdrop = `url(#${filterId}) blur(${(lens.frost / 3).toFixed(1)}px) saturate(${lens.saturation / 100})`;
+  const backdrop = `url(#${filterId}) blur(${(glass.frost / 3).toFixed(1)}px) saturate(${glass.saturation / 100})`;
 
   return (
     <>

@@ -4,6 +4,7 @@ import type { GameConfig, Penalty } from '../core/game/engine';
 import { IOS_MAX, IOS_MIN, type DateRecord, type DateSet } from '../core/date/session';
 import type { PlayEvent } from '../core/events/playEvent';
 import { ATTRACTIONS, GENDERS, type Attraction, type Gender, type Player } from '../core/game/player';
+import { parseGlassStyle, type GlassStyle } from './glassStyle';
 
 /** 2: adds `dates`. 3: adds `events` (one per card closed). Older versions are migrated on read. */
 export const SCHEMA_VERSION = 3;
@@ -14,6 +15,8 @@ export type Theme = (typeof THEMES)[number];
 export interface UserSettings {
   readonly theme: Theme;
   readonly lastConfig?: GameConfig;
+  /** Liquid glass look from Ajustes → Vidrio; absent means the defaults. Optional, so no schema bump. */
+  readonly glass?: GlassStyle;
 }
 
 export interface UserState {
@@ -307,7 +310,12 @@ function parseSettings(raw: unknown, problems: string[]): UserSettings {
   if (oneOf(THEMES, raw.theme)) theme = raw.theme;
   else problems.push(`settings.theme must be one of ${THEMES.join(', ')}, got ${JSON.stringify(raw.theme)}`);
   const lastConfig = raw.lastConfig === undefined ? null : parseConfig(raw.lastConfig, problems);
-  return lastConfig === null ? { theme } : { theme, lastConfig };
+  const glass = raw.glass === undefined ? null : parseGlassStyle(raw.glass, problems);
+  return {
+    theme,
+    ...(lastConfig === null ? {} : { lastConfig }),
+    ...(glass === null ? {} : { glass }),
+  };
 }
 
 /** Validates a raw stored value. Throws UserStateError listing every problem; never repairs anything. */

@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { DEFAULT_GLASS } from './glassStyle';
 import { emptyUserState, parseUserState, SCHEMA_VERSION, UserStateError, type UserState } from './userState';
 
 function valid(): UserState {
@@ -150,5 +151,27 @@ describe('schema v3: play events', () => {
     const raw2 = clone();
     raw2.events[0].msOnCard = -1;
     expect(() => parseUserState(raw2, 't')).toThrow('msOnCard');
+  });
+});
+
+describe('settings.glass', () => {
+  it('round-trips a tuned glass look and reads a state without one', () => {
+    const tuned = { ...valid(), settings: { ...valid().settings, glass: { ...DEFAULT_GLASS, frost: 12, tintColor: 'ACCENT' as const, reduceTransparency: true } } };
+    expect(parseUserState(JSON.parse(JSON.stringify(tuned)), 'test')).toEqual(tuned);
+    expect(parseUserState(clone(), 'test').settings.glass).toBeUndefined();
+  });
+
+  it('rejects values out of range, an unknown tint and unknown fields, naming each', () => {
+    const raw = clone();
+    raw.settings.glass = { ...DEFAULT_GLASS, frost: 90, tintColor: 'GOLD', shine: 1 };
+    expect(() => parseUserState(raw, 'test')).toThrow(UserStateError);
+    try {
+      parseUserState(raw, 'test');
+    } catch (error) {
+      const message = (error as Error).message;
+      expect(message).toContain('settings.glass.frost must be a number from 0 to 40, got 90');
+      expect(message).toContain('settings.glass.tintColor');
+      expect(message).toContain('unknown field "shine"');
+    }
   });
 });

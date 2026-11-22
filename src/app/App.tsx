@@ -17,6 +17,7 @@ import { useTheme } from '../ui/theme/useAppearance';
 import { MIN_PLAYERS } from '../core/game/engine';
 import { CardsProvider } from './CardsContext';
 import { GameProvider, useGame } from './GameContext';
+import { GlassStyleProvider } from './GlassStyleContext';
 import { navigate, type Route } from './route';
 import { useRoute } from './useRoute';
 import { UserStateProvider, useUserState } from './UserStateContext';
@@ -155,11 +156,13 @@ function Shell() {
 export function App({ store }: { store: UserStore }) {
   return (
     <UserStateProvider store={store}>
-      <CardsProvider>
-        <GameProvider>
-          <Shell />
-        </GameProvider>
-      </CardsProvider>
+      <GlassStyleProvider>
+        <CardsProvider>
+          <GameProvider>
+            <Shell />
+          </GameProvider>
+        </CardsProvider>
+      </GlassStyleProvider>
     </UserStateProvider>
   );
 }
