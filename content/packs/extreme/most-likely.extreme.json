@@ -1,0 +1,364 @@
+{
+  "id": "most-likely-extreme",
+  "version": 2,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "likely-extreme-0001",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí es el más probable de tener una aventura de una noche?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0002",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en mandar un mensaje subido de tono a la persona equivocada?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0003",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en acostarse con alguien en la primera cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0004",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en confesar una fantasía en plena primera cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0005",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en estrenar un juguete íntimo con su pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0006",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en aceptar una propuesta de una noche sin compromiso?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0007",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en enrollarse con la expareja de un amigo?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0008",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en dejarse seducir por alguien del trabajo?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0009",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en ser sorprendido besándose apasionadamente donde no debía?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0010",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en contar su fantasía más rara?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0011",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería el primero en aceptar una propuesta de trío?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0012",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de ser el más fogoso en la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0013",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de tener la fantasía más rara?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0014",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de haber tenido más parejas sexuales?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0015",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de ser el más dominante en la cama?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0016",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de ser el más tímido en la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0017",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de guardar un secreto sexual que nadie sospecha?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0018",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de haber tenido sexo en un lugar inesperado?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0019",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de tener el historial de búsquedas más sospechoso?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0020",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de ser el mejor escribiendo mensajes picantes?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0021",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién tiene más pinta de haberse enredado alguna vez con su jefe?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0022",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien ha tenido más encuentros de una sola noche.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0023",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien tendría ahora mismo un amigo con derechos.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0024",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien se derretiría si le susurran al oído.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0025",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien tiene la ropa interior más atrevida.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0026",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien tiene más experiencia en la cama.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0027",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien contaría su mejor noche sin una pizca de vergüenza.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0028",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien se pondría ropa sexy para sorprender a su pareja.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0029",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien tuvo un encuentro que su familia jamás debe saber.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0030",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien le pediría un masaje sensual a su pareja.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0031",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Señalen a quien tiene más fantasías con un famoso.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0032",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí ha tenido un sueño erótico con alguien que conoce?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0033",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí fingió un orgasmo alguna vez?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0034",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí pasó la noche con alguien y al día siguiente no recordaba su nombre?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0035",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí ha practicado sexting con alguien a quien apenas conocía?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0036",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí tiene una lista de canciones reservada para los momentos íntimos?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0037",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí se arrepiente de haber estado con alguien en particular?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0038",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí se enamoró después de una noche casual?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0039",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí tiene el récord de besos en una sola noche?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0040",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí escondería un juguete íntimo si llegan visitas sin avisar?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0041",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién de aquí le contaría a todos los detalles de su noche más salvaje?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0042",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Voten por quien tiene la voz más seductora al susurrar.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0043",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Si hubiera un concurso de seducción, ¿quién lo ganaría?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0044",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién terminaría siendo el amante secreto de alguien famoso?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0045",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién aceptaría una noche de pasión con su celebridad favorita?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0046",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "Voten por quien mejor sabe besar.",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0047",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién bailaría con más sensualidad frente a todos?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0048",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién sería capaz de seducir a un desconocido en menos de cinco minutos?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0049",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién hablaría de sus intimidades sin vergüenza en una cena entre amigos?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0050",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿A quién le pedirían todos un consejo sobre intimidad?",
+      "tags": []
+    },
+    {
+      "id": "likely-extreme-0051",
+      "type": "MOST_LIKELY",
+      "level": "EXTREME",
+      "text": "¿Quién se atrevería a mandar un mensaje atrevido a su crush ahora mismo?",
+      "tags": []
+    }
+  ]
+}

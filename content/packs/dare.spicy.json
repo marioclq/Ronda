@@ -1,0 +1,1226 @@
+{
+  "id": "dare-spicy",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "tod-d-spicy-0001",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} un cumplido sin usar la palabra «bonito».",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0002",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale a {compatible} un abrazo de diez segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0003",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Mira a {compatible} como si lo vieras por primera vez en una fiesta y acércate a saludar.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0004",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} tu mejor frase de conquista, la más cursi que conozcas.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0005",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz una declaración dramática de amor a {compatible} como en una telenovela.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0006",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué fue lo primero que pensaste de esa persona cuando la conociste.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0007",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Toma la mano de {compatible} y léele la palma como si fueras adivino de feria.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0008",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} tres cosas que te atraen de su forma de ser.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0009",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz tu mejor gesto de galán o de diva de cine dirigido a {compatible}.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0010",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Baila una canción lenta con {compatible} durante veinte segundos, a distancia de brazos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0011",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Imagina que {compatible} te invita a una cita y responde con la excusa más tierna que se te ocurra.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0012",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} cómo sería la cita perfecta con esa persona, con todos los detalles.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0013",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale a {compatible} un masaje de cinco segundos en los hombros.",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-d-spicy-0014",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Susúrrale a {compatible} un cumplido al oído; el grupo no debe escucharlo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0015",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Imita cómo coquetearía tu actor favorito con {compatible}.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0016",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} tu peor intento de coqueteo y repítelo como si fuera nuevo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0017",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Entrelaza tus dedos con los de {compatible} y mantén la mirada durante quince segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0018",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Elige a {compatible} y dile con quién de la sala te llevarías mejor en un viaje, y por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0019",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Escribe en el aire una frase romántica y pide que {compatible} la adivine.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0020",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} cuál de sus gestos te parece más encantador.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0021",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale un abrazo largo a {compatible} y cuenta en silencio hasta diez.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0022",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Inventa una canción de amor de cuatro líneas para {compatible} y cántala.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0023",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Describe cómo sería tu primera cita ideal con {compatible}, sin repetir lugares comunes.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0024",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Muestra al grupo la última foto que le sacaste a alguien especial, sin decir quién es.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0025",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Ofrécele el brazo a {compatible} y pasea con esa persona por la sala como si fuera una gala.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0026",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} una frase que usarías en un primer mensaje por una aplicación de citas.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0027",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz que {compatible} te sostenga la mirada sin reírse mientras tú cuentas un chiste en voz baja.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0028",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta tu peor cita en dos minutos y representa la cara de la otra persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0029",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale a {compatible} un beso en la mano, como un caballero o una dama de otra época.",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-d-spicy-0030",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Interpreta una escena de rechazo romántico con {compatible}, y luego una de aceptación.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0031",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué canción le dedicarías y por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0032",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Guiña un ojo a {compatible} de la forma más seductora que sepas, sin soltar una risa.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0033",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dibuja con el dedo un corazón en la palma de {compatible} y que esa persona adivine qué es.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0034",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Revela quién del grupo tiene la sonrisa más bonita y dile a esa persona por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0035",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} cómo imaginas que sería un viaje juntos de fin de semana.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0036",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} un apodo cariñoso que le quede bien.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0037",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Apoya tu cabeza en el hombro de {compatible} durante diez segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0038",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Lee en voz alta, con tono romántico, la receta o el texto que tengas más a mano.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0039",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz una propuesta de matrimonio exagerada a {compatible}, con rodilla en el suelo, y espera la respuesta.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0040",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} el detalle que más te gusta de su manera de vestir.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0041",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Peina con los dedos el cabello de {compatible} durante veinte segundos, si esa persona acepta.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0042",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pídele a {compatible} su mejor consejo para conquistar a alguien y síguelo con quien tú quieras.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0043",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz un monólogo breve a {compatible} como si fuera la persona que dejaste en el altar.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0044",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Menciona tres cualidades que buscas en una pareja y señala quién del grupo las tiene.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0045",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale la mano a {compatible} y baila una vuelta de salsa o de vals, a tu elección.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0046",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta la historia de tu primer amor platónico en menos de un minuto.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0047",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Envíale a {compatible} una mirada intensa de tres segundos y después apártala con timidez.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0048",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué película romántica le recomendarías ver contigo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0049",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz que {compatible} te elija un poema o una canción para dedicar a otra persona de la sala.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0050",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale a {compatible} un beso en la mejilla, si esa persona está de acuerdo.",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-d-spicy-0051",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta qué hiciste la última vez que sentiste celos y qué harías distinto hoy.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0052",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Describe el perfume o el aroma de {compatible} con las palabras más poéticas que encuentres.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0053",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} cuál sería tu primer regalo si empezaran a salir.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0054",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Mide con tu mano la altura de {compatible} desde su hombro y celebra el resultado como un campeón.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0055",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Practica con {compatible} cómo pedirías un número de teléfono sin sonar nervioso.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0056",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Interpreta la despedida más romántica de una película de aeropuerto con {compatible}.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0057",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Elige a alguien del grupo y explica por qué sería un buen compañero de viaje romántico.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0058",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Apoya tu frente en la de {compatible} durante diez segundos y respira con calma.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0059",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} el nombre que le pondrías a una canción sobre esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0060",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Describe a {compatible} con tres emojis y explica cada uno.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0061",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Confiesa cuál fue tu cursilería más grande en una relación pasada.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0062",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Chócale la mano a {compatible} y luego haz con esa persona un saludo secreto inventado en el momento.",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-d-spicy-0063",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Actúa cómo reaccionarías si {compatible} te dijera de pronto que le gustas.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0064",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} qué lugar de la ciudad te gustaría compartir con esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0065",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz que el grupo califique del uno al diez tu forma de coquetear con {compatible}.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0066",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Sostén las dos manos de {compatible} y dile en voz baja una frase de agradecimiento sincera.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0067",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Elige un detalle de {compatible} que le añada misterio y descríbelo como un detective enamorado.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0068",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz una serenata a {compatible} usando solo sonidos de animales.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0069",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué te haría perder los nervios en una primera cita con esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0070",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale una palmadita suave en la espalda a {compatible} y felicítala por algo que te guste de ella.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0071",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Recuerda en voz alta un beso que no olvidas, sin dar nombres ni detalles íntimos.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0072",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} qué plan de domingo tranquilo te gustaría hacer con esa persona.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0073",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} cuál sería tu estrategia para impresionarla en una cena.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0074",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pon tu mano abierta frente a la de {compatible} sin tocarla y siguiendo sus movimientos como un espejo.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0075",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Revela qué gesto de {compatible} te desarma sin que esa persona se dé cuenta.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0076",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} una frase de película romántica con total convicción.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0077",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta tu mejor cita y qué la hizo especial.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0078",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Camina con {compatible} del brazo de un extremo a otro de la sala, como en una boda.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0079",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Escribe en el celular un mensaje cariñoso para {compatible}, léelo en voz alta y bórralo sin enviarlo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0080",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz una entrevista de trabajo a {compatible} para el puesto de «pareja de baile».",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0081",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué característica suya te daría más curiosidad conocer mejor.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0082",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Toma la mano de {compatible} y dale un beso breve en los nudillos, con permiso.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0083",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Describe a tu pareja ideal usando solo tres palabras y explica cuál de ellas es innegociable.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0084",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz de narrador de documental que observa el cortejo entre tú y {compatible}.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0085",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué hiciste hoy pensando en causar buena impresión.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0086",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Rodea con tu brazo los hombros de {compatible} y posen juntos para una foto imaginaria.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0087",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Confiesa cuál fue tu cita más incómoda y qué dijiste para salir del apuro.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0088",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz tu mejor cara de enamorado cuando {compatible} te dice algo gracioso.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0089",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué plan improvisado harías para sorprenderla esta noche.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0090",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz con {compatible} un apretón de manos largo y solemne, como si cerraran un trato de amor.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0091",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta qué mensaje le mandarías a tu ex si supieras que nunca lo lee.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0092",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Describe con voz de poeta triste lo mucho que {compatible} tarda en contestar mensajes.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0093",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué rasgo de su personalidad te haría pensar en una segunda cita.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0094",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale un abrazo por la espalda a {compatible} durante diez segundos, si esa persona acepta.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0095",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Revela qué detalle pequeño te enamora más de alguien y por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0096",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Hazle a {compatible} una pregunta curiosa que usarías para conocer a alguien en una primera cita.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0097",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Imita con {compatible} la escena de una pareja que discute por quién elige la película.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0098",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dale a {compatible} un abrazo corto y susúrrale qué te gustó de esta noche.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0099",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué frase le harías tatuar en una camiseta, solo por broma.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0100",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pon tu mirada más seductora y recita la lista del supermercado a {compatible}.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0101",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz que {compatible} apoye su espalda contra la tuya y adivinen juntos una canción tarareada.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0102",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta qué harías si {compatible} te invitara a bailar delante de todos.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0103",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué canción sonaría de fondo cada vez que esa persona entra a una sala.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0104",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Reta a {compatible} a un duelo de miradas sin parpadear; quien lo haga primero cuenta un secreto tonto.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0105",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué nombre tendría en una película de espías y cuál sería su misión contigo.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0106",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Confiesa a {compatible} qué fue lo que más te puso nervioso la primera vez que hablaron.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0107",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pide a {compatible} su mejor pose para una foto y cópiala con la mayor seriedad.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0108",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Propón a {compatible} el título de la comedia romántica que protagonizarían juntos y describe la primera escena.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0109",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Escribe en el aire la dedicatoria que le pondrías a {compatible} en un libro y léela en voz alta.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0110",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Preséntate como concursante de un reality de citas y cuéntale a {compatible} tu mejor y tu peor rasgo.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0111",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} cuál fue el mensaje que más veces releíste de alguien que te gustaba.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0112",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué momento de esta noche te hizo sonreír más.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0113",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Actúa con {compatible} el reencuentro de dos personas que no se veían desde hace diez años.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0114",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pregunta a {compatible} cuál de tus manías le parece más encantadora y defiéndela.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0115",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} el mejor halago que has recibido en tu vida y quién te lo dijo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0116",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Inventa tres frases de conquista y deja que {compatible} elija la que mejor funcionaría contigo.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0117",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta a qué señales prestas atención para saber que le gustas a alguien.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0118",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible}, con una sola palabra y sin explicar, lo primero que te llama la atención de esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0119",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Invita a {compatible} a una primera cita ridícula y defiende por qué sería inolvidable.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0120",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta el truco más extraño que usaste para romper el hielo con alguien que te gustaba.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0121",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Haz frente a {compatible} el baile de cortejo de un ave exótica, con plumas imaginarias.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0122",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Elige una escena de película que te gustaría protagonizar con {compatible} y descríbela con detalle.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0123",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Da una rueda de prensa imaginaria contando cómo conociste a {compatible}, la famosa persona del momento.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0124",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Nombra tres ingredientes que, para ti, hacen inolvidable una primera cita.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0125",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Hazle a {compatible} un cumplido con formato de reseña de restaurante de cinco estrellas.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0126",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} cuál de tus cualidades crees que esa persona valoraría más y por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0127",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} qué papel tendría esa persona en tu película de aventuras y por qué.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0128",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Confiesa qué señal delata que alguien te gusta aunque quieras disimular: risa, nervios o silencio.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0129",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Convence a {compatible} de acompañarte a ver un atardecer en una cita, con tu mejor argumento.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0130",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} cómo sería tu mensaje de buenos días ideal para alguien que te gusta.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0131",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} cuál fue el mejor consejo de amor que te dieron y si lo seguiste.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0132",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dedica a {compatible} un mensaje con voz de locutor de radio nocturna romántica.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0133",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Di en tres palabras cómo te sientes frente a {compatible}, con honestidad o con drama, a tu elección.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0134",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Actúa tu cara cuando descubres que {compatible} te guardó el último trozo de postre.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0135",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuenta qué detalle pequeño de una cita le suma puntos a alguien ante tus ojos.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0136",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} el lugar donde menos esperabas encontrarte con alguien que te gustara.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0137",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pronuncia el nombre de {compatible} de tres maneras: tierna, misteriosa y dramática.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0138",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Representa con mímica un momento incómodo de una cita y deja que {compatible} adivine cuál es.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-spicy-0139",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Cuéntale a {compatible} qué haces cuando te escribe alguien que te gusta y estás rodeado de gente.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0140",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Elige entre coquetear con una frase cursi o con un silencio largo, y hazlo frente a {compatible}.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0141",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Dile a {compatible} cuál sería el momento perfecto para un primer beso, según tú, sin proponerlo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-spicy-0142",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Con los ojos cerrados, deja que {compatible} toque uno de tus dedos y adivina cuál fue.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0143",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Siéntate hombro con hombro junto a {compatible} y conversen un minuto sobre las vacaciones de sus sueños.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 60
+    },
+    {
+      "id": "tod-d-spicy-0144",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Choca el puño y luego el codo con {compatible}, con mirada de cómplices de película.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-spicy-0145",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Sostén la mano de {compatible} mientras esa persona te cuenta algo bonito en voz baja.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0146",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Baila de la mano con {compatible} el paso básico de una canción que esa persona elija.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0147",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Toma las manos de {compatible} y balanceen los brazos como niños en una rueda.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0148",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Deja que {compatible} te acomode el cuello de la camisa o el cabello, como antes de una cita importante.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0149",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Juega a la lucha de pulgares con {compatible}; quien pierda admite algo que le gusta del otro.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0150",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Pídele a {compatible} que te tome el pulso en la muñeca mientras le sostienes la mirada.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-spicy-0151",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Abraza de lado a {compatible} con un solo brazo y dile una despedida digna de película.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-spicy-0152",
+      "type": "DARE",
+      "level": "SPICY",
+      "text": "Junta tu palma con la de {compatible} y comparen quién tiene la mano más grande, comentando qué notan.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    }
+  ]
+}

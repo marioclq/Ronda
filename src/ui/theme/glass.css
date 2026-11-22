@@ -1,0 +1,195 @@
+/*
+ * Liquid glass material (DESIGN.md "Elevation & Depth"): blur(28px) saturate(190%),
+ * a 135° white fill from 12% to 3%, and a 1px specular rim lit from the top.
+ * The refraction layer (LensGlass) only adds to it.
+ */
+.glass,
+.btn--glass,
+.chip {
+  position: relative;
+  isolation: isolate;
+  background:
+    linear-gradient(135deg, var(--glass-fill-hi), var(--glass-fill-lo)),
+    var(--glass-tint);
+  -webkit-backdrop-filter: blur(28px) saturate(1.9);
+  backdrop-filter: blur(28px) saturate(1.9);
+  box-shadow:
+    inset 0 1px 0 0 var(--glass-edge-hi),
+    0 24px 48px -24px var(--glass-shadow);
+}
+
+/* Specular rim: a 1px border, bright on top and fading down (DESIGN.md: 0.35 to 0.08). */
+.glass::before,
+.btn--glass::before,
+.chip::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(180deg, var(--glass-edge-hi), var(--glass-edge-lo));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.glass { border-radius: var(--radius-md); }
+.glass--thick { border-radius: var(--radius-lg); }
+dialog.glass { position: fixed; }
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--tap);
+  padding: 0 var(--space-5);
+  border: 0;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform var(--dur-quick) var(--ease-out), filter var(--dur-quick) var(--ease-out);
+}
+.btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+
+/* Primary pill: 56px, accent gradient, inset top glow and a volumetric glow in the accent. */
+.btn--primary {
+  min-height: var(--tap-lg);
+  background: linear-gradient(180deg, var(--accent-hi), var(--accent-lo));
+  color: var(--accent-ink);
+  box-shadow:
+    inset 0 1px 1px rgb(255 255 255 / 0.6),
+    0 12px 32px -4px color-mix(in srgb, var(--accent) 42%, transparent),
+    0 2px 6px rgb(0 0 0 / 0.3);
+}
+
+/* Secondary glass pill: thinner fill and a softer rim than panels. */
+.btn--glass {
+  min-height: 3.25rem;
+  background: rgb(255 255 255 / 0.07);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: none;
+}
+:root[data-theme='light'] .btn--glass { background: rgb(255 255 255 / 0.55); }
+
+.btn--quiet { background: transparent; color: var(--text-muted); }
+
+/* ---------- Chips ---------- */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--tap);
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: 999px;
+  font-size: var(--step--1);
+  font-weight: 600;
+  background: rgb(255 255 255 / 0.08);
+  box-shadow: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--dur-quick) var(--ease-out), box-shadow var(--dur-quick) var(--ease-out);
+}
+:root[data-theme='light'] .chip:not([aria-pressed='true']) { background: rgb(255 255 255 / 0.5); }
+.chip .icon { flex: none; }
+.chip[aria-pressed='true'] {
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: 0 8px 22px -8px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+
+/* ---------- Segmented control: one track, one lit segment ---------- */
+
+.segmented {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  gap: var(--space-1);
+  padding: var(--space-1);
+  border-radius: 999px;
+  background: var(--track);
+}
+.segmented__option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 2.75rem;
+  padding: 0 var(--space-3);
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-size: var(--step--1);
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--dur-quick) var(--ease-out), color var(--dur-quick) var(--ease-out);
+}
+.segmented__option .icon { flex: none; }
+.segmented__option[aria-pressed='true'] {
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: 0 8px 22px -8px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+/* A level segmented control lights each level in its own color, whatever the current level is. */
+.segmented__option[data-level='SOFT'][aria-pressed='true'] { background: var(--level-soft); color: var(--level-soft-ink); }
+.segmented__option[data-level='SPICY'][aria-pressed='true'] { background: var(--level-spicy); color: var(--level-spicy-ink); }
+.segmented__option[data-level='EXTREME'][aria-pressed='true'] { background: var(--level-extreme); color: var(--level-extreme-ink); }
+
+/* ---------- Initials avatar ---------- */
+
+.avatar {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: var(--avatar-size, 2rem);
+  height: var(--avatar-size, 2rem);
+  border-radius: 50%;
+  color: var(--avatar-ink);
+  font-size: calc(var(--avatar-size, 2rem) * 0.44);
+  font-weight: 700;
+  line-height: 1;
+  box-shadow: inset 0 1px 1px rgb(255 255 255 / 0.5);
+}
+.avatar--1 { background: var(--avatar-1); }
+.avatar--2 { background: var(--avatar-2); }
+.avatar--3 { background: var(--avatar-3); }
+.avatar--4 { background: var(--avatar-4); }
+.avatar--5 { background: var(--avatar-5); }
+.avatar--6 { background: var(--avatar-6); }
+.avatar-stack { display: inline-flex; }
+.avatar-stack > .avatar + .avatar { margin-inline-start: -0.5rem; box-shadow: 0 0 0 2px var(--base); }
+
+/* ---------- Inputs and banners ---------- */
+
+.input,
+.select {
+  width: 100%;
+  min-height: var(--tap);
+  padding: 0 var(--space-4);
+  border: 1px solid var(--glass-edge-lo);
+  border-radius: var(--radius-sm);
+  background: var(--glass-tint);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+textarea.input { padding-block: var(--space-3); min-height: 7rem; resize: vertical; }
+.input::placeholder { color: var(--text-muted); }
+
+.banner {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  background: var(--banner-bg);
+}

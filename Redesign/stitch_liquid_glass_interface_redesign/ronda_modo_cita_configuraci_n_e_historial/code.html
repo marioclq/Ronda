@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Modo Cita - Configuración</title>
+<!-- Tailwind CSS v3 with Forms & Container Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Custom Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            midnight: '#0d0814',
+            'glass-border': 'rgba(255, 255, 255, 0.16)',
+            'glass-highlight': 'rgba(255, 200, 220, 0.35)',
+            'rose-glow': '#f472b6',
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', '"SF Pro Text"', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            'liquid-glow': '0 0 25px -5px rgba(244, 114, 182, 0.45), inset 0 1px 2px rgba(255, 255, 255, 0.6)',
+            'glass-card': '0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
+            'btn-glow': '0 12px 30px -4px rgba(244, 114, 182, 0.5), inset 0 1px 3px rgba(255, 255, 255, 0.8)',
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="liquid-glass-effects">
+    /* iOS 26 Liquid Specular Refraction Layer */
+    .liquid-glass {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
+      backdrop-filter: blur(28px) saturate(190%);
+      -webkit-backdrop-filter: blur(28px) saturate(190%);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      position: relative;
+    }
+
+    .liquid-glass::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(244, 114, 182, 0.2) 40%, rgba(255, 255, 255, 0.02) 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    /* Active Selected Glass Variant */
+    .liquid-glass-active {
+      background: linear-gradient(135deg, rgba(244, 114, 182, 0.22) 0%, rgba(139, 92, 246, 0.12) 100%);
+      backdrop-filter: blur(32px) saturate(210%);
+      -webkit-backdrop-filter: blur(32px) saturate(210%);
+      border: 1.5px solid rgba(244, 114, 182, 0.65);
+      box-shadow: 0 12px 35px -8px rgba(244, 114, 182, 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    /* Ambient background gradient meshes for deep iOS look */
+    .ambient-bg {
+      background-color: #0b0612;
+      background-image: 
+        radial-gradient(at 10% 12%, rgba(219, 39, 119, 0.45) 0px, transparent 55%),
+        radial-gradient(at 88% 18%, rgba(147, 51, 234, 0.4) 0px, transparent 50%),
+        radial-gradient(at 95% 58%, rgba(234, 88, 12, 0.3) 0px, transparent 55%),
+        radial-gradient(at 18% 75%, rgba(168, 85, 247, 0.35) 0px, transparent 50%),
+        radial-gradient(at 50% 95%, rgba(244, 63, 94, 0.4) 0px, transparent 60%);
+    }
+
+    /* Organic iOS spring transition simulation */
+    .press-spring {
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s ease;
+    }
+    .press-spring:active {
+      transform: scale(0.97);
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="h-full text-slate-100 ambient-bg antialiased selection:bg-pink-500/30 font-sans flex justify-center">
+<!-- Mobile Viewport Shell (iOS Frame Constraint) -->
+<div class="relative w-full max-w-[430px] min-h-screen flex flex-col justify-between overflow-x-hidden px-5 pt-12 pb-8">
+<!-- BEGIN: TopNavigation -->
+<header class="relative z-20 flex items-center justify-between mb-7 pt-2" data-purpose="screen-navigation-bar">
+<!-- Back Button -->
+<a class="inline-flex items-center gap-1.5 text-[17px] font-medium text-pink-200/90 hover:text-white press-spring -ml-1 py-1 px-2 rounded-full focus:outline-none focus:ring-1 focus:ring-pink-300/40" href="#">
+<svg class="w-5 h-5 stroke-current stroke-[2.5]" fill="none" stroke-linecap="round" stroke-linejoin="round" viewbox="0 0 24 24">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+<span>Volver</span>
+</a>
+<!-- Title -->
+<h1 class="text-[20px] font-semibold text-white tracking-tight absolute left-1/2 -translate-x-1/2">
+        Modo cita
+      </h1>
+<!-- Ghost Spacer for iOS Visual Balance -->
+<div aria-hidden="true" class="w-12 h-6"></div>
+</header>
+<!-- END: TopNavigation -->
+<!-- BEGIN: MainContent -->
+<main class="relative z-10 flex-1 flex flex-col gap-6" data-purpose="configuration-content">
+<!-- SECTION: Participants Selection -->
+<!-- BEGIN: SectionParticipants -->
+<section aria-labelledby="heading-participants" data-purpose="participants-selector">
+<h2 class="text-[23px] font-bold text-white tracking-tight mb-3" id="heading-participants">
+          Quiénes van a la cita
+        </h2>
+<!-- Participant Pills Group -->
+<div class="flex items-center gap-2.5 mb-2.5">
+<!-- Person 1: Ana (Selected) -->
+<button aria-pressed="true" class="px-5 py-2.5 rounded-full text-[15px] font-medium tracking-wide bg-gradient-to-r from-pink-400/35 to-rose-400/25 border border-pink-300/60 text-white shadow-liquid-glow backdrop-blur-xl press-spring" type="button">
+            Ana
+          </button>
+<!-- Person 2: Beto (Selected) -->
+<button aria-pressed="true" class="px-5 py-2.5 rounded-full text-[15px] font-medium tracking-wide bg-gradient-to-r from-pink-400/35 to-rose-400/25 border border-pink-300/60 text-white shadow-liquid-glow backdrop-blur-xl press-spring" type="button">
+            Beto
+          </button>
+<!-- Person 3: Cami (Unselected) -->
+<button aria-pressed="false" class="px-5 py-2.5 rounded-full text-[15px] font-medium tracking-wide liquid-glass text-slate-300 hover:text-white hover:bg-white/10 press-spring" type="button">
+            Cami
+          </button>
+</div>
+<p class="text-[13.5px] text-pink-200/70 font-normal pl-0.5 tracking-tight">
+          Marca exactamente a dos personas.
+        </p>
+</section>
+<!-- END: SectionParticipants -->
+<!-- SECTION: Question Sets Selection -->
+<!-- BEGIN: SectionSets -->
+<section aria-labelledby="heading-sets" class="flex flex-col gap-3" data-purpose="sets-deck">
+<h2 class="text-[23px] font-bold text-white tracking-tight mb-0.5" id="heading-sets">
+          Empezar en
+        </h2>
+<!-- Card: Set I (Active) -->
+<article class="liquid-glass-active rounded-[26px] p-5 cursor-pointer press-spring relative overflow-hidden group" data-purpose="active-set-card">
+<!-- Refraction highlight accent -->
+<div class="absolute -top-12 -left-12 w-32 h-32 bg-pink-400/25 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="text-[19px] font-semibold text-white tracking-tight">Set I</span>
+<!-- Selection indicator dot -->
+<span class="h-2 w-2 rounded-full bg-pink-300 shadow-[0_0_8px_#f472b6]"></span>
+</div>
+<p class="text-[14px] text-pink-100/80 font-normal leading-relaxed">
+              Ligero: gustos, días, planes
+            </p>
+</div>
+</article>
+<!-- Card: Set II -->
+<article class="liquid-glass rounded-[26px] p-5 cursor-pointer press-spring relative group hover:border-pink-300/30 transition-colors" data-purpose="inactive-set-card">
+<div class="flex flex-col gap-1">
+<span class="text-[19px] font-medium text-slate-100 tracking-tight">Set II</span>
+<p class="text-[14px] text-slate-300/70 font-normal leading-relaxed">
+              Personal: recuerdos, valores, familia
+            </p>
+</div>
+</article>
+<!-- Card: Set III -->
+<article class="liquid-glass rounded-[26px] p-5 cursor-pointer press-spring relative group hover:border-pink-300/30 transition-colors" data-purpose="inactive-set-card">
+<div class="flex flex-col gap-1">
+<span class="text-[19px] font-medium text-slate-100 tracking-tight">Set III</span>
+<p class="text-[14px] text-slate-300/70 font-normal leading-relaxed">
+              Profundo: ustedes dos
+            </p>
+</div>
+</article>
+</section>
+<!-- END: SectionSets -->
+<!-- SECTION: History / Previous Dates -->
+<!-- BEGIN: SectionHistory -->
+<section aria-labelledby="heading-history" class="mt-1 flex flex-col gap-2.5" data-purpose="previous-dates-history">
+<h2 class="text-[21px] font-bold text-white tracking-tight" id="heading-history">
+          Citas anteriores
+        </h2>
+<!-- History Record Card -->
+<article class="liquid-glass rounded-[24px] p-4.5 pl-5 pr-4 border-white/10 hover:border-white/20 transition-all flex items-start justify-between gap-3 relative" data-purpose="history-item">
+<!-- Text details -->
+<div class="space-y-1">
+<div class="text-[15px] font-semibold text-white tracking-tight">
+              16 nov 2026
+            </div>
+<p class="text-[13px] text-slate-300/90 font-medium">
+              Ana: de 3 a 5  ·  Beto: de 4 a 6
+            </p>
+<p class="text-[12.5px] text-pink-200/70 font-normal">
+              Llegaron hasta la pregunta 12
+            </p>
+</div>
+<!-- Dismiss / Delete Button -->
+<button aria-label="Eliminar registro de cita anterior" class="w-7 h-7 rounded-full flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-colors press-spring -mr-1 -mt-0.5" type="button">
+<svg class="w-4 h-4 stroke-current stroke-2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewbox="0 0 24 24">
+<line x1="18" x2="6" y1="6" y2="18"></line>
+<line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+</button>
+</article>
+</section>
+<!-- END: SectionHistory -->
+</main>
+<!-- END: MainContent -->
+<!-- BEGIN: FloatingBottomAction -->
+<footer class="sticky bottom-0 pt-6 pb-2 z-30" data-purpose="primary-action-container">
+<button class="w-full py-4 px-6 rounded-full font-semibold text-[17px] text-pink-950 flex items-center justify-center gap-2 press-spring shadow-btn-glow transition-all relative overflow-hidden" style="background: linear-gradient(135deg, #fbcfe8 0%, #f472b6 45%, #fda4af 100%);" type="button">
+<!-- Apple style highlight edge -->
+<span class="absolute inset-x-0 top-0 h-[1.5px] bg-white/70"></span>
+<!-- Heart Icon -->
+<svg class="w-5 h-5 fill-current text-pink-950 stroke-pink-950 stroke-[0.8] -mt-0.5" viewbox="0 0 24 24">
+<path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
+</svg>
+<!-- Button label -->
+<span>Empezar la cita</span>
+</button>
+<!-- iOS Home Indicator -->
+<div aria-hidden="true" class="w-32 h-1 bg-white/20 rounded-full mx-auto mt-5"></div>
+</footer>
+<!-- END: FloatingBottomAction -->
+</div>
+</body></html>

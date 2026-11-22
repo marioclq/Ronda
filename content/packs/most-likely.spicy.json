@@ -1,0 +1,1071 @@
+{
+  "id": "most-likely-spicy",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "likely-spicy-0001",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí es el más probable de enamorarse en un viaje?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0002",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí es el más probable de coquetear con el mesero?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0003",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en declararse a alguien por mensaje de texto?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0004",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en pedirle una cita a un desconocido?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0005",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en revisar las redes de su ex a medianoche?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0006",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en aceptar una cita a ciegas?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0007",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en enamorarse de alguien en una aplicación de citas?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0008",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en dar un beso en la primera cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0009",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en fingir que no vio el mensaje de su ex?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0010",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en casarse a escondidas sin avisarle a nadie?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0011",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en ponerse celoso por un simple me gusta en una foto?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0012",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en escribirle a su ex después de una mala noche?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0013",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en pedirle el número a alguien que conoció haciendo fila?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0014",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en terminar una relación por mensaje?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0015",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en mandarle buenos días a su crush?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0016",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en inventar una excusa para no repetir una cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0017",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en decir te quiero en una relación recién empezada?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0018",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en olvidar un aniversario de pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0019",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en presentarle su familia a una pareja de pocas semanas?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0020",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en bloquear a alguien después de una discusión?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0021",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en coquetear con alguien del trabajo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0022",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en reaccionar con un emoji de fuego a la historia de alguien?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0023",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser el más celoso en pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0024",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de haber roto más corazones?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0025",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de tener un ex que todavía le escribe?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0026",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser el mejor besador del grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0027",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser un romántico empedernido?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0028",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de seguir enamorado de su primer amor?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0029",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de tener varios chats de coqueteo abiertos al mismo tiempo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0030",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de enamorarse siempre de la persona equivocada?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0031",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser el más intenso en una relación?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0032",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de dejar en visto a alguien durante días?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0033",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser fiel hasta el final?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0034",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de haber vivido un amor de verano?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0035",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de proponer matrimonio en medio de un estadio?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0036",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de tener la mejor lista de canciones para una cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0037",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de tener un perfil de citas en secreto?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0038",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de coquetear sin darse cuenta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0039",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de desaparecer sin explicación después de tres citas?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0040",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser el más detallista con su pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0041",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de llorar con la propuesta de matrimonio de unos desconocidos?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0042",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser la persona de la que todos se enamoran sin que lo note?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0043",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien se enamora de cualquiera que le preste un poco de atención.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0044",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien tiene el mejor truco para coquetear.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0045",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien aún guarda fotos de un ex.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0046",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien tendría más cartas de amor guardadas en un cajón.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0047",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien más se arregla para una primera cita.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0048",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien mira de reojo a la persona que le gusta.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0049",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien tiene más historias de amores imposibles.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0050",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien le diría que sí a una cita con su famoso favorito.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0051",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien se trabaría al hablar con su crush.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0052",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien fingiría estar ocupado para hacerse el difícil.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0053",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien viviría un triángulo amoroso de telenovela.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0054",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien mejor baila bachata.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0055",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien discutiría en público por defender a su pareja.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0056",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien más ensaya lo que le va a decir a su crush.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0057",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien tiene más suerte en el amor.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0058",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien se dejaría conquistar con una buena lista de canciones.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0059",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien no puede disimular que está enamorado.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0060",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien le sonríe a todo el mundo en una fiesta.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0061",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien coquetearía con el barista para que le regalen el café.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0062",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien tiene la sonrisa más peligrosa del grupo.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0063",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí tuvo una relación que todos veían que no iba a funcionar?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0064",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí ha sido el tercero en discordia sin querer?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0065",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí pediría matrimonio en la tercera cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0066",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí tiene el mejor repertorio de frases para ligar?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0067",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí volvería con su ex si le escribe a las dos de la mañana?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0068",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se ha enamorado de un compañero de trabajo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0069",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí revisaría el celular de su pareja si pudiera hacerlo sin que se entere?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0070",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí escribiría una canción para conquistar a alguien?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0071",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí tiene más amigos con los que casi pasó algo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0072",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se dejaría llevar por un beso bajo la lluvia?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0073",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí le mandaría flores a su crush sin firmar la tarjeta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0074",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí fingiría un dolor de cabeza para escapar de una mala cita?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0075",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí invitaría a salir a la persona que le gusta frente a todos?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0076",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí podría pasar un año entero sin pareja y ser feliz?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0077",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí aceptaría cualquier plan si lo invita su crush?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0078",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí daría la mejor serenata?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0079",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí detecta primero un romance entre amigos?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0080",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí sigue en buenos términos con todos sus ex?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0081",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se haría pasar por pareja de un amigo para espantar a un pesado?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0082",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí sabe más chismes amorosos del grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0083",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si hicieran un reality de citas, ¿quién sería el más popular?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0084",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿A quién le dirían ya déjalo más veces por culpa de un ex?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0085",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien tiene la mirada más seductora.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0086",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién terminaría casándose primero?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0087",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién terminaría enamorado de su mejor amigo o amiga?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0088",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si el grupo creara un club de solteros, ¿quién sería la persona presidenta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0089",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿A quién le pediría consejos amorosos todo el grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0090",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿A quién llamarían a las tres de la mañana por un desamor?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0091",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien daría el abrazo más largo y reconfortante.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0092",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién se ganaría el premio al mejor ligón de la fiesta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0093",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si su ex apareciera en la sala, ¿quién se escondería primero?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0094",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién se llevaría mejor con la familia de su pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0095",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién coquetearía con un personaje de ficción si pudiera?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0096",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien se pondría más rojo si le dicen un piropo.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0097",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién escribiría el mensaje de amor más cursi?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0098",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién se atrevería a besar a alguien a las doce de la noche de año nuevo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0099",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién le prepararía una cena a alguien solo para impresionarlo?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0100",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si abrieran una aplicación de citas, ¿quién recibiría más me gusta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0101",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿A quién se le nota más el enamoramiento en la cara?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0102",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién diría te amo y se arrepentiría un minuto después?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0103",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se ha enamorado de alguien que conoció en una boda?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0104",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se tatuaría el nombre de su pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0105",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí le diría un apodo cariñoso y empalagoso a su pareja delante de todos?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0106",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí aceptaría una cita doble armada por sus amigos?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0107",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí haría un video con fotos de los dos para un aniversario?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0108",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se pasa horas eligiendo qué ponerse antes de ver a alguien que le gusta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0109",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí le seguiría el juego a un coqueteo solo por curiosidad?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0110",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí ve comedias románticas a escondidas?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0111",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se quedaría mirando a un desconocido guapo hasta que lo note?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0112",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí aceptaría un baile lento con alguien que acaba de conocer?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0113",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí ha guardado un mensaje de amor durante años?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0114",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién de aquí se pondría más nervioso al conocer a los padres de alguien que le gusta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0115",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en pedir una canción dedicada para alguien especial?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0116",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en llegar media hora antes a una cita por los nervios?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0117",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en confesar su amor con una carta escrita a mano?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0118",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en llorar con el final de una película romántica?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0119",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en pedir perdón después de una pelea de pareja?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0120",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en responder la historia de su crush con un comentario ingenioso?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0121",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en inventar un plan para quedarse a solas con su crush?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0122",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en aprender salsa para impresionar a alguien?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0123",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en mandar un mensaje de buenas noches lleno de corazones?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0124",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién sería el primero en juntar a dos amigos que se gustan sin que se den cuenta?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0125",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser un galán de telenovela?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0126",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de haber escrito poemas de amor en la adolescencia?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0127",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de besar con los ojos abiertos?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0128",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de arrastrar un amor platónico desde hace años?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0129",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de ser el favorito de las suegras?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0130",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de enamorarse de alguien por su voz?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0131",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de tener una foto de perfil que todos quieren comentar?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0132",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de aguantar un coqueteo directo sin sonrojarse?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0133",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de hacer los mejores regalos de San Valentín?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0134",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "¿Quién tiene más pinta de mandar un mensaje romántico al grupo equivocado?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0135",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien se haría el interesante para que lo busquen.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0136",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien se declararía con un cartel gigante.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0137",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien tiene un perfume capaz de enamorar a cualquiera.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0138",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien mandaría un audio romántico susurrado.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0139",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien bailaría un bolero bien pegadito sin vergüenza.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0140",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien rompería todas sus reglas por amor.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0141",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien siempre da consejos de pareja que nadie le pidió.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0142",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien soñaría con casarse en una playa al atardecer.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0143",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien aún guarda la entrada del cine de su primera cita.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0144",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Señalen a quien ya estaría pensando nombres para los hijos en la segunda cita.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0145",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien daría el mejor discurso de padrino o madrina de boda.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0146",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien tendría la historia de amor más digna de película.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0147",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien aguantaría más tiempo un duelo de miradas sin reírse.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0148",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Voten por quien daría el mejor consejo para conquistar a alguien.",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0149",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si hicieran una película romántica con el grupo, ¿quién sería el protagonista?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0150",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si les llegara una nota de admirador secreto, ¿quién la contestaría primero?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0151",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si se quedaran atrapados con su crush en una isla, ¿quién se pondría más nervioso?",
+      "tags": []
+    },
+    {
+      "id": "likely-spicy-0152",
+      "type": "MOST_LIKELY",
+      "level": "SPICY",
+      "text": "Si hubiera un concurso de piropos, ¿quién lo ganaría?",
+      "tags": []
+    }
+  ]
+}

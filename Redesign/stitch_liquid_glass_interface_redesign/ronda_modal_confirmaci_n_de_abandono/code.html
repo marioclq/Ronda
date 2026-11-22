@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html class="h-full bg-[#0a0812]" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Terminar Partida - Confirmación</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              accent: '#ff8c53',
+              glow: 'rgba(255, 140, 83, 0.45)',
+              peach: '#ffa575',
+            },
+            surface: {
+              deep: '#0a0812',
+              card: 'rgba(28, 26, 46, 0.72)',
+              dim: '#14121f',
+              border: 'rgba(255, 255, 255, 0.12)'
+            }
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Text', 'SF Pro Display', 'Inter', 'sans-serif'],
+          },
+          boxShadow: {
+            'glow-accent': '0 12px 36px -4px rgba(255, 140, 83, 0.45), 0 4px 12px rgba(255, 140, 83, 0.25)',
+            'sheet-modal': '0 -20px 50px rgba(0, 0, 0, 0.65), 0 0 1px 1px rgba(255, 255, 255, 0.12)',
+          }
+        }
+      }
+    };
+  </script>
+<!-- BEGIN: Custom Glass & Ambient Styles -->
+<style data-purpose="ambient-and-glass">
+    /* Subtle specular glow line at the top rim of the sheet */
+    .glass-specular-edge {
+      position: relative;
+    }
+    .glass-specular-edge::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 12%;
+      right: 12%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+      pointer-events: none;
+    }
+
+    /* Radial ambient backgrounds for depth simulation */
+    .bg-liquid-glow {
+      background: radial-gradient(circle at 50% 25%, rgba(217, 85, 34, 0.35) 0%, rgba(35, 18, 48, 0.7) 48%, rgba(10, 8, 18, 0.95) 85%);
+    }
+
+    /* iOS smooth tap feedback */
+    .active-scale {
+      transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease;
+    }
+    .active-scale:active {
+      transform: scale(0.97);
+      opacity: 0.9;
+    }
+  </style>
+<!-- END: Custom Glass & Ambient Styles -->
+</head>
+<body class="h-full w-full overflow-hidden text-white font-sans antialiased select-none flex justify-center items-center bg-[#0a0812]">
+<!-- Mobile Frame Container (iPhone 16 / iOS Device Ratio) -->
+<div class="relative w-full max-w-[430px] h-full max-h-[932px] overflow-hidden flex flex-col justify-between shadow-2xl bg-[#0e0c1a]">
+<!-- BEGIN: Blurred Game Round Background -->
+<!-- Represents the frozen Ronda / Turno background under high-blur depth -->
+<div class="absolute inset-0 z-0 overflow-hidden pointer-events-none filter blur-xl brightness-50 scale-105" data-purpose="underlying-game-screen">
+<!-- Simulated Ambient Warm Light in Game Session -->
+<div class="absolute -top-16 left-1/2 -translate-x-1/2 w-80 h-80 bg-[#ff7a38] opacity-35 rounded-full blur-3xl"></div>
+<div class="absolute top-1/3 -left-20 w-60 h-60 bg-[#9c27b0] opacity-20 rounded-full blur-3xl"></div>
+<!-- Out-of-focus Header Elements -->
+<div class="pt-14 px-6 flex justify-between items-center opacity-70">
+<div class="w-10 h-10 rounded-full bg-white/10 border border-white/10 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div class="h-6 w-32 bg-white/20 rounded-full"></div>
+<div class="w-10 h-10 rounded-full bg-white/10"></div>
+</div>
+<!-- Out-of-focus Active Player Information -->
+<div class="mt-14 px-8 space-y-2">
+<div class="w-24 h-4 bg-white/30 rounded"></div>
+<div class="text-6xl font-bold tracking-tight text-white/80">Ana</div>
+<div class="w-48 h-3 bg-white/20 rounded mt-3"></div>
+</div>
+<!-- Out-of-focus Selection Cards Stack -->
+<div class="mt-10 px-6 space-y-4">
+<!-- Truth Button Placeholder -->
+<div class="h-16 w-full rounded-full bg-white/10 border border-white/15 flex items-center px-6">
+<div class="w-6 h-6 rounded bg-white/20 mr-4"></div>
+<div class="w-24 h-4 bg-white/30 rounded"></div>
+</div>
+<!-- Random Button Placeholder (Highlighted Orange) -->
+<div class="h-18 w-full rounded-full bg-gradient-to-r from-[#ff9f6b] to-[#ff7e40] opacity-90 p-4 flex items-center">
+<div class="w-10 h-10 rounded-2xl bg-black/15 mr-4"></div>
+<div class="space-y-2">
+<div class="w-28 h-5 bg-black/30 rounded"></div>
+<div class="w-40 h-3 bg-black/20 rounded"></div>
+</div>
+</div>
+<!-- Dare Button Placeholder -->
+<div class="h-16 w-full rounded-full bg-white/10 border border-white/15 flex items-center px-6">
+<div class="w-6 h-6 rounded bg-white/20 mr-4"></div>
+<div class="w-24 h-4 bg-white/30 rounded"></div>
+</div>
+</div>
+</div>
+<!-- END: Blurred Game Round Background -->
+<!-- BEGIN: Top iOS Status Bar Area -->
+<header class="relative z-10 w-full pt-3 px-8 flex justify-between items-center text-xs font-semibold tracking-tight text-white/50">
+<span data-purpose="clock-status">9:41</span>
+<div class="flex items-center space-x-2" data-purpose="system-icons">
+<!-- Cellular Icon -->
+<svg class="w-4 h-3.5 fill-current opacity-80" viewbox="0 0 17 12"><path d="M1 9h2v3H1V9zm4-3h2v6H5V6zm4-3h2v9H9V3zm4-3h2v12h-2V0z"></path></svg>
+<!-- Wifi Icon -->
+<svg class="w-3.5 h-3.5 fill-current opacity-80" viewbox="0 0 16 12"><path d="M8 2.5C4.7 2.5 1.8 3.8 0 6l1.8 1.8C3.3 6.3 5.5 5.3 8 5.3s4.7 1 6.2 2.5L16 6c-1.8-2.2-4.7-3.5-8-3.5zm0 5.4c-1.6 0-3 .6-4.1 1.7L8 14l4.1-4.4C11 8.5 9.6 7.9 8 7.9z"></path></svg>
+<!-- Battery Icon -->
+<div class="w-5 h-2.5 rounded-sm border border-white/50 p-0.5 flex items-center">
+<div class="h-full w-3 bg-white/80 rounded-2xs"></div>
+</div>
+</div>
+</header>
+<!-- END: Top iOS Status Bar Area -->
+<!-- Ambient Dark Overlay for Modal Focus -->
+<div aria-hidden="true" class="absolute inset-0 z-20 bg-black/40 backdrop-blur-[6px] transition-opacity duration-300"></div>
+<!-- BEGIN: Confirmation Bottom Sheet -->
+<section class="relative z-30 w-full mt-auto bg-[#1b192e]/85 backdrop-blur-3xl rounded-t-[36px] border-t border-white/20 shadow-sheet-modal glass-specular-edge px-7 pt-7 pb-9 transition-all" data-purpose="termination-confirmation-modal">
+<!-- Subtle Floating Top Pull Indicator (iOS Standard Elegance) -->
+<div aria-hidden="true" class="mx-auto w-10 h-1 rounded-full bg-white/20 mb-6"></div>
+<!-- Header & Message Section -->
+<div class="text-left space-y-2 mb-8">
+<!-- Title -->
+<h2 class="text-[26px] font-bold text-white tracking-tight leading-snug">
+          Terminar partida
+        </h2>
+<!-- Explanation / Subtext -->
+<p class="text-[16px] text-white/75 font-normal leading-relaxed">
+          ¿Terminar la partida? Las cartas vistas se conservan.
+        </p>
+</div>
+<!-- Action Buttons Stack -->
+<div class="flex flex-col space-y-3.5" data-purpose="sheet-actions">
+<!-- Primary Action: Confirm Termination -->
+<button class="active-scale w-full h-[58px] rounded-full bg-gradient-to-r from-[#ff9a66] via-[#ff884d] to-[#f47435] text-[#1c1208] text-[17px] font-semibold tracking-tight shadow-glow-accent flex items-center justify-center space-x-2 border border-white/30 cursor-pointer" data-purpose="confirm-finish-button" type="button">
+<span>Sí, terminar</span>
+</button>
+<!-- Secondary Action: Cancel & Stay in Game -->
+<button class="active-scale w-full h-[54px] rounded-full bg-transparent hover:bg-white/5 text-white/90 text-[17px] font-medium tracking-tight flex items-center justify-center transition-colors cursor-pointer" data-purpose="cancel-button" type="button">
+<span>Cancelar</span>
+</button>
+</div>
+<!-- iOS Home Indicator Safe Area Padding -->
+<div class="w-full flex justify-center pt-5 pb-1">
+<div aria-hidden="true" class="w-36 h-1 bg-white/30 rounded-full"></div>
+</div>
+</section>
+<!-- END: Confirmation Bottom Sheet -->
+</div>
+</body></html>

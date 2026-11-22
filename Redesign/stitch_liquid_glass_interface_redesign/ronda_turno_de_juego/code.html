@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;min-height:100vh;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#c00175", "on-error": "#690005", "error": "#ffb4ab", "on-surface": "#e5e0f3", "on-surface-variant": "#ddc1b5", "primary-fixed": "#ffdbcc", "surface-dim": "#14121f", "inverse-primary": "#9e430d", "tertiary-fixed-dim": "#ffb2b7", "surface-container-high": "#2b2836", "outline": "#a48b81", "on-secondary-fixed": "#3e0022", "outline-variant": "#56423a", "on-tertiary-fixed-variant": "#92002a", "surface-container-lowest": "#0e0c1a", "on-tertiary-fixed": "#40000d", "on-error-container": "#ffdad6", "surface-tint": "#ffb694", "surface-container": "#201e2c", "error-container": "#93000a", "secondary-fixed-dim": "#ffb0ce", "background": "#14121f", "surface-container-low": "#1c1a27", "on-secondary": "#64003a", "on-tertiary-container": "#840025", "surface-bright": "#3a3746", "on-background": "#e5e0f3", "surface-container-highest": "#363342", "on-primary-fixed": "#351000", "on-primary": "#571f00", "primary": "#ffb694", "tertiary-container": "#ff8791", "surface-variant": "#363342", "on-primary-fixed-variant": "#7b2f00", "on-primary-container": "#6f2900", "tertiary": "#ffb2b7", "on-secondary-container": "#ffd5e3", "inverse-on-surface": "#312f3d", "surface": "#14121f", "on-secondary-fixed-variant": "#8c0054", "tertiary-fixed": "#ffdadb", "on-tertiary": "#67001b", "primary-fixed-dim": "#ffb694", "inverse-surface": "#e5e0f3", "secondary-fixed": "#ffd9e5", "primary-container": "#ff8c53", "secondary": "#ffb0ce" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-xl": "2.25rem", "gutter": "1rem", "space-xs": "0.375rem", "space-sm": "0.625rem", "margin": "1.25rem", "space-md": "1rem", "gutter-sm": "0.75rem", "margin-lg": "2rem", "margin-md": "1.5rem", "space-lg": "1.5rem" }, fontFamily: { "label-lg": ["Inter"], "headline-lg-mobile": ["Inter"], "display-hero": ["Inter"], "headline-lg": ["Inter"], "display-hero-mobile": ["Inter"], "label-md": ["Inter"], "body-lg": ["Inter"], "label-sm": ["Inter"], "body-md": ["Inter"], "title-md": ["Inter"], "headline-md": ["Inter"] }, fontSize: { "label-lg": ["16px", { lineHeight: "20px", letterSpacing: "-0.005em", fontWeight: "600" }], "headline-lg-mobile": ["26px", { lineHeight: "32px", letterSpacing: "-0.02em", fontWeight: "700" }], "display-hero": ["56px", { lineHeight: "60px", letterSpacing: "-0.03em", fontWeight: "800" }], "headline-lg": ["32px", { lineHeight: "38px", letterSpacing: "-0.02em", fontWeight: "700" }], "display-hero-mobile": ["44px", { lineHeight: "48px", letterSpacing: "-0.03em", fontWeight: "800" }], "label-md": ["14px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "500" }], "body-lg": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "500" }], "label-sm": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "500" }], "body-md": ["16px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }], "title-md": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }], "headline-md": ["22px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen relative overflow-x-hidden selection:bg-primary selection:text-on-primary"><div class="fixed inset-0 pointer-events-none z-0 overflow-hidden"><div class="absolute -top-[15%] left-[20%] w-[80vw] h-[80vw] rounded-full bg-secondary-container/20 blur-[130px]"></div><div class="absolute bottom-[20%] -left-[10%] w-[70vw] h-[70vw] rounded-full bg-primary-container/15 blur-[120px]"></div></div><header class="fixed top-0 w-full z-50 pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Volver" class="w-11 h-11 rounded-full bg-surface-container/60 backdrop-blur-xl flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.2)]" onclick="history.back()"><span class="material-symbols-outlined text-[20px]">arrow_back_ios_new</span></button><h1 class="font-title-md text-title-md text-on-surface tracking-tight">Mesa De Juego</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Opciones de sesión" class="w-11 h-11 rounded-full bg-surface-container/60 backdrop-blur-xl flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.2)]"><span class="material-symbols-outlined text-[20px]">tune</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_2px_10px_rgba(255,182,148,0.3)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-16 pb-margin-lg z-10 flex-1 bg-surface/30"><div class="flex flex-col w-full relative min-w-0 select-none pb-safe">
+<!-- Dynamic Atmospheric Glow Orbs -->
+<div class="absolute -top-12 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full bg-gradient-to-b from-primary-container/25 via-secondary-container/15 to-transparent blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/3 -right-16 w-60 h-60 rounded-full bg-secondary-container/20 blur-2xl pointer-events-none -z-10"></div>
+<div class="absolute bottom-20 -left-12 w-64 h-64 rounded-full bg-surface-container-highest/30 blur-3xl pointer-events-none -z-10"></div>
+<!-- Session Indicator & Mode Meta Bar -->
+<div class="w-full flex items-center justify-between mb-space-xl">
+<div class="flex items-center gap-space-xs bg-surface-container-low/70 backdrop-blur-2xl px-3.5 py-1.5 rounded-full shadow-sm">
+<span class="inline-block w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary tracking-wide uppercase">Ronda 4 · Picante</span>
+</div>
+<!-- Active players quick glance -->
+<div class="flex items-center -space-x-2">
+<div class="w-7 h-7 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface text-[10px] font-label-sm shadow-sm">
+        AN
+      </div>
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container text-[10px] font-label-sm shadow-sm">
+        CL
+      </div>
+<div class="w-7 h-7 rounded-full bg-primary-container flex items-center justify-center text-on-primary-fixed text-[11px] font-headline-md shadow-md ring-2 ring-surface">
+        B
+      </div>
+<div class="w-7 h-7 rounded-full bg-surface-container-highest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant text-[10px] font-label-sm">
+        +3
+      </div>
+</div>
+</div>
+<!-- Player Spotlight Section -->
+<div class="flex flex-col items-start w-full relative mt-space-md mb-space-xl">
+<!-- Ambient micro-tag -->
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">motion_photos_on</span>
+<span class="font-label-md text-label-md text-on-surface-variant tracking-wider uppercase font-semibold">
+        Turno de
+      </span>
+</div>
+<!-- Giant Dynamic Name with Specular Light Reflection -->
+<div class="relative w-full">
+<h2 class="font-display-hero-mobile text-display-hero-mobile text-on-surface tracking-tighter drop-shadow-[0_8px_24px_rgba(255,182,148,0.22)]" id="current-player">
+        Beto
+      </h2>
+<!-- Liquid light sheen line -->
+<div class="w-24 h-1 rounded-full bg-gradient-to-r from-primary via-tertiary to-transparent mt-space-xs opacity-90"></div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/80 mt-space-sm max-w-[280px]">
+      Elige tu destino para esta ronda o deja que el azar decida por ti.
+    </p>
+</div>
+<!-- Action Deck (Liquid Glass Interactive Capsules) -->
+<div aria-label="Opciones de juego" class="flex flex-col w-full gap-space-md mt-space-sm mb-space-lg" role="group">
+<!-- Option 1: VERDAD (Dark Specular Glass Pill) -->
+<button class="group relative w-full h-[68px] rounded-full px-margin flex items-center justify-between text-left transition-all duration-300 active:scale-[0.98] bg-surface-container-high/40 hover:bg-surface-container-high/60 backdrop-blur-2xl shadow-[0_8px_30px_rgba(0,0,0,0.35)] overflow-hidden" id="btn-verdad" onclick="handleDynamicSelect('verdad')" type="button">
+<!-- Specular top edge sheen -->
+<div class="absolute inset-x-0 top-0 h-[1.5px] bg-gradient-to-r from-transparent via-white/40 to-transparent pointer-events-none"></div>
+<!-- Subtle liquid refraction glow on hover -->
+<div class="absolute inset-0 bg-gradient-to-r from-surface-tint/5 via-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+<div class="flex items-center gap-space-md z-10">
+<div class="w-12 h-12 rounded-full bg-surface-container/80 backdrop-blur-xl flex items-center justify-center text-primary group-hover:text-primary-fixed transition-colors shadow-inner">
+<span class="material-symbols-outlined text-[24px]">chat_bubble</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:translate-x-0.5 transition-transform">
+            Verdad
+          </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Confesión sin filtros</span>
+</div>
+</div>
+<div class="w-9 h-9 rounded-full bg-surface-container-highest/40 flex items-center justify-center text-on-surface-variant group-hover:text-primary transition-colors z-10">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</div>
+</button>
+<!-- Option 2: AL AZAR (Hero Liquid Amber/Coral Volumetric Capsule) -->
+<button class="group relative w-full h-[76px] rounded-full px-margin flex items-center justify-between text-left transition-all duration-300 active:scale-[0.97] bg-gradient-to-r from-primary via-primary-container to-surface-tint text-on-primary-fixed shadow-[0_14px_40px_-6px_rgba(255,140,83,0.55),0_4px_12px_rgba(0,0,0,0.4)] overflow-hidden" id="btn-azar" onclick="handleDynamicSelect('azar')" type="button">
+<!-- Prismatic light flare overlay -->
+<div class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-white/80 to-transparent pointer-events-none"></div>
+<div class="absolute -right-8 -top-8 w-28 h-28 bg-white/20 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-center gap-space-md z-10">
+<div class="w-13 h-13 p-2.5 rounded-full bg-on-primary-fixed/15 backdrop-blur-md flex items-center justify-center text-on-primary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[28px] animate-spin" style="animation-duration: 9s;">casino</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-lg-mobile text-headline-lg-mobile font-bold tracking-tight text-on-primary-fixed">
+              Al azar
+            </span>
+<span class="px-2 py-0.5 rounded-full bg-on-primary-fixed/20 text-on-primary-fixed font-label-sm text-[11px] uppercase tracking-wider font-semibold backdrop-blur-sm">
+              Recomendado
+            </span>
+</div>
+<span class="font-label-sm text-label-sm text-on-primary-fixed/80">Ruleta rusa de secretos y desafíos</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-full bg-on-primary-fixed/20 backdrop-blur-md flex items-center justify-center text-on-primary-fixed group-hover:scale-110 transition-transform z-10">
+<span class="material-symbols-outlined text-[22px]">auto_awesome</span>
+</div>
+</button>
+<!-- Option 3: RETO (Electric Ruby Glass Pill) -->
+<button class="group relative w-full h-[68px] rounded-full px-margin flex items-center justify-between text-left transition-all duration-300 active:scale-[0.98] bg-surface-container-high/40 hover:bg-surface-container-high/60 backdrop-blur-2xl shadow-[0_8px_30px_rgba(0,0,0,0.35)] overflow-hidden" id="btn-reto" onclick="handleDynamicSelect('reto')" type="button">
+<!-- Specular top edge sheen -->
+<div class="absolute inset-x-0 top-0 h-[1.5px] bg-gradient-to-r from-transparent via-tertiary-fixed-dim/50 to-transparent pointer-events-none"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-secondary-container/10 via-tertiary-container/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+<div class="flex items-center gap-space-md z-10">
+<div class="w-12 h-12 rounded-full bg-surface-container/80 backdrop-blur-xl flex items-center justify-center text-tertiary group-hover:text-tertiary-fixed transition-colors shadow-inner">
+<span class="material-symbols-outlined text-[24px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:translate-x-0.5 transition-transform">
+            Reto
+          </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Acción directa o castigo</span>
+</div>
+</div>
+<div class="w-9 h-9 rounded-full bg-surface-container-highest/40 flex items-center justify-center text-on-surface-variant group-hover:text-tertiary transition-colors z-10">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</div>
+</button>
+</div>
+<!-- Intimate Context Card / Table Deck Peek -->
+<div class="w-full mt-space-xs p-margin rounded-lg bg-surface-container-low/50 backdrop-blur-2xl shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest/60 flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">local_fire_department</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Nivel de tensión: Alto</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">3 jugadores ya cumplieron su castigo</span>
+</div>
+</div>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-container-highest/80 hover:bg-surface-container-highest text-on-surface font-label-sm text-label-sm flex items-center gap-1 transition-colors flex-shrink-0 active:scale-95" onclick="handlePassTurn()" type="button">
+<span>Pasar</span>
+<span class="material-symbols-outlined text-[16px]">skip_next</span>
+</button>
+</div>
+<!-- Interactive Feedback Pill Toast (Hidden by default, triggered by action) -->
+<div class="opacity-0 pointer-events-none transition-all duration-300 transform translate-y-4 fixed bottom-8 left-1/2 -translate-x-1/2 z-50 px-margin py-space-sm rounded-full bg-surface-container-highest/90 backdrop-blur-2xl text-on-surface shadow-2xl flex items-center gap-space-xs" id="action-toast">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-md text-label-md font-medium text-on-surface" id="toast-text">Selección iniciada</span>
+</div>
+</div>
+<script>
+  function handleDynamicSelect(mode) {
+    const toast = document.getElementById('action-toast');
+    const toastText = document.getElementById('toast-text');
+    
+    const messages = {
+      verdad: 'Cargando confesión para Beto...',
+      azar: 'La botella cósmica está girando...',
+      reto: 'Desafío extremo en camino...'
+    };
+
+    if (toast && toastText) {
+      toastText.textContent = messages[mode] || 'Procesando...';
+      toast.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      // Vibrate if browser supports it for physical game feel
+      if (navigator.vibrate) {
+        navigator.vibrate(mode === 'azar' ? [30, 40, 50] : 35);
+      }
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+        toast.classList.remove('opacity-100', 'translate-y-0');
+      }, 1600);
+    }
+  }
+
+  function handlePassTurn() {
+    const playerEl = document.getElementById('current-player');
+    const names = ['Sofía', 'Mateo', 'Valentina', 'Beto', 'Camila'];
+    if (playerEl) {
+      const current = playerEl.textContent.trim();
+      const currentIndex = names.indexOf(current);
+      const nextName = names[(currentIndex + 1) % names.length];
+      
+      playerEl.style.transform = 'translateY(-6px)';
+      playerEl.style.opacity = '0';
+      
+      setTimeout(() => {
+        playerEl.textContent = nextName;
+        playerEl.style.transform = 'translateY(0)';
+        playerEl.style.opacity = '1';
+      }, 180);
+    }
+  }
+</script></main></body></html>

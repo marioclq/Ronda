@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100vh;margin:0;padding:0;background-color:#14121f;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#ffdadb","error":"#ffb4ab","on-secondary-fixed":"#3e0022","secondary-fixed-dim":"#ffb0ce","on-tertiary":"#67001b","on-error-container":"#ffdad6","surface-container-highest":"#363342","primary-container":"#ff8c53","on-tertiary-fixed-variant":"#92002a","inverse-on-surface":"#312f3d","tertiary":"#ffb2b7","primary-fixed":"#ffdbcc","tertiary-container":"#ff8791","inverse-surface":"#e5e0f3","secondary-container":"#c00175","secondary":"#ffb0ce","secondary-fixed":"#ffd9e5","surface-variant":"#363342","surface-container-high":"#2b2836","on-primary-fixed":"#351000","surface-container":"#201e2c","on-tertiary-container":"#840025","on-surface-variant":"#ddc1b5","on-secondary-fixed-variant":"#8c0054","outline":"#a48b81","error-container":"#93000a","background":"#14121f","on-secondary-container":"#ffd5e3","on-surface":"#e5e0f3","surface-bright":"#3a3746","surface-container-lowest":"#0e0c1a","outline-variant":"#56423a","primary":"#ffb694","on-tertiary-fixed":"#40000d","on-error":"#690005","surface-container-low":"#1c1a27","primary-fixed-dim":"#ffb694","surface-dim":"#14121f","tertiary-fixed-dim":"#ffb2b7","surface-tint":"#ffb694","surface":"#14121f","on-background":"#e5e0f3","on-secondary":"#64003a","on-primary-container":"#6f2900","on-primary-fixed-variant":"#7b2f00","inverse-primary":"#9e430d","on-primary":"#571f00"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-sm":"0.625rem","space-xs":"0.375rem","gutter":"1rem","margin":"1.25rem","margin-md":"1.5rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2.25rem","margin-lg":"2rem","gutter-sm":"0.75rem"},"fontFamily":{"display-hero":["Inter"],"label-sm":["Inter"],"headline-lg":["Inter"],"label-lg":["Inter"],"headline-lg-mobile":["Inter"],"title-md":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"],"display-hero-mobile":["Inter"],"label-md":["Inter"],"body-md":["Inter"]},"fontSize":{"display-hero":["56px",{"lineHeight":"60px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"20px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-hero-mobile":["44px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-md":["14px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}],"body-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen selection:bg-primary-container selection:text-on-primary"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.18)]"><div class="h-14 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Salir o Volver" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-bright/40 transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[22px]">arrow_back_ios_new</span></button><h1 class="text-title-md font-title-md text-on-surface truncate font-semibold">Active Game Round</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Opciones de Ronda" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-bright/40 transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_0_12px_rgba(255,182,148,0.25)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-14 pb-safe bg-surface px-margin"><div class="flex flex-col w-full relative pb-8 overflow-hidden select-none">
+<!-- Dynamic Ambient Glow Overlays (Liquid Atmosphere) -->
+<div class="absolute -top-16 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full bg-primary-container/20 blur-[80px] pointer-events-none -z-10 animate-pulse"></div>
+<div class="absolute top-72 -right-20 w-64 h-64 rounded-full bg-secondary-container/15 blur-[90px] pointer-events-none -z-10"></div>
+<div class="absolute bottom-24 -left-16 w-72 h-72 rounded-full bg-primary/10 blur-[85px] pointer-events-none -z-10"></div>
+<!-- Status Indicator Pills & Suspense Meter -->
+<section class="flex flex-col gap-space-sm mb-4">
+<!-- Top Chips Row -->
+<div class="flex items-center justify-between gap-space-xs">
+<!-- Deceleration Flash Chip -->
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-xl shadow-sm">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-80"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary-container"></span>
+</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">¡Freno Inercial!</span>
+</div>
+<!-- Lock-in State Chip -->
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high/90 backdrop-blur-xl shadow-sm">
+<span class="material-symbols-outlined text-primary text-[15px]" style="font-variation-settings: 'FILL' 1;">lock</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider font-semibold">Destino Fijado</span>
+</div>
+</div>
+<!-- Active Player Suspense Strip -->
+<div class="flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-surface-container/70 backdrop-blur-2xl shadow-md">
+<div class="flex items-center gap-space-xs">
+<div class="relative w-8 h-8 rounded-full bg-gradient-to-tr from-primary-container to-primary flex items-center justify-center shadow-[0_0_12px_rgba(255,140,83,0.4)]">
+<span class="font-label-md text-label-md text-on-primary-container font-bold">B</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[9px] text-on-secondary">bolt</span>
+</span>
+</div>
+<div class="flex flex-col leading-tight">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Turno en la Ruleta</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Beto Martínez</span>
+</div>
+</div>
+<!-- Kinetic Gauge -->
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-primary font-bold">100%</span>
+<span class="material-symbols-outlined text-primary text-[14px]">arrow_right_alt</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">¡Resuelto!</span>
+</div>
+<div class="w-24 h-1.5 rounded-full bg-surface-container-highest mt-1 overflow-hidden">
+<div class="h-full bg-gradient-to-r from-primary-container via-primary to-secondary rounded-full w-full"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Central Chamber: Victory Glass Showcase -->
+<section class="relative my-2">
+<!-- Offset Glass Rim Layers (Stacking Depth Simulation) -->
+<div class="absolute inset-x-3 -top-2.5 h-16 rounded-lg bg-surface-container-highest/30 backdrop-blur-md -z-10 scale-[0.96]"></div>
+<div class="absolute inset-x-6 -top-5 h-16 rounded-lg bg-surface-container-highest/15 backdrop-blur-sm -z-20 scale-[0.92]"></div>
+<!-- Main Dynamic Liquid Obsidian Glass Card -->
+<div class="relative rounded-lg bg-gradient-to-b from-surface-container-high/90 via-surface-container/95 to-surface-container-lowest/95 backdrop-blur-2xl p-5 shadow-[0_16px_40px_-8px_rgba(255,140,83,0.3),0_4px_16px_rgba(0,0,0,0.5)] overflow-hidden">
+<!-- Ambient Card Refraction Line -->
+<div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent"></div>
+<!-- Subtle Floating Crystal Sparkle Particles -->
+<div class="absolute top-4 right-5 w-1.5 h-1.5 rounded-full bg-primary animate-ping opacity-75"></div>
+<div class="absolute top-16 left-6 w-1 h-1 rounded-full bg-secondary animate-pulse opacity-90"></div>
+<div class="absolute bottom-10 right-8 w-2 h-2 rounded-full bg-primary-container blur-[1px] opacity-60"></div>
+<!-- Top Victory Badge -->
+<div class="flex justify-center mb-4">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/15 backdrop-blur-xl shadow-[0_0_16px_rgba(255,182,148,0.2)]">
+<span class="material-symbols-outlined text-primary text-[14px]">auto_awesome</span>
+<span class="font-label-sm text-label-sm text-primary tracking-wide font-semibold">¡SELECCIONADO POR LA SUERTE!</span>
+<span class="material-symbols-outlined text-primary text-[14px]">auto_awesome</span>
+</div>
+</div>
+<!-- Orb of Destiny: Ruleta Frenada & Corona Triunfal -->
+<div class="flex justify-center my-3 relative">
+<!-- Radial Halo Rings -->
+<div class="absolute w-36 h-36 rounded-full bg-primary-container/25 blur-xl pointer-events-none -z-10"></div>
+<div class="absolute w-28 h-28 rounded-full bg-secondary-container/20 blur-lg pointer-events-none -z-10"></div>
+<!-- Specular Sphere -->
+<div class="relative w-28 h-28 rounded-full bg-gradient-to-tr from-surface-container-lowest via-surface-container-high to-surface-bright p-1 shadow-[0_10px_28px_rgba(255,140,83,0.45),inset_0_2px_4px_rgba(255,255,255,0.4)] flex items-center justify-center">
+<!-- Glass Core -->
+<div class="w-full h-full rounded-full bg-gradient-to-b from-primary-container to-on-primary-container flex flex-col items-center justify-center shadow-inner relative overflow-hidden">
+<!-- Glass Specular Glare -->
+<div class="absolute -top-3 inset-x-2 h-10 rounded-full bg-white/30 blur-[2px]"></div>
+<span class="material-symbols-outlined text-[42px] text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+<span class="font-label-sm text-label-sm text-primary-fixed tracking-tight uppercase font-extrabold -mt-1">LOCK IN</span>
+</div>
+<!-- Tiny Indicator Pointer of the Stopped Wheel -->
+<div class="absolute -top-1.5 w-4 h-4 bg-primary rotate-45 rounded-[2px] shadow-[0_0_8px_rgba(255,182,148,0.8)]"></div>
+</div>
+</div>
+<!-- Deceleration Banner Typography -->
+<div class="text-center mt-2 mb-3">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-extrabold tracking-tight">
+          RETO ÉPICO
+        </h2>
+<p class="font-label-md text-label-md text-primary font-medium mt-0.5">
+          Beto debe cumplir la prueba ante toda la mesa
+        </p>
+</div>
+<!-- Beveled Obsidian Inner Prompt Slab -->
+<div class="relative rounded-lg bg-surface-container-lowest/80 backdrop-blur-xl p-4 my-3 shadow-[inset_0_1px_2px_rgba(255,255,255,0.08),0_4px_16px_rgba(0,0,0,0.3)]">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary-container text-[20px] shrink-0 mt-0.5">campaign</span>
+<p class="font-title-md text-title-md text-on-surface font-semibold leading-snug">
+            “Llama a tu tercer contacto de WhatsApp en altavoz y dile que te casas mañana mismo.”
+          </p>
+</div>
+</div>
+<!-- Card Metadata Strip (Level, Points, Odds) -->
+<div class="grid grid-cols-2 gap-2 mt-3 pt-3">
+<div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-high/60 backdrop-blur-md">
+<div class="w-6 h-6 rounded-full bg-primary-container/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Recompensa</span>
+<span class="font-label-md text-label-md text-on-surface font-bold truncate">+50 Puntos</span>
+</div>
+</div>
+<div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-high/60 backdrop-blur-md">
+<div class="w-6 h-6 rounded-full bg-secondary-container/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary text-[15px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Dificultad</span>
+<span class="font-label-md text-label-md text-secondary font-bold truncate">Nivel 3 Extremo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Kinetic Physics Readout -->
+<section class="mt-3 mb-4 px-1">
+<div class="flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-surface-container-low/70 backdrop-blur-xl">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">speed</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+          Frenado: <span class="text-on-surface font-semibold">0 km/h</span> (3 clics inerciales)
+        </span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Parada limpia</span>
+</div>
+</div>
+</section>
+<!-- Social Audience & Live Group Reactions -->
+<section class="mb-5 px-1">
+<div class="flex flex-col gap-2 p-3.5 rounded-lg bg-surface-container-high/40 backdrop-blur-xl">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">celebration</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">¡La mesa vitorea la jugada!</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">3 amigos listos</span>
+</div>
+<!-- Attendees Row with Emojis & Photos -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center -space-x-2">
+<!-- Friend 1 -->
+<div class="relative w-9 h-9 rounded-full ring-2 ring-surface-container bg-surface-bright flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Candid smartphone portrait of a smiling young Latina woman with dark wavy hair in ambient low club lighting, laughing and watching a board game round." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDclYiyNqvNIJK6rknHqJX9i5HeYXIzMmJ1niiBlItn0m46EvO_21QABMTc_JU4UcjwLwnDXtjO2iZNFiK6PSE3uOGwqQ1jbQlfoo0CFasZQgl4yRmFsppXpAZtxw846hd6G0lTKKcUB-rjcGcwLMLJB-mG14C7gd06-c2EBV1R301jo8FXVdHReOIcWa53tifPa482unPay_p9MXAzRAUZXBh6AysdCy4U65VjNKZS"/>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-surface-container-highest flex items-center justify-center text-[9px]">😂</span>
+</div>
+<!-- Friend 2 -->
+<div class="relative w-9 h-9 rounded-full ring-2 ring-surface-container bg-surface-bright flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Candid portrait of an excited young man with glasses and casual shirt laughing heartily under warm amber party illumination." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWCfZEf-rS910mUQW0rmjHcQLQZTyydXoKe40C4ez5_S2nqJpOqoMqqmHsLkhiC6Tak-6OBbNN07UAp_UCgPwQ54I-o6wnI8thqBZEmQrefyhIbeibkYdfAz3fJPffHGKA21uXM2A6GRk3B5zlfR3pl92SL-B5_r9bc8ZIjgw5nNy_7P_8n_0EM_X6Fs8eJMQUiHRK1SY2bV1QP624bZ4F3yI39tk6h8OvRAOAcVUx"/>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-surface-container-highest flex items-center justify-center text-[9px]">👏</span>
+</div>
+<!-- Friend 3 -->
+<div class="relative w-9 h-9 rounded-full ring-2 ring-surface-container bg-surface-bright flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Candid portrait of a woman with vibrant bob haircut leaning forward attentively at a wooden table in a stylish dimly-lit lounge." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlRrcquXWrvJCmIjCv7RsTu7xn7fnvMZ6KZ2F_0wJ7taIpdDnEa7HeD4OY2SB9oiVJgYOITRalE2DHqfFrrmNBAjZRaCzY4NHwDbH4GbkVeZfbSfJs6BmL0kf-T656eThGEp_ocRfXK5JsT-JQjK4C0h10WkmXNuvWLphbuIO3qZF1OhfDwBTNBSwtgcOvUYGDLSTcHLUhEpWptQ-8TcX0SJjFwYuZjbGjsuRw6ONq"/>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-surface-container-highest flex items-center justify-center text-[9px]">👀</span>
+</div>
+<!-- Extra Pill -->
+<div class="w-9 h-9 rounded-full ring-2 ring-surface-container bg-surface-container-highest flex items-center justify-center font-label-sm text-label-sm text-on-surface font-bold">
+            +2
+          </div>
+</div>
+<!-- Consensus Pulse -->
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-highest/80">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">mic</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Altavoz activado</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Decision Bar (Tactile Actions) -->
+<section class="flex flex-col gap-space-sm mt-auto pt-1">
+<!-- Primary CTA: Radiant Amber Liquid Glass Pill -->
+<button class="relative group w-full h-14 rounded-full bg-gradient-to-r from-[#ffa36b] via-primary-container to-[#ff7a3d] text-on-primary-fixed font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-[0_12px_32px_-4px_rgba(255,140,83,0.5),0_2px_6px_rgba(0,0,0,0.3)] active:scale-[0.98] transition-all overflow-hidden" id="acceptBtn" type="button">
+<!-- Inset Rim Shimmer -->
+<div class="absolute inset-x-4 top-0.5 h-px bg-white/60 blur-[0.5px]"></div>
+<span>Aceptar Reto y Jugar</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<!-- Secondary Glass Pill: Penalty / Escape -->
+<button class="w-full h-13 py-3 rounded-full bg-surface-container-high/60 backdrop-blur-xl text-on-surface font-label-md text-label-md font-semibold flex items-center justify-center gap-2 shadow-sm active:scale-[0.98] transition-all hover:bg-surface-container-highest/80" id="forfeitBtn" type="button">
+<span class="material-symbols-outlined text-secondary text-[18px]" style="font-variation-settings: 'FILL' 1;">sports_bar</span>
+<span>Pagar Castigo (2 Tragos de Mesa 🍺)</span>
+</button>
+</section>
+</div>
+<script>
+  // Dynamic particle blast on deceleration lock-in
+  (function initLockInEffects() {
+    const acceptBtn = document.getElementById('acceptBtn');
+    const forfeitBtn = document.getElementById('forfeitBtn');
+
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', () => {
+        acceptBtn.classList.add('scale-95');
+        setTimeout(() => acceptBtn.classList.remove('scale-95'), 180);
+      });
+    }
+
+    if (forfeitBtn) {
+      forfeitBtn.addEventListener('click', () => {
+        forfeitBtn.classList.add('scale-95');
+        setTimeout(() => forfeitBtn.classList.remove('scale-95'), 180);
+      });
+    }
+  })();
+</script></main></body></html>

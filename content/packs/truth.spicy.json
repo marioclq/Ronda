@@ -1,0 +1,1075 @@
+{
+  "id": "truth-spicy",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "tod-t-spicy-0001",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo más atrevido que has hecho por alguien que te gustaba?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0002",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿A quién de esta mesa le darías tu número sin pensarlo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0003",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue tu primer beso y qué tan bien o mal salió?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0004",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué mensaje le mandaste a un ex y te arrepentiste en cuanto lo enviaste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0005",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál ha sido la peor cita de tu vida y qué la arruinó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0006",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo primero en lo que te fijas cuando alguien te atrae?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0007",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez te gustó la pareja de un amigo? ¿Qué hiciste con eso?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0008",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la frase para ligar más mala que has usado o que te han dicho?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0009",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué señal te hace pensar de inmediato que alguien se interesa por ti?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0010",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la excusa más creativa que usaste para terminar con alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0011",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿A qué ex le darías una segunda oportunidad, si pudieras, y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0012",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué has revisado en el celular de una pareja y qué encontraste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0013",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la señal de alerta que ignoraste en una relación y que luego resultó ser real?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0014",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién fue la persona famosa que más te ha gustado en secreto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0015",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo más romántico que alguien ha hecho por ti?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0016",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el detalle que te enamora al instante y el que te desenamora más rápido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0017",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo más impulsivo que has hecho después de una ruptura?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0018",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Con quién de aquí te imaginas que sería insoportable salir en pareja?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0019",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué celos tuviste que ahora te parecen ridículos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0020",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuántos minutos esperas para responder un mensaje de alguien que te gusta, y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0021",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál ha sido la cita más romántica que has tenido y con qué detalle te conquistaron?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0022",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez saliste con alguien solo por aburrimiento o por no estar solo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0023",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué perfil de gente te atrae siempre y qué patrón repites en tus relaciones?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0024",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién fue la última persona que te dejó pensando toda la noche?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0025",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué te hace sentir celos más rápido: un mensaje, una mirada o una foto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0026",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la mentira más grande que has dicho para impresionar a alguien en una primera cita?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0027",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué escena romántica de película te gustaría vivir de verdad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0028",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el peor lugar donde has intentado besar a alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0029",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué ex tuyo se enteraría con más sorpresa de lo que piensas hoy de él o ella?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0030",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosas de tu pareja ideal serían innegociables y cuáles son solo caprichos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0031",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue el coqueteo más torpe que has intentado y qué respuesta recibiste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0032",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez te enamoraste de alguien que no te correspondía? ¿Cómo lo superaste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0033",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué sientes cuando te enteras de que un ex ya tiene pareja nueva?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0034",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el gesto de coqueteo que mejor te funciona y cuál usarías hoy mismo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0035",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué te gustaría que alguien te dijera al oído en este momento?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0036",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué has hecho solo para llamar la atención de alguien que te gustaba?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0037",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la canción que te recuerda a un amor del pasado?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0038",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué foto de un ex todavía conservas y por qué no la has borrado?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0039",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la señal que das sin darte cuenta cuando alguien te gusta de verdad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0040",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué mensaje de texto de coqueteo te ha dejado sonriendo como un tonto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0041",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el mayor riesgo que has tomado por amor?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0042",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué parte de un beso es la que más te importa: el momento, el lugar o la persona?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0043",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué dirías en una cita a ciegas para sonar más interesante de lo que eres?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0044",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez dejaste a alguien en visto a propósito para que te extrañara?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0045",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo más celoso que has sido con una pareja y cómo reaccionó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0046",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue el momento más tenso al coincidir con un ex en un lugar público?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0047",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es tu mayor miedo al empezar algo nuevo con alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0048",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién de esta mesa crees que besa mejor? Y no vale decir que no sabes.",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0049",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez has coqueteado con alguien solo para ganar una apuesta o un desafío?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0050",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosa harías con tu pareja ideal en una primera cita que nadie más haría?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0051",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el piropo que más te ha gustado recibir y quién te lo dijo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0052",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿A qué ex le borraste el número y luego te lo sabías de memoria?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0053",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué has hecho para investigar a alguien que te gustaba antes de la primera cita?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0054",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué te atrae más: alguien misterioso o alguien que se muestra abierto desde el principio?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0055",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuándo fue la última vez que te sonrojaste por alguien y qué pasó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0056",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosa no soportas que haga una pareja en público?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0057",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue la ruptura que más te dolió y qué aprendiste de ella?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0058",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez te declaraste a alguien y te rechazaron? Cuenta cómo fue.",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0059",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién fue tu mayor crush de juventud y qué harías si lo volvieras a ver hoy?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0060",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué regalo romántico te pareció demasiado cursi y cuál te hubiera encantado recibir?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0061",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué haces cuando alguien te coquetea y no sientes lo mismo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0062",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué tan rápido sabes si quieres volver a ver a alguien: en cinco minutos o después de una hora?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0063",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál ha sido tu mayor ilusión con alguien que terminó siendo solo un amigo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0064",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué rumor de pareja o de romance dentro de un grupo de amigos resultó ser cierto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0065",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué sientes cuando ves a alguien que te gusta con otra persona?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0066",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué detalle físico o de voz de alguien te desarma por completo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0067",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Con qué tipo de persona jamás saldrías, por mucho que te gustara?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0068",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué amistad tuya estuvo a punto de volverse algo más y qué lo frenó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0069",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la cosa más tonta que hiciste por estar enamorado o enamorada?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0070",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué ex ha tratado de volver contigo y cómo lo intentó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0071",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosa esperas de alguien después de la primera cita para saber que hubo química?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0072",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué has hecho para sentirte más atractivo antes de una cita importante?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0073",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué momento de una relación te parece el más bonito: el inicio, la mitad o el reencuentro?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0074",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué has dicho en pleno enojo con una pareja que no tenías que haber dicho?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0075",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién de aquí tiene más pinta de ser un buen conquistador, y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0076",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la peor forma de terminar una relación que has visto o vivido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0077",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez has coqueteado con alguien que tenía pareja? ¿Cómo terminó eso?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0078",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué rutina de una relación te hacía más feliz y cuál te agotaba?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0079",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue la propuesta de pareja o de cita más inesperada que te han hecho?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0080",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosa estás dispuesto a hacer por un amor que no has hecho antes?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0081",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué te da más miedo del amor: perder la libertad, que te lastimen o aburrirte?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0082",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿En qué momento fue más evidente que una relación ya había terminado, aunque nadie lo dijera?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0083",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué aplicación de citas probaste y cuál fue la conversación más rara que tuviste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0084",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué sientes cuando alguien te mira fijamente durante una conversación?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0085",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosa harías si de pronto una persona que te gusta te escribe a medianoche?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0086",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es tu mayor inseguridad cuando estás conociendo a alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0087",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el plan de cita perfecto para ti, de principio a fin?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0088",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cosa harías distinto si pudieras repetir tu primera relación seria?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0089",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién fue la última persona con la que tuviste química inmediata?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0090",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo más atrevido que le has escrito a alguien por mensaje?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0091",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es la excusa que usas para acercarte a alguien que te gusta?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0092",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez has fingido que no te importaba alguien cuando en realidad te moría por esa persona?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0093",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué ex tuyo cae mejor a tus amigos que a ti?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0094",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué rasgo de personalidad te parece irresistible aunque no sea el típico?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0095",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué anécdota de una cita fallida cuentas siempre para hacer reír a todos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0096",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué has sentido al bailar muy cerca de alguien que te gustaba?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0097",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Alguna vez te quedaste con ganas de besar a alguien? ¿Qué te detuvo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0098",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué estarías dispuesto a perdonar en una pareja y qué no tendría vuelta atrás?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0099",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue la reconciliación más dramática que has vivido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0100",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué consejo de amor das a todo el mundo pero tú mismo no sigues?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0101",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo que más te gusta de {compatible}, y desde cuándo lo notaste?",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-t-spicy-0102",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué plan de cita le propondrías a {compatible} si tuvieras que invitarle esta semana?",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-t-spicy-0103",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuánto tardaste en decir \"te quiero\" por primera vez y quién lo dijo antes?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0104",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cómo fue la vez que conociste a los padres de una pareja?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0105",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué apodo cariñoso te pusieron que te dio más vergüenza?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0106",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿A quién desapareciste sin dar explicaciones y qué te llevó a hacerlo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0107",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué sentiste cuando alguien dejó de contestarte de un día para otro?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0108",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Saldrías con alguien de tu trabajo? ¿Hubo alguien que te hiciera dudar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0109",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué es lo más difícil de una relación a distancia?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0110",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué perfume o aroma te devuelve de golpe el recuerdo de alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0111",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué prenda te pones cuando quieres sentirte irresistible?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0112",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué pensaste de {otro} la primera vez que lo conociste y qué opinas ahora?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0113",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué harías si descubres que tu mejor amigo está saliendo con tu ex?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0114",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Crees en el amor a primera vista? ¿Alguna vez te pasó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0115",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué fue lo más raro que pasó en una cita con alguien que conociste por internet?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0116",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cómo te gusta que te demuestren cariño: palabras, tiempo, regalos, ayuda o abrazos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0117",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué manía al escribir mensajes te hace perder el interés en alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0118",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuándo fue la última vez que lloraste por amor y qué pasó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0119",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué pregunta le harías a un ex si te prometieran que dirá la verdad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0120",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cómo cambia tu forma de ser cuando estás enamorado?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0121",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué detalle de una persona te dan ganas de abrazarla sin motivo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0122",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cómo reaccionarías si tu pareja te propusiera matrimonio frente a todos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0123",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuántas citas esperas antes de presentarle a alguien a tus amigos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0124",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué pareja famosa te parece perfecta y cuál crees que está sobrevalorada?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0125",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué manía de una expareja terminaste extrañando?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0126",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué tan romántico eres de verdad: cartas, canciones dedicadas, flores o nada de eso?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0127",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál es el mensaje de buenas noches más tierno que has enviado o recibido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0128",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuál fue la cita doble más incómoda en la que estuviste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0129",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué buscas en las fotos de alguien antes de aceptar una cita?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0130",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué harías para reconquistar a alguien que dejaste ir?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0131",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué te enamora más: el humor, la inteligencia o cómo te trata?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0132",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cómo sería la peor primera cita que puedes imaginar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0133",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué tradición de pareja te parece absurda: San Valentín, aniversarios mensuales o fotos juntos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0134",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cuánto tiempo gastas decidiendo qué ponerte para una cita?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0135",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué tan fácil te resulta pedir perdón a una pareja y cuándo te cuesta?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0136",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿A qué edad pensabas que ya tendrías pareja estable y qué pasó en realidad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0137",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué mentira piadosa dijiste para terminar una cita aburrida?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0138",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué hobby de una pareja intentaste amar solo por acompañarla?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0139",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Cómo reaccionas cuando alguien atractivo te sonríe en la calle?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0140",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué mirada o gesto de alguien te dejó sin palabras?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0141",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué sorpresa romántica que planeaste salió fatal?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0142",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué mensaje de buenos días extrañas recibir?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0143",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Con qué tipo de humor te conquistan: sarcástico, tierno o absurdo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0144",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué harías si coincides en una boda con tu ex y su nueva pareja?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0145",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cambiarías de tu forma de coquetear?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0146",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué secreto de pareja les contaste a tus amigos sin tener que hacerlo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0147",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Quién fue tu amor platónico del colegio y qué hacías para llamar su atención?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0148",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué película o serie te hizo desear una historia de amor igual?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0149",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué lugar de tu ciudad sería perfecto para una primera cita y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0150",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué haces cuando te pones nervioso frente a alguien que te atrae?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0151",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cualidad de {compatible} te parece muy atractiva y rara vez se nota a primera vista?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-spicy-0152",
+      "type": "TRUTH",
+      "level": "SPICY",
+      "text": "¿Qué cumplido sincero le darías a {compatible} que todavía no le hayas dicho?",
+      "tags": []
+    }
+  ]
+}

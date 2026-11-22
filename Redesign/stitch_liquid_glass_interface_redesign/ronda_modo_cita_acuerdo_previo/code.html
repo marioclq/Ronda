@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Modo Cita - Antes de empezar</title>
+<!-- Tailwind CSS v3 CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Fonts: Inter & SF Pro Display inspired typography -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Custom Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            liquid: {
+              plum: '#1a0b1c',
+              rose: '#f472b6',
+              amber: '#fbbf24',
+              coral: '#fb7185',
+            }
+          },
+          boxShadow: {
+            'liquid-glow': '0 20px 45px -10px rgba(244, 114, 182, 0.45), 0 0 20px 2px rgba(251, 113, 133, 0.3)',
+            'liquid-card': '0 25px 50px -12px rgba(0, 0, 0, 0.5), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25)',
+          }
+        }
+      }
+    };
+  </script>
+<!-- Custom CSS for Liquid Glass specular highlights and organic mesh backgrounds -->
+<style data-purpose="liquid-glass-effects">
+    body {
+      background-color: #120716;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    /* iOS 26 Liquid Mesh Background Gradients */
+    .mesh-gradient-bg {
+      background: 
+        radial-gradient(circle at 15% 15%, rgba(139, 26, 75, 0.65) 0%, transparent 50%),
+        radial-gradient(circle at 85% 25%, rgba(190, 24, 93, 0.45) 0%, transparent 55%),
+        radial-gradient(circle at 90% 65%, rgba(180, 83, 9, 0.35) 0%, transparent 50%),
+        radial-gradient(circle at 35% 85%, rgba(157, 23, 77, 0.5) 0%, transparent 60%),
+        linear-gradient(180deg, #2b0b23 0%, #150616 55%, #0d030f 100%);
+    }
+
+    /* Glass card border polish with multi-layered specular reflections */
+    .liquid-glass-panel {
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
+      backdrop-filter: blur(36px) saturate(190%);
+      -webkit-backdrop-filter: blur(36px) saturate(190%);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      box-shadow: 
+        0 30px 60px -15px rgba(0, 0, 0, 0.6),
+        inset 0 1px 2px rgba(255, 255, 255, 0.3),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Organic light flare on glass edge */
+    .specular-highlight {
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.7) 50%, transparent 100%);
+    }
+
+    /* Interactive button fluid shine */
+    .btn-liquid-gloss {
+      background: linear-gradient(180deg, #fba1be 0%, #f47294 48%, #e14e7a 100%);
+      box-shadow: 
+        0 12px 28px -4px rgba(244, 114, 182, 0.55),
+        0 4px 12px rgba(251, 113, 133, 0.35),
+        inset 0 1.5px 1px rgba(255, 255, 255, 0.7),
+        inset 0 -1.5px 2px rgba(159, 18, 57, 0.4);
+    }
+
+    .btn-liquid-gloss:active {
+      transform: scale(0.985);
+      filter: brightness(0.96);
+    }
+  </style>
+</head>
+<body class="h-full flex items-center justify-center p-0 m-0 text-white font-sans mesh-gradient-bg">
+<!-- BEGIN: MobileDeviceFrame -->
+<main class="w-full max-w-md h-full min-h-screen flex flex-col justify-between px-6 pt-12 pb-10 relative overflow-hidden">
+<!-- Ambient luminous spheres behind content for refraction -->
+<div aria-hidden="true" class="absolute -top-16 -left-12 w-64 h-64 bg-pink-600/30 rounded-full blur-3xl pointer-events-none"></div>
+<div aria-hidden="true" class="absolute top-1/2 -right-20 w-72 h-72 bg-amber-600/20 rounded-full blur-3xl pointer-events-none"></div>
+<!-- BEGIN: NavigationHeader -->
+<header class="flex items-center justify-between w-full z-10 pt-2 pb-6" data-purpose="screen-navigation">
+<!-- Back button with touch feedback -->
+<button aria-label="Volver a la pantalla anterior" class="inline-flex items-center gap-1.5 text-white/90 hover:text-white transition-opacity active:opacity-60 text-[17px] font-normal tracking-tight focus:outline-none" data-purpose="back-action" type="button">
+<svg class="w-5 h-5 -ml-1 stroke-[2.5]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M15.75 19.5L8.25 12l7.5-7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span>Volver</span>
+</button>
+<!-- Section badge / context indicator -->
+<div class="text-[17px] font-medium tracking-tight text-white/85" data-purpose="mode-indicator">
+        Modo cita
+      </div>
+</header>
+<!-- END: NavigationHeader -->
+<!-- BEGIN: CentralContentContainer -->
+<div class="flex-1 flex flex-col justify-center my-auto z-10 w-full">
+<!-- Primary Screen Heading -->
+<h1 class="text-3xl sm:text-[34px] font-bold tracking-tight text-white mb-6 drop-shadow-md">
+        Antes de empezar
+      </h1>
+<!-- BEGIN: LiquidGlassCard -->
+<section class="relative liquid-glass-panel rounded-[2.5rem] p-7 md:p-8 flex flex-col gap-6" data-purpose="rules-liquid-card">
+<!-- Liquid sheen top glow overlay -->
+<div aria-hidden="true" class="specular-highlight"></div>
+<!-- Explanatory premise paragraph -->
+<p class="text-[16px] sm:text-[17px] leading-relaxed text-pink-50/95 font-normal tracking-tight">
+          Son 36 preguntas que van de lo ligero a lo personal. Los dos saben que es un ejercicio, y ninguno le debe nada al otro después.
+        </p>
+<!-- Divider line with glassy transition -->
+<div aria-hidden="true" class="h-px w-full bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+<!-- Rules Bullet List with liquid orbs -->
+<ul aria-label="Instrucciones del modo cita" class="space-y-4">
+<!-- Item 1 -->
+<li class="flex items-start gap-3.5 text-[15px] sm:text-[15.5px] leading-snug text-white/90">
+<span aria-hidden="true" class="mt-1.5 flex h-2 w-2 shrink-0 rounded-full bg-pink-300 shadow-[0_0_8px_rgba(244,114,182,0.9)]"></span>
+<span>Uno lee la pregunta en voz alta y responde primero; después responde el otro.</span>
+</li>
+<!-- Item 2 -->
+<li class="flex items-start gap-3.5 text-[15px] sm:text-[15.5px] leading-snug text-white/90">
+<span aria-hidden="true" class="mt-1.5 flex h-2 w-2 shrink-0 rounded-full bg-pink-300 shadow-[0_0_8px_rgba(244,114,182,0.9)]"></span>
+<span>En cada pregunta se turnan quién lee.</span>
+</li>
+<!-- Item 3 -->
+<li class="flex items-start gap-3.5 text-[15px] sm:text-[15.5px] leading-snug text-white/90">
+<span aria-hidden="true" class="mt-1.5 flex h-2 w-2 shrink-0 rounded-full bg-pink-300 shadow-[0_0_8px_rgba(244,114,182,0.9)]"></span>
+<span>Vayan en orden, sin saltarse ninguna.</span>
+</li>
+<!-- Item 4 -->
+<li class="flex items-start gap-3.5 text-[15px] sm:text-[15.5px] leading-snug text-white/90">
+<span aria-hidden="true" class="mt-1.5 flex h-2 w-2 shrink-0 rounded-full bg-amber-300 shadow-[0_0_8px_rgba(251,191,36,0.9)]"></span>
+<span>Cada set dura unos 15 minutos. No importa terminar: importa responder a fondo.</span>
+</li>
+</ul>
+</section>
+<!-- END: LiquidGlassCard -->
+</div>
+<!-- END: CentralContentContainer -->
+<!-- BEGIN: PrimaryActionFooter -->
+<footer class="w-full pt-6 pb-2 z-10" data-purpose="actions-footer">
+<button class="w-full py-4 px-6 rounded-full btn-liquid-gloss text-neutral-900 font-semibold text-[17px] tracking-tight flex items-center justify-center gap-2.5 transition-all duration-200 cursor-pointer" data-purpose="confirm-agreement-button" type="button">
+<!-- iOS Style Confirmation Checkmark -->
+<svg class="w-5 h-5 text-neutral-950 stroke-[2.8]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span class="text-neutral-950 font-bold">Estamos de acuerdo</span>
+</button>
+<!-- Home Indicator bar (iOS native feel) -->
+<div aria-hidden="true" class="w-32 h-1 bg-white/25 rounded-full mx-auto mt-6"></div>
+</footer>
+<!-- END: PrimaryActionFooter -->
+</main>
+<!-- END: MobileDeviceFrame -->
+</body></html>

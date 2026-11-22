@@ -1,0 +1,374 @@
+{
+  "id": "truth-extreme",
+  "version": 2,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "tod-t-extreme-0001",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué es lo más atrevido que has hecho en un lugar público?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0002",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál ha sido el lugar más inusual donde has tenido intimidad con alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0003",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es la fantasía que nunca le has contado a nadie?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0004",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué es lo primero que notas de alguien cuando sientes deseo por esa persona?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0005",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál fue tu peor experiencia íntima y qué fue lo que falló?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0006",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué mensaje subido de tono enviaste y luego lamentaste haber mandado?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0007",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué hace que una noche sea inolvidable para ti, más allá de lo físico?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0008",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es el momento más incómodo que has vivido justo antes de la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0009",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Quién fue tu mejor amante y qué lo hacía tan especial?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0010",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué te excita de una conversación aunque nadie se toque?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0011",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué has hecho en una primera cita que no esperabas hacer?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0012",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es el disfraz o el juego de roles que te daría curiosidad probar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0013",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es el momento más gracioso que has vivido en la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0014",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Alguna vez te han descubierto en un momento íntimo? ¿Cómo reaccionaste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0015",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué tan importante es para ti la química en la cama frente al cariño en una relación?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0016",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué le pedirías a tu pareja ideal que ninguna de tus parejas anteriores hizo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0017",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué es lo más atrevido que has hecho para seducir a alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0018",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es la hora del día en que más te sientes con ganas y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0019",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué parte del cuerpo de otra persona te parece más seductora cuando la ves de lejos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0020",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué es lo más inesperado que alguien te ha susurrado al oído?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0021",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es la ropa interior o la prenda que más te hace sentir sexy?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0022",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué te da más vergüenza hablar con una pareja sobre la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0023",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál fue la mejor sorpresa que te han dado en una noche romántica?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0024",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Con quién de esta mesa, si estuvieras soltero, tendrías una cita de una sola noche?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0025",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué cosa te sorprendió descubrir que te gustaba una vez que la probaste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0026",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es el cumplido sobre tu forma de ser en la intimidad que más recuerdas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0027",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué tan rápido es demasiado rápido para acostarte con alguien que acabas de conocer?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0028",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué has fingido en la intimidad y por qué lo hiciste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0029",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué ambiente prefieres para una noche íntima: luces tenues, música o silencio total?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0030",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál fue la despedida más intensa que has tenido con alguien con quien ya no volverías?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0031",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué te gustaría que tu pareja adivinara de ti sin que tengas que decírselo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0032",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué cosa te prendió de alguien y luego te desinfló por completo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0033",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es el juego previo que más disfrutas y que menos se menciona?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0034",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué fantasía compartirías con alguien de confianza, pero jamás con tu pareja?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0035",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué ex te dejó una marca imposible de olvidar en la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0036",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál ha sido tu mayor malentendido con alguien sobre lo que ambos querían esa noche?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0037",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué cosa romántica te excita más que cualquier otra, como un baile, una cena o un masaje?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0038",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuántas veces te has enamorado de alguien después de haber estado con esa persona en la intimidad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0039",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué cosa cambiarías de cómo viviste tu primera vez?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0040",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Alguna vez soñaste con alguien de esta mesa de forma subida de tono? Sin nombres, di cómo te sentiste.",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0041",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es la cosa más loca que harías por una noche perfecta?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0042",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué dato sobre tu vida íntima sorprendería más a las personas de esta mesa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0043",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué has hecho después de una noche intensa que ya no repetirías?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0044",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué te prende más: tomar la iniciativa o que alguien te conquiste a ti?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0045",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué consejo íntimo le darías a tu yo de hace diez años?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0046",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Cuál es el sitio de tu casa que más has convertido en escenario romántico?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-extreme-0047",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué parte de {compatible} te llama más la atención cuando se acerca a hablarte al oído?",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-t-extreme-0048",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué tipo de beso te gustaría darle a {compatible}: suave, largo o inesperado?",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-t-extreme-0049",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "Si tuvieras una noche libre con {compatible}, ¿cómo la planearías de principio a fin?",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-t-extreme-0050",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué crees que pensó {compatible} la primera vez que te vio, y qué pensaste tú de esa persona?",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-t-extreme-0051",
+      "type": "TRUTH",
+      "level": "EXTREME",
+      "text": "¿Qué le dirías a {compatible} al oído si nadie más pudiera escucharte?",
+      "tags": [
+        "contacto"
+      ]
+    }
+  ]
+}

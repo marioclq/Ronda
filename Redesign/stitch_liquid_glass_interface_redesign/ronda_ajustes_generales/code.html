@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Ronda</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "inverse-surface": "#e5e0f3", "on-primary": "#571f00", "tertiary-fixed-dim": "#ffb2b7", "on-tertiary-fixed-variant": "#92002a", "error-container": "#93000a", "on-secondary-container": "#ffd5e3", "on-primary-container": "#6f2900", "on-background": "#e5e0f3", "surface-container-lowest": "#0e0c1a", "error": "#ffb4ab", "outline": "#a48b81", "tertiary": "#ffb2b7", "on-error": "#690005", "surface-container-low": "#1c1a27", "secondary-container": "#c00175", "on-error-container": "#ffdad6", "on-primary-fixed-variant": "#7b2f00", "surface-dim": "#14121f", "background": "#14121f", "primary-container": "#ff8c53", "secondary": "#ffb0ce", "surface-variant": "#363342", "on-surface-variant": "#ddc1b5", "on-secondary-fixed-variant": "#8c0054", "outline-variant": "#56423a", "surface": "#14121f", "surface-container-high": "#2b2836", "surface-container-highest": "#363342", "on-tertiary-container": "#840025", "primary-fixed-dim": "#ffb694", "secondary-fixed-dim": "#ffb0ce", "tertiary-container": "#ff8791", "surface-tint": "#ffb694", "surface-container": "#201e2c", "on-surface": "#e5e0f3", "inverse-primary": "#9e430d", "tertiary-fixed": "#ffdadb", "primary": "#ffb694", "on-primary-fixed": "#351000", "inverse-on-surface": "#312f3d", "secondary-fixed": "#ffd9e5", "surface-bright": "#3a3746", "on-secondary": "#64003a", "on-tertiary-fixed": "#40000d", "primary-fixed": "#ffdbcc", "on-secondary-fixed": "#3e0022", "on-tertiary": "#67001b" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "margin": "1.25rem", "margin-lg": "2rem", "space-md": "1rem", "space-lg": "1.5rem", "margin-md": "1.5rem", "gutter": "1rem", "space-xs": "0.375rem", "gutter-sm": "0.75rem", "space-sm": "0.625rem", "space-xl": "2.25rem" }, fontFamily: { "title-md": ["Inter"], "body-lg": ["Inter"], "display-hero-mobile": ["Inter"], "headline-md": ["Inter"], "headline-lg-mobile": ["Inter"], "label-lg": ["Inter"], "headline-lg": ["Inter"], "label-sm": ["Inter"], "display-hero": ["Inter"], "label-md": ["Inter"], "body-md": ["Inter"] }, fontSize: { "title-md": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }], "body-lg": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "500" }], "display-hero-mobile": ["44px", { lineHeight: "48px", letterSpacing: "-0.03em", fontWeight: "800" }], "headline-md": ["22px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }], "headline-lg-mobile": ["26px", { lineHeight: "32px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-lg": ["16px", { lineHeight: "20px", letterSpacing: "-0.005em", fontWeight: "600" }], "headline-lg": ["32px", { lineHeight: "38px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-sm": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "500" }], "display-hero": ["56px", { lineHeight: "60px", letterSpacing: "-0.03em", fontWeight: "800" }], "label-md": ["14px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "500" }], "body-md": ["16px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#14121f;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/75 backdrop-blur-xl shadow-[0_1px_12px_rgba(0,0,0,0.3)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button class="w-11 h-11 rounded-full bg-surface-container-high/60 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[20px]">arrow_back_ios_new</span></button><h1 class="font-title-md text-title-md text-on-surface tracking-tight truncate">Date Mode Flow</h1></div><div class="flex items-center gap-space-sm"><button class="w-11 h-11 rounded-full bg-surface-container-high/60 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-16 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full relative pb-10 overflow-hidden">
+<!-- Dynamic Ambient Glow Overlays (Liquid Glass backdrop diffusion) -->
+<div class="pointer-events-none absolute -top-16 -left-12 w-72 h-72 rounded-full bg-primary-container/20 blur-[80px]"></div>
+<div class="pointer-events-none absolute top-1/3 -right-20 w-80 h-80 rounded-full bg-secondary-container/15 blur-[90px]"></div>
+<div class="pointer-events-none absolute bottom-10 left-1/4 w-72 h-72 rounded-full bg-primary/10 blur-[85px]"></div>
+<!-- Screen Content Flow -->
+<div class="flex flex-col gap-space-xl relative z-10 w-full max-w-md mx-auto">
+<!-- Screen Sub-header / Status Badge -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high/70 backdrop-blur-xl shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary">Sincronizado local</span>
+</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant/70 tracking-wider">v2.4 (Build 412)</span>
+</div>
+<!-- 1. SECCIÓN TEMA (Segmented Pill Switcher) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between px-1">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Tema</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Modo de pantalla</span>
+</div>
+<!-- Segmented Liquid Glass Pills Container -->
+<div class="grid grid-cols-3 gap-gutter-sm p-1.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-2xl shadow-inner">
+<!-- Button: Sistema -->
+<button class="theme-btn py-3 px-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all flex items-center justify-center gap-1.5 active:scale-95" id="theme-system" onclick="selectTheme('system')">
+<span class="material-symbols-outlined text-[18px]">settings_brightness</span>
+<span>Sistema</span>
+</button>
+<!-- Button: Claro -->
+<button class="theme-btn py-3 px-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all flex items-center justify-center gap-1.5 active:scale-95" id="theme-light" onclick="selectTheme('light')">
+<span class="material-symbols-outlined text-[18px]">light_mode</span>
+<span>Claro</span>
+</button>
+<!-- Button: Oscuro (Active Default in image) -->
+<button class="theme-btn py-3 px-2 rounded-full font-label-md text-label-md bg-gradient-to-r from-primary-container to-primary text-on-primary-container shadow-[0_4px_20px_-2px_rgba(255,140,83,0.5)] font-semibold transition-all flex items-center justify-center gap-1.5 active:scale-95" id="theme-dark" onclick="selectTheme('dark')">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">dark_mode</span>
+<span>Oscuro</span>
+</button>
+</div>
+</section>
+<!-- 2. SECCIÓN HISTORIAL (Glass Action Tile) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between px-1">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Historial</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant/80">38 partidas guardadas</span>
+</div>
+<!-- Pill Glass Button -->
+<button class="w-full h-14 rounded-full bg-surface-container-high/40 hover:bg-surface-container-high/70 backdrop-blur-2xl transition-all duration-200 flex items-center justify-center gap-space-sm px-margin text-on-surface active:scale-[0.98] shadow-md group" onclick="confirmClearHistory()">
+<div class="w-8 h-8 rounded-full bg-error-container/20 text-error flex items-center justify-center transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-[19px]">delete</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface tracking-tight">Borrar historial</span>
+</button>
+</section>
+<!-- 3. SECCIÓN RESPALDO (Notice & Primary Actions) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1 px-1">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Respaldo</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Importar reemplaza jugadores, cartas propias, historial y ajustes guardados en este dispositivo.
+        </p>
+</div>
+<!-- Warning Callout Card: Liquid Magenta/Crimson Tint -->
+<div class="relative overflow-hidden rounded-lg p-space-md bg-secondary-container/20 backdrop-blur-2xl text-on-surface shadow-md">
+<!-- Subtle inner rim specular highlight -->
+<div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-b from-white/15 to-transparent"></div>
+<div class="relative z-10 flex items-start gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-container/40 flex-shrink-0 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">cloud_sync</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface/95 leading-snug pt-0.5">
+            El navegador puede borrar tus datos si falta espacio de almacenamiento. Haz un respaldo de vez en cuando.
+          </p>
+</div>
+</div>
+<!-- Action Stack -->
+<div class="flex flex-col gap-space-xs mt-1">
+<!-- Export Pill -->
+<button class="w-full h-14 rounded-full bg-surface-container-high/50 hover:bg-surface-container-high/80 backdrop-blur-2xl transition-all duration-200 flex items-center justify-center gap-space-sm px-margin text-on-surface active:scale-[0.98] shadow-md group" onclick="triggerExport()">
+<span class="material-symbols-outlined text-primary text-[22px] transition-transform group-hover:-translate-y-0.5">download</span>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold tracking-tight">Exportar respaldo</span>
+</button>
+<!-- Import Pill -->
+<button class="w-full h-14 rounded-full bg-surface-container-high/50 hover:bg-surface-container-high/80 backdrop-blur-2xl transition-all duration-200 flex items-center justify-center gap-space-sm px-margin text-on-surface active:scale-[0.98] shadow-md group" onclick="triggerImport()">
+<span class="material-symbols-outlined text-secondary text-[22px] transition-transform group-hover:-translate-y-0.5">upload</span>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold tracking-tight">Importar respaldo</span>
+</button>
+</div>
+</section>
+<!-- 4. SECCIÓN CRÉDITOS & FOOTER -->
+<section class="flex flex-col gap-space-xs pt-2">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight px-1">Créditos</h2>
+<div class="rounded-lg p-space-md bg-surface-container-low/60 backdrop-blur-xl flex flex-col gap-space-sm shadow-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center text-primary-fixed-dim shrink-0">
+<span class="material-symbols-outlined text-[18px]">font_download</span>
+</div>
+<div class="flex flex-col">
+<p class="font-label-md text-label-md text-on-surface font-semibold">Tipografías e Iconografía</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Bricolage Grotesque y Figtree, con licencia SIL Open Font License (OFL).</p>
+</div>
+</div>
+<div class="h-[1px] w-full bg-surface-variant/40 my-1"></div>
+<div class="flex items-center justify-between text-on-surface-variant/70 pt-1">
+<span class="font-label-sm text-label-sm">Hecho para jugar cara a cara</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary">
+            Ronda Game
+            <span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+</span>
+</div>
+</div>
+</section>
+<!-- Micro Confirmation Toast / Feedback Banner (Hidden by default, triggered via JS) -->
+<div class="fixed bottom-6 left-margin right-margin max-w-sm mx-auto z-50 transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-space-sm p-4 rounded-full bg-surface-bright/95 backdrop-blur-2xl shadow-[0_16px_36px_rgba(0,0,0,0.5)]" id="action-toast">
+<div class="w-7 h-7 rounded-full bg-primary/20 text-primary flex items-center justify-center" id="toast-icon-wrap">
+<span class="material-symbols-outlined text-[18px]" id="toast-icon">check_circle</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface truncate" id="toast-text">Acción completada</span>
+</div>
+</div>
+</div>
+<script>
+  function selectTheme(mode) {
+    const btns = {
+      system: document.getElementById('theme-system'),
+      light: document.getElementById('theme-light'),
+      dark: document.getElementById('theme-dark')
+    };
+
+    const inactiveClass = 'py-3 px-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all flex items-center justify-center gap-1.5 active:scale-95';
+    const activeClass = 'py-3 px-2 rounded-full font-label-md text-label-md bg-gradient-to-r from-primary-container to-primary text-on-primary-container shadow-[0_4px_20px_-2px_rgba(255,140,83,0.5)] font-semibold transition-all flex items-center justify-center gap-1.5 active:scale-95';
+
+    Object.keys(btns).forEach(key => {
+      if (key === mode) {
+        btns[key].className = activeClass;
+      } else {
+        btns[key].className = inactiveClass;
+      }
+    });
+
+    showToast('Tema cambiado a ' + mode);
+  }
+
+  function confirmClearHistory() {
+    if (confirm('¿Estás seguro de que deseas vaciar el historial de partidas?')) {
+      showToast('Historial borrado con éxito');
+    }
+  }
+
+  function triggerExport() {
+    showToast('Respaldo descargado como JSON');
+  }
+
+  function triggerImport() {
+    showToast('Selecciona un archivo de respaldo válido');
+  }
+
+  function showToast(message) {
+    const toast = document.getElementById('action-toast');
+    const toastText = document.getElementById('toast-text');
+    if (!toast || !toastText) return;
+
+    toastText.textContent = message;
+    toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 2400);
+  }
+</script></main></body></html>

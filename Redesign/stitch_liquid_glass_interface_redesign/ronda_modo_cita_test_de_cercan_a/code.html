@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Evaluación de Cercanía Interpersonal - Modo Cita</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Custom Config -->
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ios: {
+              berry: '#54152b',
+              wine: '#240816',
+              glow: '#ff4d79',
+              coral: '#ff758c',
+              amber: '#ffaa71'
+            }
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', '"SF Pro Text"', 'sans-serif']
+          },
+          boxShadow: {
+            'glow-selected': '0 0 24px -2px rgba(255, 117, 140, 0.55), inset 0 0 12px 0 rgba(255, 255, 255, 0.25)',
+            'liquid-btn': '0 12px 30px -4px rgba(255, 117, 140, 0.5), inset 0 1px 1px 0 rgba(255, 255, 255, 0.6)'
+          }
+        }
+      }
+    };
+  </script>
+<!-- Custom CSS: Liquid Glass and Atmosphere -->
+<style data-purpose="liquid-glass-effects">
+    /* Deep multi-layered romantic background gradient */
+    body {
+      background: radial-gradient(circle at 50% 12%, #852243 0%, #400f21 42%, #180510 88%, #0d0208 100%);
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Glassmorphism translucent backdrop styles */
+    .liquid-glass-card {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 100%);
+      backdrop-filter: blur(28px) saturate(190%);
+      -webkit-backdrop-filter: blur(28px) saturate(190%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.28), inset 0 1px 1px 0 rgba(255, 255, 255, 0.2);
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .liquid-glass-card:active {
+      transform: scale(0.96);
+    }
+
+    .liquid-glass-card-selected {
+      background: linear-gradient(135deg, rgba(255, 117, 140, 0.28) 0%, rgba(255, 77, 121, 0.12) 100%);
+      border: 1.5px solid rgba(255, 170, 113, 0.85);
+      backdrop-filter: blur(32px) saturate(210%);
+      -webkit-backdrop-filter: blur(32px) saturate(210%);
+      box-shadow: 0 10px 30px -4px rgba(255, 77, 121, 0.5), inset 0 1px 2px 0 rgba(255, 255, 255, 0.6);
+    }
+
+    /* Ambient atmospheric fluid orbs */
+    .ambient-glow {
+      position: absolute;
+      border-radius: 9999px;
+      filter: blur(75px);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.65;
+    }
+
+    /* Top notch / status safe space */
+    .safe-top {
+      padding-top: env(safe-area-inset-top, 44px);
+    }
+
+    .safe-bottom {
+      padding-bottom: env(safe-area-inset-bottom, 34px);
+    }
+  </style>
+</head>
+<body class="min-h-full flex justify-center selection:bg-pink-500 selection:text-white">
+<!-- iPhone Container Max Width Limit -->
+<div class="relative w-full max-w-[430px] min-h-screen flex flex-col justify-between overflow-hidden px-6 safe-top safe-bottom">
+<!-- Atmospheric Liquid Lighting Glows -->
+<div class="ambient-glow w-72 h-72 -top-16 -left-16 bg-pink-600/40"></div>
+<div class="ambient-glow w-80 h-80 top-1/3 -right-24 bg-rose-500/30"></div>
+<div class="ambient-glow w-64 h-64 -bottom-10 left-12 bg-amber-500/25"></div>
+<!-- BEGIN: MainHeader -->
+<header class="relative z-10 flex items-center justify-between pt-3 pb-4" data-purpose="top-navigation-bar">
+<!-- Back Navigation Action -->
+<button aria-label="Volver a la pantalla anterior" class="inline-flex items-center gap-1.5 text-white/90 hover:text-white transition-opacity active:opacity-60 text-[17px] font-medium tracking-tight" type="button">
+<svg class="w-5 h-5 stroke-[2.4]" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.75 19.5L8.25 12l7.5-7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span>Volver</span>
+</button>
+<!-- Context Mode Pill Indicator -->
+<div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-xl border border-white/15 text-xs font-semibold uppercase tracking-wider text-rose-100 shadow-sm" data-purpose="mode-indicator">
+<span class="w-1.5 h-1.5 rounded-full bg-rose-400 animate-pulse"></span>
+<span>Modo cita</span>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: MainContent -->
+<main class="relative z-10 flex-1 flex flex-col justify-center py-4" data-purpose="evaluation-content">
+<!-- Content Headings -->
+<section class="space-y-3 mb-6" data-purpose="typography-section">
+<h1 class="text-3xl sm:text-[34px] font-extrabold tracking-tight text-white leading-[1.18]">
+          Ana, ¿qué tan cerca te sientes ahora?
+        </h1>
+<p class="text-[16px] text-rose-150/85 text-pink-100/80 font-normal leading-snug">
+          Elige el par de círculos que mejor describe la relación en este momento. La otra persona no mira.
+        </p>
+</section>
+<!-- Arthur Aron Interpersonal Closeness Selection Grid -->
+<section aria-label="Escala de círculos de cercanía" class="grid grid-cols-4 gap-2.5 sm:gap-3" data-purpose="aron-circles-matrix">
+<!-- Option 1: Completely Separate -->
+<button class="liquid-glass-card rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 group" data-purpose="circle-option" data-value="1" type="button">
+<div class="flex-1 flex items-center justify-center w-full">
+<svg class="w-14 h-7 stroke-white/80 fill-none stroke-[1.8]" viewbox="0 0 70 32">
+<circle cx="15" cy="16" r="11"></circle>
+<circle cx="55" cy="16" r="11"></circle>
+</svg>
+</div>
+<span class="text-sm font-semibold text-white/90">1</span>
+</button>
+<!-- Option 2: Touching / Minor Proximity -->
+<button class="liquid-glass-card rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 group" data-purpose="circle-option" data-value="2" type="button">
+<div class="flex-1 flex items-center justify-center w-full">
+<svg class="w-14 h-7 stroke-white/80 fill-none stroke-[1.8]" viewbox="0 0 70 32">
+<circle cx="23" cy="16" r="11"></circle>
+<circle cx="47" cy="16" r="11"></circle>
+</svg>
+</div>
+<span class="text-sm font-semibold text-white/90">2</span>
+</button>
+<!-- Option 3: Active / Selected State -->
+<button aria-pressed="true" class="liquid-glass-card liquid-glass-card-selected rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 relative overflow-hidden" data-purpose="circle-option-selected" data-value="3" type="button">
+<!-- Subtle Inner Sheen -->
+<div class="absolute inset-0 bg-gradient-to-t from-pink-500/20 via-transparent to-amber-200/20 pointer-events-none"></div>
+<div class="flex-1 flex items-center justify-center w-full relative z-10">
+<svg class="w-14 h-7 stroke-amber-100 fill-white/10 stroke-[2]" viewbox="0 0 70 32">
+<circle cx="27" cy="16" r="11"></circle>
+<circle cx="43" cy="16" r="11"></circle>
+</svg>
+</div>
+<span class="text-sm font-bold text-amber-200 relative z-10 drop-shadow">3</span>
+</button>
+<!-- Option 4: Moderate Overlap -->
+<button class="liquid-glass-card rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 group" data-purpose="circle-option" data-value="4" type="button">
+<div class="flex-1 flex items-center justify-center w-full">
+<svg class="w-14 h-7 stroke-white/80 fill-none stroke-[1.8]" viewbox="0 0 70 32">
+<circle cx="30" cy="16" r="11"></circle>
+<circle cx="40" cy="16" r="11"></circle>
+</svg>
+</div>
+<span class="text-sm font-semibold text-white/90">4</span>
+</button>
+<!-- Option 5: Higher Overlap -->
+<button class="liquid-glass-card rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 group" data-purpose="circle-option" data-value="5" type="button">
+<div class="flex-1 flex items-center justify-center w-full">
+<svg class="w-14 h-7 stroke-white/80 fill-none stroke-[1.8]" viewbox="0 0 70 32">
+<circle cx="31.5" cy="16" r="11"></circle>
+<circle cx="38.5" cy="16" r="11"></circle>
+</svg>
+</div>
+<span class="text-sm font-semibold text-white/90">5</span>
+</button>
+<!-- Option 6: Deep Overlap -->
+<button class="liquid-glass-card rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 group" data-purpose="circle-option" data-value="6" type="button">
+<div class="flex-1 flex items-center justify-center w-full">
+<svg class="w-14 h-7 stroke-white/80 fill-none stroke-[1.8]" viewbox="0 0 70 32">
+<circle cx="33.5" cy="16" r="11"></circle>
+<circle cx="36.5" cy="16" r="11"></circle>
+</svg>
+</div>
+<span class="text-sm font-semibold text-white/90">6</span>
+</button>
+<!-- Option 7: Concentric / Almost Fully Overlapped -->
+<button class="liquid-glass-card rounded-2xl h-[92px] flex flex-col items-center justify-between py-2.5 px-1 group" data-purpose="circle-option" data-value="7" type="button">
+<div class="flex-1 flex items-center justify-center w-full">
+<svg class="w-14 h-7 stroke-white/80 fill-none stroke-[1.8]" viewbox="0 0 70 32">
+<circle cx="35" cy="16" r="11"></circle>
+<circle cx="35" cy="16" r="9.2" stroke-dasharray="1.5 1.5"></circle>
+</svg>
+</div>
+<span class="text-sm font-semibold text-white/90">7</span>
+</button>
+<!-- Empty slot / Ambient Micro Detail for balanced 4x2 aesthetic -->
+<div class="rounded-2xl border border-white/5 bg-white/[0.02] flex items-center justify-center pointer-events-none opacity-40">
+<span class="text-[11px] tracking-wider uppercase text-pink-200/50 font-medium">Aron</span>
+</div>
+</section>
+</main>
+<!-- END: MainContent -->
+<!-- BEGIN: BottomActionSection -->
+<footer class="relative z-10 pt-4 pb-2" data-purpose="sticky-bottom-action">
+<button class="w-full py-4 px-6 rounded-full bg-gradient-to-r from-[#ff8da1] via-[#ff7090] to-[#ffa387] text-[#2c0816] font-bold text-lg tracking-tight shadow-liquid-btn flex items-center justify-center gap-2 hover:brightness-105 active:scale-[0.985] transition-all" data-purpose="submit-rating-button" id="confirm-button" type="button">
+<svg class="w-5 h-5 stroke-[2.8]" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span>Listo</span>
+</button>
+<!-- Home Indicator Spacing (iOS native bar hint) -->
+<div class="w-36 h-1 bg-white/25 rounded-full mx-auto mt-4 mb-1"></div>
+</footer>
+<!-- END: BottomActionSection -->
+</div>
+<!-- Interactive script for card selection -->
+<script data-purpose="rating-interaction">
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('[data-purpose^="circle-option"]');
+      
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          // Deselect previous
+          cards.forEach(c => {
+            c.classList.remove('liquid-glass-card-selected');
+            c.removeAttribute('aria-pressed');
+            const num = c.querySelector('span:last-child');
+            if (num) {
+              num.classList.remove('text-amber-200', 'font-bold');
+              num.classList.add('text-white/90', 'font-semibold');
+            }
+            const svg = c.querySelector('svg');
+            if (svg) {
+              svg.classList.remove('stroke-amber-100', 'fill-white/10');
+              svg.classList.add('stroke-white/80', 'fill-none');
+            }
+          });
+
+          // Select current
+          card.classList.add('liquid-glass-card-selected');
+          card.setAttribute('aria-pressed', 'true');
+          const activeNum = card.querySelector('span:last-child');
+          if (activeNum) {
+            activeNum.classList.add('text-amber-200', 'font-bold');
+            activeNum.classList.remove('text-white/90', 'font-semibold');
+          }
+          const activeSvg = card.querySelector('svg');
+          if (activeSvg) {
+            activeSvg.classList.add('stroke-amber-100', 'fill-white/10');
+            activeSvg.classList.remove('stroke-white/80', 'fill-none');
+          }
+        });
+      });
+    });
+  </script>
+</body></html>

@@ -1,0 +1,1071 @@
+{
+  "id": "rather-spicy",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "rather-spicy-0001",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cena a la luz de las velas o una noche de karaoke?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0002",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un beso en la primera cita o esperar a la tercera?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0003",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu ex te escriba a medianoche o que te vea feliz con otra persona?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0004",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja muy celosa que te adora o una pareja muy independiente que casi no te extraña?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0005",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: recibir una carta de amor anónima o una serenata frente a todos tus vecinos?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0006",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un primer beso perfecto pero corto o uno torpe pero larguísimo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0007",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja revise tu celular o que tú revises el suyo sin que se entere?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0008",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita sorpresa organizada por ti o una organizada por la otra persona?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0009",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: enamorarte de tu mejor amigo o enamorarte de un completo desconocido?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0010",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita llegue con flores o que llegue con un playlist hecho para ti?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0011",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una relación apasionada pero caótica o una tranquila pero un poco aburrida?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0012",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que alguien te coquetee con indirectas o que te lo diga directo y sin rodeos?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0013",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: encontrarte a un ex en una boda o encontrarte a la familia de tu ex en el supermercado?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0014",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: pareja con muy buen humor y poco romántica o muy romántica y sin humor?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0015",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te dejen por mensaje de texto o que te dejen en persona pero con mucha educación?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0016",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: bailar pegado con alguien que te gusta o mirarse a los ojos un minuto entero sin hablar?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0017",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que huela increíble pero ronque o una que huela normal y duerma como un ángel?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0018",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: conocer a tu pareja ideal en un avión o en la fila de un trámite eterno?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0019",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tus amigos aprueben a tu pareja pero no te guste, o que te encante pero tus amigos la odien?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0020",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: recibir un piropo muy cursi frente a todos o un cumplido sincero y en voz baja?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0021",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita de ocho horas con alguien que adoras o diez citas de una hora con alguien nuevo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0022",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que alguien te mire fijo desde lejos o que te mande una nota con su número?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0023",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu crush descubra que lo stalkeaste o que tu crush te descubra bailando solo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0024",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que te cocine siempre o una que te sorprenda con viajes?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0025",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: perdonar una infidelidad una vez o no perdonarla nunca y quedarte solo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0026",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: casarte en una ceremonia enorme o escaparte a casarte en secreto?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0027",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu primera cita sea en un parque de diversiones o en una cena formal?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0028",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu suegra te adore y tu pareja no tanto, o que tu pareja te adore y tu suegra no?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0029",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: contar tu historial de ex ante todo el grupo o que alguien más lo cuente por ti?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0030",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un amor de verano inolvidable que se acaba o una relación larga sin chispa?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0031",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea más guapa que tú o más inteligente que tú?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0032",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te llamen por un apodo cariñoso ridículo o que nunca te digan un apodo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0033",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja pase una hora arreglándose o que llegue siempre sin avisar?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0034",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: besar a alguien bajo la lluvia o besar a alguien en un mirador al atardecer?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0035",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: enterarte de que le gustas a alguien por un amigo o por un mensaje equivocado?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0036",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: sentir celos de tu pareja con un ex o que ella los sienta de ti?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0037",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: hacerle una declaración de amor en público o que te la hagan a ti?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0038",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que te llame cada día o una que te escriba largas cartas cada semana?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0039",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu primera impresión sea tímida pero encantadora o segura pero algo arrogante?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0040",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: volver con tu primer amor o conocer a alguien totalmente nuevo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0041",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: ver a tu crush en pijama o verlo con su mejor ropa?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0042",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea un poco misteriosa o que te cuente absolutamente todo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0043",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un beso apasionado delante de tu familia o un beso en el cine delante de desconocidos?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0044",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu ex hable bien de ti con sus amigos o que hable mal pero nadie le crea?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0045",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja con la que discutas mucho y te reconcilies o una con la que nunca discutes?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0046",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te guste alguien que no te hace caso o que te guste alguien que te persigue?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0047",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te regale joyas o que te regale un recuerdo hecho a mano?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0048",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: enviar un mensaje atrevido al chat equivocado o dar un abrazo larguísimo a la persona equivocada?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0049",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita a ciegas que sale mal o una cita perfecta que nunca más vuelve a llamar?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0050",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea mejor bailarina que tú o mejor cantante que tú?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0051",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan te quiero demasiado pronto o que tarden años en decírtelo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0052",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un romance de película con final triste o una historia común con final feliz?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0053",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu crush te vea llorando en una película o riendo a carcajadas con la boca abierta?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0054",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita pida postre para compartir o que se coma el tuyo sin preguntar?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0055",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja tenga un gran amigo del sexo opuesto o una gran amistad con su ex?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0056",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: despertar abrazado a alguien o despertar con desayuno listo y la otra persona ya vestida?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0057",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te presenten a la familia en el primer mes o conocerla a los dos años?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0058",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te escriba poemas malos o que te cante canciones desafinadas?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0059",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja ideal viva muy lejos o viva en el piso de al lado y se cruce contigo siempre?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0060",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te saquen a bailar sin avisar o que te sorprendan con una canción dedicada?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0061",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: tener un crush secreto durante años o declararte mañana y arriesgarte al rechazo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0062",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea súper ordenada o súper desordenada pero divertida?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0063",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que el amor de tu vida te encuentre tarde o que lo encuentres joven y se acabe?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0064",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja guarde una foto de su ex o que lea todos tus mensajes viejos?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0065",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja con mucho éxito que trabaja siempre o una pareja sin ambición que está siempre contigo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0066",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu ex se case primero o que tu ex tenga más éxito que tú?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0067",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una mirada intensa en medio de una fiesta o un roce de manos en una escalera?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0068",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te despierte con besos o que te despierte con una canción?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0069",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu primera cita se alargue hasta el amanecer o que termine pronto con una invitación a otra?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0070",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu mejor amigo salga con tu ex o que tu ex salga con tu jefe?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0071",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un apodo secreto que solo use tu pareja o decirle te quiero en público por primera vez?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0072",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan que eres guapo por compromiso o que te lo digan en serio pero una sola vez?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0073",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja con tatuajes por todas partes o una que odie los tatuajes?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0074",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una noche perfecta con un desconocido que no vuelves a ver o una noche normal con alguien que amas?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0075",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea muy detallista con fechas o muy espontánea sin planes?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0076",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: ligar en una biblioteca o ligar en una fila para el cine?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0077",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan algo bonito en otro idioma o que te lo escriban con letra preciosa?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0078",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita se ría de todos tus chistes o que no se ría de ninguno pero te mire fijo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0079",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: enamorar a alguien con tu voz o enamorarlo con tu forma de escribir?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0080",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te dé la razón siempre o que te lleve la contraria con cariño?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0081",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un amor imposible que nunca olvidas o un amor sencillo que terminó bien?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0082",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja se vista siempre elegante o que se vista siempre cómoda?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0083",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te dediquen una canción en la radio o que te regalen una foto de ambos enmarcada?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0084",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que alguien te escriba un te extraño a las tres de la mañana o a las tres de la tarde?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0085",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que un desconocido te invite a cenar o que alguien conocido te invite a un picnic?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0086",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te vean con un ex o que te vean con alguien nuevo que no conocen?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0087",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: tener química inmediata con alguien incompatible o ir sintiendo la química poco a poco?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0088",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita en la que hablan sin parar o una en la que disfrutan los silencios?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0089",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja admita que le gustaba alguien más o que lo niegue pero se note?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0090",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan que besas increíble o que te digan que eres un gran conversador?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0091",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: conocer a tu pareja ideal hoy sin poder verla hasta dentro de un año o verla cada día sin poder hablarle?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0092",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te prepare una sorpresa en tu cumpleaños o que se olvide y se disculpe con algo mejor?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0093",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que te elogie en público o una que te lo susurre en privado?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0094",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: haberte enamorado solo una vez en la vida o haberte enamorado diez veces sin que funcionara?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0095",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu primer amor sea hoy tu vecino o que sea hoy alguien famoso?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0096",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea ultra cariñosa en público o ultra cariñosa solo en privado?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0097",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te sorprendan con una cita en tu casa o una cita en un lugar que no conoces?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0098",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: sentir mariposas por alguien que no te corresponde o ser correspondido por alguien que no te hace sentir nada?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0099",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te cuente todos sus ex o que no te cuente ninguno?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0100",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te pidan matrimonio en un partido o que te lo pidan en casa en pijama?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0101",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea fan de tu mayor defecto o que ignore tu mayor virtud?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0102",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: un beso robado que te deje pensando o una confesión sincera que te deje sin palabras?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0103",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita llegue una hora tarde con un regalo precioso o puntual pero con las manos vacías?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0104",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: reencontrarte con un ex en una reunión de amigos o descubrir que tu ex sigue guardando tus mensajes?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0105",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: bailar un bolero con alguien que te gusta o ver una película de terror bajo la misma manta?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0106",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu crush le dé like a una foto tuya de hace tres años o que responda tu historia con un solo emoji?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0107",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que tarda en responder pero siempre sorprende o una que responde al instante pero es predecible?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0108",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te presenten a alguien que podría gustarte en una boda o en una fiesta de cumpleaños infantil?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0109",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te escriba buenos días todos los días o que te dé las buenas noches con una llamada larga?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0110",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita donde cocinan juntos y todo sale mal o una cita en un restaurante elegante donde todo sale perfecto?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0111",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu crush sepa tu canción favorita o que sepa tu peor manía?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0112",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan que eres el amor de su vida en la primera cita o que te lo digan después de un año?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0113",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te cuente todos sus secretos del pasado o que te mantenga siempre un misterio sin resolver?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0114",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: sentarte junto a tu crush en un viaje largo en tren o quedar atrapado con él en un ascensor lento?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0115",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu ex te desee suerte en tu boda o que te envíe un mensaje de felicitación el día de tu cumpleaños?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0116",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que te enseñe a bailar salsa o una que te enseñe a cocinar su plato favorito?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0117",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu crush te diga que le gustas con una nota escrita a mano o con un mensaje de voz de dos minutos?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0118",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te toquen la puerta a medianoche con una declaración o que te lo digan en una carta que llega a tu trabajo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0119",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: tener un romance de oficina secreto o un romance a distancia con videollamadas diarias?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0120",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea el alma de la fiesta o que sea la persona más callada pero con la mirada más intensa?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0121",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita se disculpe diez veces por un error o que lo ignore y te mire como si nada?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0122",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu primer beso con alguien nuevo sea frente a un atardecer o en medio de un baile lleno de gente?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0123",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te regale un viaje sorpresa o que te escriba una canción con tu nombre?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0124",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tus padres elijan a tu pareja ideal o que tus amigos organicen todas tus citas durante un año?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0125",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja sea fan de las películas románticas o fan de los documentales de crímenes?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0126",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una historia de amor que empezó como una pelea o una que empezó como una amistad de diez años?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0127",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan algo coqueto al oído en una fiesta ruidosa o que te lo escriban en una servilleta?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0128",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja pueda leer tus pensamientos un día o que tú puedas leer los suyos?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0129",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita te presente a su mascota primero o a sus mejores amigos primero?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0130",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que alguien que te gusta te busque en redes cada día o que se atreva a pedirte una cita por mensaje?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0131",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te cuente un secreto vergonzoso de su pasado o que te cuente cómo se enamoró por primera vez?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0132",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: ser el último en enterarte de un chisme romántico del grupo o ser el protagonista del chisme?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0133",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu ex mejore mucho con otra persona o que tu ex siga igual de soltero y te recuerde cada tanto?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0134",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita con alguien que habla mucho de su ex o con alguien que habla mucho de sí mismo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0135",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te digan que tienes una sonrisa que enamora o que tienes una mirada que da miedo y gusta?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0136",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: descubrir que tu pareja tiene un diario donde escribe de ti o descubrir que guarda cada nota que le escribiste?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0137",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te pida perdón con un abrazo largo o con una carta de tres páginas?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0138",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu cita te cuente un chiste malo para romper el hielo o que te haga una pregunta muy personal?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0139",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: tener química con tu jefe pero no poder hacer nada o tener química con el amigo de tu ex?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0140",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu primer baile lento sea con alguien tímido o con alguien que te pisa todo el rato?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0141",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que alguien te guiñe un ojo a través de la sala o que te sonría un buen rato sin decir nada?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0142",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que cante en la ducha a todo volumen o una que hable dormida y diga cosas raras?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0143",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: tener un amor de juventud que reaparece o una nueva ilusión que llega de sorpresa?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0144",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te dedique un discurso de amor en público o que te dedique un poema en voz baja?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0145",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una pareja que siempre tiene razón o una que siempre tiene un plan para todo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0146",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: enamorarte de la voz de alguien que no conoces o de la letra de alguien que te escribe cartas?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0147",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que te presenten a alguien con la frase te va a encantar o con la frase es tu tipo?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0148",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: una cita larga con alguien que te cae bien pero no te late o una breve con alguien que te late pero no te cae bien?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0149",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja te despierte con un masaje en los hombros o con un desayuno que huele delicioso?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0150",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu relación sea un secreto de dos o que todo el grupo sepa que sales con alguien?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0151",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu pareja recuerde cada aniversario o que invente uno nuevo cada mes para celebrar?",
+      "tags": []
+    },
+    {
+      "id": "rather-spicy-0152",
+      "type": "RATHER",
+      "level": "SPICY",
+      "text": "¿Qué prefieres: que tu crush te mande un meme que le recordó a ti o una canción que le recordó a ti?",
+      "tags": []
+    }
+  ]
+}

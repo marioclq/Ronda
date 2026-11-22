@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100vh;margin:0;padding:0;background-color:#14121f;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#ffdadb","error":"#ffb4ab","on-secondary-fixed":"#3e0022","secondary-fixed-dim":"#ffb0ce","on-tertiary":"#67001b","on-error-container":"#ffdad6","surface-container-highest":"#363342","primary-container":"#ff8c53","on-tertiary-fixed-variant":"#92002a","inverse-on-surface":"#312f3d","tertiary":"#ffb2b7","primary-fixed":"#ffdbcc","tertiary-container":"#ff8791","inverse-surface":"#e5e0f3","secondary-container":"#c00175","secondary":"#ffb0ce","secondary-fixed":"#ffd9e5","surface-variant":"#363342","surface-container-high":"#2b2836","on-primary-fixed":"#351000","surface-container":"#201e2c","on-tertiary-container":"#840025","on-surface-variant":"#ddc1b5","on-secondary-fixed-variant":"#8c0054","outline":"#a48b81","error-container":"#93000a","background":"#14121f","on-secondary-container":"#ffd5e3","on-surface":"#e5e0f3","surface-bright":"#3a3746","surface-container-lowest":"#0e0c1a","outline-variant":"#56423a","primary":"#ffb694","on-tertiary-fixed":"#40000d","on-error":"#690005","surface-container-low":"#1c1a27","primary-fixed-dim":"#ffb694","surface-dim":"#14121f","tertiary-fixed-dim":"#ffb2b7","surface-tint":"#ffb694","surface":"#14121f","on-background":"#e5e0f3","on-secondary":"#64003a","on-primary-container":"#6f2900","on-primary-fixed-variant":"#7b2f00","inverse-primary":"#9e430d","on-primary":"#571f00"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-sm":"0.625rem","space-xs":"0.375rem","gutter":"1rem","margin":"1.25rem","margin-md":"1.5rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2.25rem","margin-lg":"2rem","gutter-sm":"0.75rem"},"fontFamily":{"display-hero":["Inter"],"label-sm":["Inter"],"headline-lg":["Inter"],"label-lg":["Inter"],"headline-lg-mobile":["Inter"],"title-md":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"],"display-hero-mobile":["Inter"],"label-md":["Inter"],"body-md":["Inter"]},"fontSize":{"display-hero":["56px",{"lineHeight":"60px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"20px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-hero-mobile":["44px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-md":["14px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}],"body-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen selection:bg-primary-container selection:text-on-primary"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.18)]"><div class="h-14 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Salir o Volver" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-bright/40 transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[22px]">arrow_back_ios_new</span></button><h1 class="text-title-md font-title-md text-on-surface truncate font-semibold">Active Game Round</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Opciones de Ronda" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-bright/40 transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_0_12px_rgba(255,182,148,0.25)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-14 pb-safe bg-surface px-margin"><div class="flex flex-col w-full relative pb-margin-lg overflow-hidden select-none">
+<!-- Dynamic Ambient Glow Backdrops -->
+<div class="absolute -top-12 -left-16 w-72 h-72 rounded-full bg-primary-container/20 blur-[100px] pointer-events-none"></div>
+<div class="absolute top-1/3 -right-20 w-80 h-80 rounded-full bg-secondary-container/25 blur-[120px] pointer-events-none"></div>
+<div class="absolute -bottom-10 left-10 w-64 h-64 rounded-full bg-primary/15 blur-[90px] pointer-events-none"></div>
+<!-- Turn Header & Meta -->
+<div class="flex flex-col items-start gap-space-xs mt-space-md mb-space-lg relative z-10">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">casino</span>
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-on-surface-variant">Modo al azar</span>
+</div>
+<div class="flex items-baseline justify-between w-full">
+<div>
+<span class="font-label-md text-label-md text-on-surface-variant block">Turno de</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight font-extrabold flex items-center gap-2">
+          Beto
+          <span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-primary animate-ping"></span>
+</h2>
+</div>
+<!-- Roulette Phase Badge -->
+<div class="flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container-lowest/60 backdrop-blur-xl" id="statusBadge">
+<span class="material-symbols-outlined text-[15px] text-tertiary animate-spin" id="spinIcon">sync</span>
+<span class="font-label-sm text-label-sm text-on-surface" id="badgeText">Fijando destino</span>
+</div>
+</div>
+</div>
+<!-- Central Roulette Glass Deck Viewport -->
+<div class="relative w-full flex flex-col items-center justify-center my-space-sm py-space-xs">
+<!-- Carousel Stack Depth Underlays -->
+<div class="absolute w-[86%] h-[340px] rounded-lg bg-surface-container-highest/30 backdrop-blur-xl -translate-y-4 scale-[0.92] opacity-35 transition-all duration-500 pointer-events-none shadow-md" id="deckBackSecond"></div>
+<div class="absolute w-[93%] h-[350px] rounded-lg bg-surface-container-high/50 backdrop-blur-2xl -translate-y-2 scale-[0.96] opacity-60 transition-all duration-500 pointer-events-none shadow-lg" id="deckBackFirst"></div>
+<!-- Active High-Luminance Glass Reveal Container -->
+<div class="relative w-full min-h-[360px] rounded-lg bg-gradient-to-br from-white/[0.14] via-surface-container-high/70 to-surface-container-lowest/80 backdrop-blur-2xl p-space-lg flex flex-col items-center justify-between text-center overflow-hidden transition-all duration-500 shadow-[0_20px_50px_rgba(0,0,0,0.45)]" id="rouletteCard">
+<!-- Specular Top Rim Reflection Glow -->
+<div class="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+<div class="absolute inset-0 bg-radial from-primary/10 via-transparent to-transparent pointer-events-none"></div>
+<!-- Card Top: Mode Status / Ticker Indicator -->
+<div class="w-full flex items-center justify-between relative z-10">
+<div class="flex items-center gap-1.5 opacity-80">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Resultado oficial</span>
+</div>
+<!-- Intensity Dial Indicator -->
+<div class="flex items-center gap-1 bg-surface-container-lowest/80 px-2.5 py-1 rounded-full backdrop-blur-md">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-on-surface-variant/40"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1 font-semibold">Nivel 2</span>
+</div>
+</div>
+<!-- Center Roulette Core: Chosen Category Reveal -->
+<div class="my-auto py-4 flex flex-col items-center justify-center relative z-10">
+<!-- Glowing Circular Emblem / Icon Anchor -->
+<div class="relative w-20 h-20 rounded-full flex items-center justify-center bg-gradient-to-tr from-primary-container to-secondary shadow-[0_8px_30px_rgba(255,140,83,0.4)] mb-space-md transition-transform duration-300" id="iconOrb">
+<div class="absolute inset-0 rounded-full bg-white/20 blur-sm pointer-events-none"></div>
+<span class="material-symbols-outlined text-[38px] text-on-primary transition-all duration-300" id="revealedIcon" style="font-variation-settings: 'FILL' 1;">chat_bubble</span>
+</div>
+<!-- Typography Heading -->
+<h3 class="font-display-hero-mobile text-display-hero-mobile text-on-surface tracking-tight font-extrabold mb-1 drop-shadow-[0_4px_16px_rgba(0,0,0,0.5)]" id="modeTitle">
+          Verdad
+        </h3>
+<!-- Dynamic Flavor Prompt Hint -->
+<p class="font-body-md text-body-md text-on-surface-variant max-w-[240px] leading-snug" id="modeSubtitle">
+          Confesiones íntimas y recuerdos que nunca has contado.
+        </p>
+<!-- Orbital Tick Sweep Indicator -->
+<div class="flex items-center justify-center gap-2 mt-space-md opacity-75">
+<span class="h-1 w-2.5 rounded-full bg-on-surface-variant/30"></span>
+<span class="h-1 w-6 rounded-full bg-primary transition-all duration-300" id="tickIndicator"></span>
+<span class="h-1 w-2.5 rounded-full bg-on-surface-variant/30"></span>
+</div>
+</div>
+<!-- Card Base: Atmospheric Confidentiality Note -->
+<div class="w-full relative z-10 flex items-center justify-center gap-2 pt-space-xs text-on-surface-variant/80">
+<span class="material-symbols-outlined text-[15px]">lock_open</span>
+<span class="font-label-sm text-label-sm">Obligatorio responder con total sinceridad</span>
+</div>
+</div>
+</div>
+<!-- Roulette Auxiliary Status Prompt -->
+<div class="text-center my-space-sm px-gutter">
+<p class="font-label-md text-label-md text-on-surface-variant">
+      La suerte favorece a los valientes. ¿Aceptas el veredicto?
+    </p>
+</div>
+<!-- Pinned Interactive Actions Zone -->
+<div class="flex flex-col gap-space-sm w-full mt-space-sm relative z-20">
+<!-- Primary CTA: Reveal Question -->
+<button class="w-full h-14 rounded-full bg-gradient-to-r from-primary-container via-primary to-primary-container text-on-primary-fixed font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-[0_12px_32px_-4px_rgba(255,140,83,0.45)] active:scale-[0.98] transition-transform font-bold cursor-pointer" id="btnReveal" type="button">
+<span id="btnRevealText">Revelar pregunta</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<!-- Secondary CTA: Spin Again -->
+<button class="w-full h-12 rounded-full bg-white/[0.07] hover:bg-white/[0.12] active:bg-white/[0.05] active:scale-[0.98] backdrop-blur-xl text-on-surface font-label-md text-label-md flex items-center justify-center gap-2 transition-all cursor-pointer" id="btnReroll" type="button">
+<span class="material-symbols-outlined text-[19px] text-primary" style="font-variation-settings: 'FILL' 1;">replay</span>
+<span>Girar otra vez (-1 comodín)</span>
+</button>
+</div>
+<!-- Mini Social Group Chips -->
+<div class="mt-space-lg flex items-center justify-center gap-3">
+<div class="flex -space-x-2 overflow-hidden py-1">
+<div class="w-6 h-6 rounded-full bg-secondary-container flex items-center justify-center text-[10px] text-on-secondary font-bold ring-2 ring-surface">V</div>
+<div class="w-6 h-6 rounded-full bg-primary-container flex items-center justify-center text-[10px] text-on-primary font-bold ring-2 ring-surface">B</div>
+<div class="w-6 h-6 rounded-full bg-surface-bright flex items-center justify-center text-[10px] text-on-surface font-bold ring-2 ring-surface">C</div>
+<div class="w-6 h-6 rounded-full bg-tertiary-container flex items-center justify-center text-[10px] text-on-tertiary font-bold ring-2 ring-surface">S</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">4 jugadores observando</span>
+</div>
+</div>
+<script>
+  (function () {
+    const card = document.getElementById('rouletteCard');
+    const title = document.getElementById('modeTitle');
+    const subtitle = document.getElementById('modeSubtitle');
+    const iconOrb = document.getElementById('iconOrb');
+    const iconSpan = document.getElementById('revealedIcon');
+    const rerollBtn = document.getElementById('btnReroll');
+    const revealBtn = document.getElementById('btnReveal');
+    const revealBtnText = document.getElementById('btnRevealText');
+    const spinIcon = document.getElementById('spinIcon');
+    const badgeText = document.getElementById('badgeText');
+    const deckBackFirst = document.getElementById('deckBackFirst');
+    const deckBackSecond = document.getElementById('deckBackSecond');
+
+    const modes = [
+      {
+        name: 'Verdad',
+        icon: 'chat_bubble',
+        subtitle: 'Confesiones íntimas y recuerdos que nunca has contado.',
+        btnText: 'Revelar pregunta',
+        orbClass: 'from-primary-container to-secondary',
+        iconColor: 'text-on-primary'
+      },
+      {
+        name: 'Reto',
+        icon: 'local_fire_department',
+        subtitle: 'Acciones audaces, llamadas arriesgadas o pagar penitencia.',
+        btnText: 'Revelar desafío',
+        orbClass: 'from-secondary-container to-primary',
+        iconColor: 'text-on-secondary-container'
+      }
+    ];
+
+    let currentModeIndex = 0;
+    let isSpinning = false;
+
+    function executeSpin() {
+      if (isSpinning) return;
+      isSpinning = true;
+
+      badgeText.textContent = "Girando ruleta...";
+      spinIcon.classList.add('animate-spin');
+      
+      // Deck visual animation feedback
+      card.classList.add('scale-[0.97]', 'opacity-80');
+      deckBackFirst.classList.add('-translate-y-5', 'scale-[0.98]');
+      deckBackSecond.classList.add('-translate-y-8', 'scale-[0.94]');
+
+      let counter = 0;
+      const spinSpeed = 90;
+      const totalCycles = 14;
+
+      const interval = setInterval(() => {
+        counter++;
+        currentModeIndex = (currentModeIndex + 1) % modes.length;
+        const current = modes[currentModeIndex];
+
+        title.textContent = current.name;
+        iconSpan.textContent = current.icon;
+        
+        if (counter >= totalCycles) {
+          clearInterval(interval);
+          finalizeSpin();
+        }
+      }, spinSpeed);
+    }
+
+    function finalizeSpin() {
+      const finalSelection = modes[currentModeIndex];
+      
+      title.textContent = finalSelection.name;
+      subtitle.textContent = finalSelection.subtitle;
+      revealBtnText.textContent = finalSelection.btnText;
+      iconSpan.textContent = finalSelection.icon;
+
+      // Update Orb Gradient
+      iconOrb.className = `relative w-20 h-20 rounded-full flex items-center justify-center bg-gradient-to-tr ${finalSelection.orbClass} shadow-[0_8px_30px_rgba(255,140,83,0.4)] mb-space-md transition-transform duration-300 scale-110`;
+      
+      setTimeout(() => {
+        iconOrb.classList.remove('scale-110');
+      }, 250);
+
+      // Restore stack positions
+      card.classList.remove('scale-[0.97]', 'opacity-80');
+      deckBackFirst.classList.remove('-translate-y-5', 'scale-[0.98]');
+      deckBackSecond.classList.remove('-translate-y-8', 'scale-[0.94]');
+
+      spinIcon.classList.remove('animate-spin');
+      badgeText.textContent = "Destino listo";
+      isSpinning = false;
+    }
+
+    rerollBtn.addEventListener('click', executeSpin);
+    
+    revealBtn.addEventListener('click', () => {
+      revealBtn.classList.add('scale-95');
+      setTimeout(() => revealBtn.classList.remove('scale-95'), 150);
+    });
+  })();
+</script></main></body></html>

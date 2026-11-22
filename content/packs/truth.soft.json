@@ -1,0 +1,1078 @@
+{
+  "id": "truth-soft",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "tod-t-soft-0001",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la mentira más grande que le has dicho a alguien de esta mesa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0002",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué canción te da vergüenza admitir que te encanta?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0003",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue el momento más incómodo que has vivido en una cita?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0004",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la peor excusa que inventaste para cancelar un plan?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0005",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué objeto de tu casa guardas desde hace años sin saber por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0006",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué mensaje enviaste a la persona equivocada y cómo saliste del apuro?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0007",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la manía más rara que tienes cuando estás solo en casa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0008",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué mentira pequeña repites tanto que ya casi te la crees?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0009",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue tu peor corte de pelo y quién te convenció de hacértelo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0010",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué serie o película has fingido haber visto para no quedar mal en una conversación?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0011",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el sueño más absurdo que recuerdas haber tenido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0012",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué es lo más raro que has buscado en internet a las tres de la madrugada?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0013",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué regalo recibiste que fingiste adorar pero nunca usaste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0014",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál ha sido tu peor entrevista de trabajo y qué fue lo que salió mal?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0015",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué hábito tuyo crees que a los demás les resulta insoportable?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0016",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la cosa más cara que has comprado por impulso y de la que te arrepentiste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0017",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué personaje de ficción te representa más, aunque te dé pena admitirlo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0018",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿En qué momento te dio un ataque de risa totalmente inoportuno?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0019",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa cotidiana haces peor que todo el mundo y te da vergüenza reconocer?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0020",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el chisme más jugoso del que te has enterado en un trabajo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0021",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué talento inútil tienes que casi nadie conoce?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0022",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la peor idea de negocio que se te ha ocurrido en serio?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0023",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué aplicación del celular usas más de lo que te gustaría admitir?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0024",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la caída más ridícula que has tenido delante de otras personas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0025",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué plato cocinas fatal pero insistes en preparar cada vez que hay visitas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0026",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿A quién de esta mesa le pedirías consejo para una decisión importante y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0027",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la cosa más infantil que sigues haciendo siendo adulto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0028",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué dijiste alguna vez en una reunión creyendo que estaba en silencio?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0029",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el apodo más vergonzoso que te han puesto alguna vez?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0030",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué foto tuya del celular jamás dejarías que nadie de aquí viera?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0031",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué superstición tienes que defenderías aunque sepas que no tiene sentido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0032",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el viaje que más se torció y qué pasó exactamente?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0033",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué es lo primero que harías si fueras invisible durante un día entero?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0034",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la comida que te da asco y todos te dicen que es deliciosa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0035",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa le has copiado a alguien de aquí sin que se diera cuenta?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0036",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la peor película que has visto completa solo por terquedad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0037",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué secreto de trabajo has guardado y ya no importa contar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0038",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el error de ortografía o de pronunciación que cometes sin remedio?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0039",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué tarea de la casa pospones hasta que ya es una emergencia?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0040",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué harías con un millón de dólares si tuvieras que gastarlo todo en una semana?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0041",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿En qué ocasión te hiciste pasar por otra persona, aunque fuera por un minuto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0042",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la última cosa que te hizo llorar de risa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0043",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué mensaje de voz has escuchado más de tres veces seguidas y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0044",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa le prestaste a alguien de esta mesa y nunca te devolvió?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0045",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue tu peor compra por internet cuando lo que llegó no se parecía a la foto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0046",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué trabajo raro hiciste alguna vez que casi nadie sabe?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0047",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la regla absurda que tienes en tu casa y que nadie más entiende?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0048",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué palabra o frase repites tanto que ya sospechas que cansa a los demás?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0049",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué haces cuando nadie te ve que jamás harías con público?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0050",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la cita o el plan en grupo más aburrido al que has asistido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0051",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa te prometiste cambiar este año y ni siquiera has empezado?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0052",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el sonido que no soportas y que te saca de quicio?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0053",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué famoso crees que sería tu mejor amigo y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0054",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue el momento en que más miedo has pasado dentro de una casa o un edificio?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0055",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué parte de tu rutina de la mañana nadie creería si la contaras?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0056",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿A qué le tienes un miedo irracional que te da pena confesar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0057",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué opinión impopular tienes sobre la comida que todos aman?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0058",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue el último vídeo que compartiste y qué dice de ti?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0059",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué desastre doméstico provocaste alguna vez por intentar arreglar algo tú mismo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0060",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa harías si supieras que nadie se va a enterar jamás?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0061",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la lección más cara que aprendiste por no leer las instrucciones?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0062",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cualidad de la persona que está a tu derecha te gustaría tener?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0063",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la peor sorpresa de cumpleaños que te han hecho o que tú hiciste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0064",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa guardas en el celular únicamente por si algún día la necesitas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0065",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la vez que más ridículo hiciste hablando en otro idioma?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0066",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué personaje histórico invitarías a cenar y qué le preguntarías primero?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0067",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el chat de grupo que más te aburre y que nunca te atreves a silenciar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0068",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cambiarías de tu personalidad si pudieras borrar un solo defecto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0069",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué momento de tu vida te gustaría grabar para poder verlo de nuevo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0070",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el cumplido más raro que te han hecho?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0071",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué tan seguido hablas solo y de qué temas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0072",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué sería lo peor que podría aparecer en tu historial de reproducciones de música?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0073",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la vez que llegaste más tarde a algo importante y qué pretexto diste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0074",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué recuerdo de una fiesta preferirías que nadie más recordara?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0075",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la discusión más tonta en la que has perdido una hora entera?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0076",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué decisión pequeña cambió por completo el rumbo de tu semana, tu año o tu vida?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0077",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué escena de una película te ha hecho llorar y no lo reconoces en público?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0078",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el mayor malentendido que has tenido con un vecino o un desconocido?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0079",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Si tuvieras que cambiar de nombre mañana, cuál elegirías y por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0080",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa te han dicho muchas veces de ti que sabes que es verdad pero niegas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0081",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el favor más grande que le has pedido a un amigo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0082",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué dato inútil sabes de memoria y cuándo te ha servido de algo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0083",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué es lo más vergonzoso que te ha pasado en una videollamada?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0084",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la excusa que más usas para salirte de una conversación aburrida?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0085",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué juego de mesa o videojuego te saca el peor lado competitivo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0086",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué hiciste una vez para evitar saludar a alguien que viste de lejos?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0087",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el mejor consejo que has recibido y que nunca seguiste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0088",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué aroma o sabor te transporta de inmediato a un recuerdo concreto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0089",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál sería el titular de una noticia sobre tu vida si fuera un escándalo ridículo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0090",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa darías por sentada y extrañarías muchísimo si desapareciera mañana?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0091",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿En qué momento te diste cuenta de que ya eras oficialmente adulto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0092",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa te costó años aprender que a los demás les parece básica?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0093",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el primer concierto o evento al que fuiste y cómo lo recuerdas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0094",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué hiciste en un día libre que sabías que era una pérdida de tiempo total y aun así disfrutaste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0095",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué descubriste sobre un amigo de esta mesa que te sorprendió muchísimo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0096",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el hábito de otra persona que te desespera pero nunca le has dicho?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0097",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué mentira blanca dices cada semana sin sentir culpa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0098",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa guardas que huele o se ve horrible, pero que no te atreves a tirar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0099",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la situación en la que más rápido cambiaste de opinión sobre alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0100",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué habilidad envidias de alguien de esta mesa y cómo la usarías tú?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0101",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es la peor primera impresión que has dado y cómo la corregiste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0102",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa te da tanta flojera que prefieres pasar incomodidad antes que hacerla?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0103",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué anécdota tuya sueles contar en las reuniones y cuánto exageras en ella?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0104",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué materia del colegio odiabas y qué hacías para sobrevivirla?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0105",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue tu primer empleo y qué fue lo más absurdo que te pidieron hacer?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0106",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué travesura de una mascota tuya sigue siendo leyenda en tu familia?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0107",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué juguete pediste con desesperación de niño y olvidaste en una semana?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0108",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué viaje soñado sigues posponiendo y cuál es la excusa de siempre?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0109",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa metes siempre en la maleta y casi nunca usas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0110",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué planta se te murió después de jurar que la cuidarías?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0111",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué profesión elegirías si el dinero no importara?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0112",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la regla de tu casa de niño que te pareció más injusta?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0113",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué atajo de limpieza usas que en el fondo es puro disimulo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0114",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué deporte o actividad empezaste con entusiasmo y abandonaste a las dos semanas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0115",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué tradición de tu familia le parecería más rara a alguien de fuera?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0116",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué compraste solo porque estaba en oferta y nunca sacaste de la caja?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0117",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es tu desayuno ideal y cuál es el que realmente te comes?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0118",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Con qué disfraz te presentaste a una fiesta y todavía te da risa o pena?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0119",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué superpoder completamente inútil te gustaría tener?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0120",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué haces para entretenerte en un trayecto largo cuando no tienes batería?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0121",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué tan lejos has llegado para evitar contestar una llamada?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0122",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue tu mayor travesura en el colegio y te descubrieron?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0123",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué receta de tu familia te gustaría aprender a cocinar igual que quien la inventó?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0124",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué chiste interno de tu grupo de amigos nadie de fuera entendería?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0125",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué te da más pereza explicar cuando te preguntan a qué te dedicas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0126",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué recuerdo de tu infancia tienes clarísimo sin saber por qué?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0127",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál es el peor regalo que le has dado a alguien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0128",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué rincón de tu ciudad recomendarías a un turista y casi nadie conoce?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0129",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué pequeño lujo te permites sin sentir culpa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0130",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuántas alarmas pones para despertarte y cuál es la única que de verdad funciona?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0131",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué título le pondrías a tu autobiografía?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0132",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué aprendiste con un tutorial de internet que te cambió la rutina?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0133",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cosa básica te da vergüenza no saber hacer a tu edad?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0134",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué personaje de dibujos animados de tu infancia te sigue cayendo bien?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0135",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué cenas cuando estás solo y nadie te puede juzgar?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0136",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué te pone de mal humor apenas te despiertas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0137",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la peor idea de decoración que tuviste para tu cuarto?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0138",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué escondes a toda prisa cuando llegan visitas inesperadas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0139",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué invento te gustaría que existiera y todavía nadie ha hecho?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0140",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cómo ganaste una discusión sabiendo perfectamente que no tenías la razón?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0141",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué número tuyo en un acto escolar preferirías que nadie hubiera grabado?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0142",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Quién te saca la risa más escandalosa y qué hace para lograrlo?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0143",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué situación te hizo sudar frío durante un examen?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0144",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué lugar del mundo quieres conocer solo por una foto que viste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0145",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué combinación de comidas te encanta aunque a los demás les parezca asquerosa?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0146",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué haces cuando alguien te saluda con mucha confianza y no recuerdas su nombre?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0147",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué tendencia de redes sociales te parece sobrevalorada aunque todos la adoren?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0148",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué te enseñó alguien más joven que tú y no te lo esperabas?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0149",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué le dirías a tu yo de diez años si pudieras mandarle una nota?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0150",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿A qué hora del día eres más insoportable y quién lo sufre?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0151",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué aparato de cocina compraste con ilusión y está olvidado en un armario?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0152",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Cuál fue la mejor o la peor fiesta infantil de cumpleaños a la que fuiste?",
+      "tags": []
+    },
+    {
+      "id": "tod-t-soft-0153",
+      "type": "TRUTH",
+      "level": "SOFT",
+      "text": "¿Qué tarea de la casa o del trabajo harías con gusto toda la vida?",
+      "tags": []
+    }
+  ]
+}

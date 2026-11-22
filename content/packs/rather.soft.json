@@ -1,0 +1,1078 @@
+{
+  "id": "rather-soft",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "rather-soft-0001",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: viajar al pasado o viajar al futuro?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0002",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: no volver a usar el celular o no volver a ver series?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0003",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: hablar todos los idiomas o tocar todos los instrumentos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0004",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: comer pizza todos los días o comer tacos todos los días durante un año?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0005",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: dormir siempre una siesta de veinte minutos o dormir ocho horas seguidas sin sueños?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0006",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un mayordomo que te despierte con música o un robot que cocine tus desayunos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0007",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: perder tu celular una semana o perder tus llaves tres veces en un mes?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0008",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: vivir en una casa en el árbol o en un departamento en el último piso de un rascacielos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0009",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todos los semáforos te den luz verde o que todas las filas avancen rápido para ti?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0010",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: hablar con los animales o entender a los bebés cuando lloran?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0011",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu risa suene como un pato o que tu estornudo suene como una sirena?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0012",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ver siempre tu película favorita sin poder cambiarla o ver una distinta cada día que no elegiste?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0013",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: cantar cada vez que te pongas nervioso o bailar cada vez que oigas tu nombre?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0014",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: no poder usar nunca más el pulgar derecho o no poder usar nunca más el dedo meñique izquierdo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0015",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ganarte una cena gratis cada semana en un lugar al azar o un viaje sorpresa una vez al año?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0016",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu mascota hable pero te critique o que no hable pero te adore en silencio?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0017",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: llegar siempre diez minutos tarde o llegar siempre una hora antes?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0018",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: leer todos los libros del mundo o ver todas las películas del mundo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0019",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener siempre frío en los pies o siempre calor en las manos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0020",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: no volver a comer queso o no volver a comer chocolate?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0021",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que cada mensaje que escribas tenga una falta de ortografía o que se envíe siempre con un retraso de una hora?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0022",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser el mejor del mundo cocinando o el mejor del mundo contando chistes?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0023",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: vivir un mes en una isla desierta con un amigo o un mes en una ciudad enorme sin conocer a nadie?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0024",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que se te caiga el celular al inodoro o que se te caiga el helado el primer día de verano?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0025",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: volar a la velocidad de un caminante o correr a la velocidad de un avión?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0026",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: conocer a tu yo de hace diez años o a tu yo de dentro de diez años?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0027",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: un trabajo que ames con sueldo normal o un trabajo aburrido con sueldo enorme?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0028",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que se acabe la batería de tu celular al 10 por ciento siempre o que se te congele en cada foto?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0029",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener tu propia sala de cine en casa o tu propia cocina de restaurante?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0030",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: no saber nunca qué hora es o no saber nunca qué día es?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0031",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: pasar un día entero sin hablar o un día entero hablando sin parar?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0032",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tus vecinos escuchen todos tus audios o que lean todas tus búsquedas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0033",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: bañarte solo con agua helada o secarte solo con una toalla mojada?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0034",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una banda sonora que suene en tu vida o un narrador que comente todo lo que haces?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0035",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: pelear con un oso de peluche gigante o con cien patos de goma?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0036",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu equipo favorito gane siempre pero sin emoción o que pierda a veces con finales épicos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0037",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: vivir sin música o vivir sin fotografías?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0038",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu mejor amigo sea un genio fastidioso o una persona simpática pero distraída?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0039",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: repetir un solo día para siempre si es perfecto o vivir cada día con una pequeña sorpresa mala?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0040",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener memoria perfecta para los nombres o memoria perfecta para los caminos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0041",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: comer helado de sabor sorpresa siempre o comer siempre tu sabor favorito sin cambiar?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0042",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: vivir en la playa durante todo el invierno o en una cabaña de montaña durante todo el verano?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0043",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que te toque siempre el asiento del medio o que te toque siempre el asiento con el respaldo roto?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0044",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: poder pausar el tiempo cinco minutos al día o rebobinar cinco segundos cuando quieras?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0045",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: escribir un libro que nadie lea o grabar una canción que todos tarareen sin saber que es tuya?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0046",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener cien amigos superficiales o tres amigos para toda la vida?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0047",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu sofá sea siempre incómodo pero tu escritorio perfecto o al revés?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0048",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: olvidar tu cumpleaños cada año o que todos olviden el suyo menos tú?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0049",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un superoído que oiga todo o una supervista que vea muy lejos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0050",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todos tus recuerdos se vean en blanco y negro o que todos tus sueños se olviden al despertar?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0051",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: caminar descalzo por un piso frío o caminar con zapatos mojados todo el día?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0052",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu clave del wifi sea imposible de recordar o que tu clave del celular sea tu mayor vergüenza?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0053",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser invisible diez minutos al día o poder teletransportarte solo a lugares donde ya estuviste?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0054",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu casa huela siempre a pan recién hecho o a lluvia sobre tierra mojada?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0055",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que cada vez que mientas te salga hipo o que cada vez que digas la verdad te dé risa?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0056",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un perro enorme que te empuje o un gato pequeño que te ignore?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0057",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser famoso por algo vergonzoso o ser desconocido pero muy feliz?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0058",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: una semana sin internet o una semana sin cocinar?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0059",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu ropa nunca se arrugue o que tus zapatos nunca se ensucien?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0060",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: hacer una presentación en pijama o hacer una videollamada con un gorro de cumpleaños?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0061",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu canción favorita suene de despertador siempre o que tu canción favorita se vuelva insoportable?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0062",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser el más alto de cualquier grupo o ser el más rápido en cualquier carrera?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0063",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todo lo que comas sea un poco frío o todo lo que comas sea un poco picante?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0064",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener tres deseos pequeños cada día o un solo deseo enorme en toda tu vida?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0065",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu voz suene siempre como una grabación o que tu letra parezca siempre de un médico?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0066",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: encontrar una billetera ajena con un papel de agradecimiento o encontrar un premio pequeño en cada bolsillo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0067",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que siempre llueva los fines de semana o que siempre haga calor sofocante entre semana?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0068",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una oficina en una azotea con vista o un escritorio en una biblioteca silenciosa?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0069",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que te regalen siempre calcetines o que te regalen siempre velas aromáticas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0070",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: saber cómo termina cada serie antes de verla o no saber nunca el final de ninguna?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0071",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: bailar en una boda ajena sin que te inviten o cantar en el karaoke de un restaurante lleno?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0072",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: poder dibujar como un artista famoso o tocar el piano como un virtuoso?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0073",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu sombra haga cosas distintas a ti o que tu reflejo te salude con retraso?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0074",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: una mudanza cada año a una ciudad nueva o vivir para siempre en el mismo barrio?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0075",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un jardín lleno de gnomos o una sala llena de plantas que se mueren?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0076",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu desayuno sea siempre la cena de ayer o que tu cena sea siempre cereal?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0077",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: cambiar de cuerpo con tu mascota un día o cambiar de vida con un famoso una hora?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0078",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que el ascensor se detenga contigo un rato o que el internet se caiga justo cuando llegas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0079",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: saber hacer magia con cartas o saber hacer malabares con fuego de mentira?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0080",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todos te llamen por un apodo ridículo o que nadie recuerde jamás tu nombre?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0081",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: un abrazo de un oso polar de peluche gigante o una almohada que te cuente cuentos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0082",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ir a cualquier concierto gratis de por vida o ir a cualquier partido gratis de por vida?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0083",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tus chistes solo los entienda una persona o que todos se rían de ti sin que sepas por qué?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0084",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: vivir en un mundo sin lunes o en un mundo con dos domingos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0085",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: oír siempre una canción pegajosa en tu cabeza o ver siempre un anuncio molesto en tus sueños?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0086",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una máquina que haga cualquier postre o una que lave toda la ropa?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0087",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que la gente se ría con tus bromas pero no te escuche o que te escuche pero nunca se ría?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0088",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: terminar siempre el último en un juego de mesa o ganar siempre pero que nadie quiera jugar contigo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0089",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: conocer la fecha exacta de tu muerte o la fecha exacta en que conocerás a tu mejor amigo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0090",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu casa sea un museo de tus cosas viejas o que esté vacía y ordenada?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0091",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: estornudar cada vez que ríes o ríes cada vez que estornudas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0092",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un día extra cada semana para descansar o una hora extra cada día para ti?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0093",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que te toque exponer sin preparar o que te toque cocinar para veinte sin receta?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0094",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener que usar siempre sombrero o tener que usar siempre bufanda, incluso en verano?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0095",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser campeón de un videojuego que nadie conoce o ser mediocre en el juego más famoso?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0096",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: acampar bajo la lluvia con buena compañía o dormir en un hotel lujoso con gente que no soportas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0097",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: sacarte una foto horrible que se haga viral o no volver a salir bien en ninguna foto?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0098",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: poder comer todo el postre que quieras sin culpa o dormir todo lo que quieras sin culpa?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0099",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu mejor anécdota sea mentira y nadie lo sepa o que sea verdad y nadie te crea?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0100",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un pasillo secreto en tu casa o una habitación que cambie de color según tu humor?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0101",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu primer trabajo sea para siempre tu único trabajo o cambiar de profesión cada dos años?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0102",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: encontrar un tesoro enterrado en tu patio o descubrir que tu casa estuvo embrujada y nunca lo notaste?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0103",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todos canten cuando entras a un lugar o que todos te aplaudan cuando te vas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0104",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu alarma sea un gallo gritando o una canción romántica de los años ochenta?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0105",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: una reunión de trabajo que podía ser un correo o un correo larguísimo que podía ser una reunión?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0106",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener que explicar un chiste malo a todos o que nadie ría de un chiste buenísimo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0107",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: revivir tu primer día de colegio o revivir tu primer día en tu primer trabajo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0108",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: cocinar la mejor receta de tu vida sin que nadie la pruebe o preparar un plato mediocre que todos aplauden?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0109",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un botón para silenciar a cualquiera diez segundos o un botón para repetir cualquier momento feliz?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0110",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que en tu casa siempre haya un mosquito zumbando o una gotera que suena toda la noche?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0111",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser el encargado de organizar cada cumpleaños del grupo o el encargado de recordar a todos que paguen su parte?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0112",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu pelo cambie de color cada semana al azar o que tus zapatos cambien de color cada día al azar?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0113",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una biblioteca infinita de música o una videoteca infinita de documentales?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0114",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu celular te corrija siempre con una palabra graciosa o que te lea los mensajes en voz alta con voz de robot?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0115",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: perder siempre el último bocado de tu comida favorita o perder siempre el primero?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0116",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ganar un concurso de baile con un solo paso o perder un concurso de talentos con un número increíble?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0117",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener siempre el cargador justo cuando lo necesitas o tener siempre una sombrilla justo cuando llueve?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0118",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: vivir en una ciudad donde siempre es de noche o en una donde siempre es de día?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0119",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que cada vez que entres a una tienda suene una fanfarria o que cada vez que salgas te despidan con un aplauso?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0120",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser experto en historia antigua o ser experto en secretos de los videojuegos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0121",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu primer recuerdo de la infancia sea el más vergonzoso o el más feliz, pero que todos lo conozcan?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0122",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: una pizza con tu ingrediente más odiado o un postre con tu ingrediente más odiado?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0123",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener un reloj que adelante cinco minutos o un reloj que atrase cinco minutos?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0124",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser el protagonista de una comedia absurda o el protagonista de un drama que te hace llorar?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0125",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una mesa que se ponga sola o una ropa que se doble sola?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0126",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu compañero de trabajo cante todo el día o que silbe todo el día la misma melodía?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0127",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: recordar cada sueño con todo detalle o no recordar jamás ninguno?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0128",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu vecino te regale siempre sus recetas fallidas o que te pida prestado siempre algo pequeño?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0129",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una voz grave como la de un locutor o una voz aguda como la de un dibujo animado?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0130",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: un fin de semana de juegos de mesa con amigos o un fin de semana de maratón de series a solas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0131",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: poder volar en todos tus sueños o poder respirar bajo el agua en todos tus sueños?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0132",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu mochila sea un agujero negro donde todo se pierde o que sea tan pesada que nadie puede cargarla?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0133",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una mascota dragón del tamaño de un gato o un gato del tamaño de un dragón?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0134",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: escribir tu biografía con todo lo vergonzoso o que otra persona la escriba inventando lo que quiera?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0135",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser el primero en llegar a una fiesta vacía o el último en irse cuando ya apagan las luces?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0136",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener una máquina del tiempo que solo funciona cinco minutos o un mapa del tesoro que solo funciona de noche?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0137",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todos tus recuerdos de cumpleaños sean con globos pinchados o que todos tengan lluvia y fiesta cancelada?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0138",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: dormir en un sillón que se mece solo o en una hamaca que se balancea toda la noche?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0139",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que te toque siempre ser el árbitro de las discusiones o siempre el que lleva la comida a las reuniones?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0140",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: una sopa que nunca se enfría o un postre que nunca se acaba pero siempre es del mismo sabor?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0141",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu foto de perfil sea la de tu infancia con peinado ridículo o la de tu último disfraz?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0142",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que todos los programas de cocina salgan mal en vivo o que todas las noticias sean tonterías simpáticas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0143",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: saber jugar a la perfección al ajedrez o saber contar cualquier historia con suspenso?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0144",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu casa tenga una puerta que rechina fuerte o un piso que cruje en cada paso?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0145",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: usar solo ropa de un color por el resto de tu vida o usar solo ropa estampada con animales?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0146",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: poder hablar con tu yo de ocho años o poder hablar con tu yo de ochenta?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0147",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener siempre una canción de fondo en tus peores momentos o un redoble de tambor en tus mejores?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0148",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu casa tenga un tobogán en lugar de escaleras o una tirolesa hacia la cocina?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0149",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que el wifi funcione solo cuando estás de buen humor o que el aire acondicionado funcione solo cuando dices por favor?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0150",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: ser el mejor imitador de voces del grupo o el mejor contador de adivinanzas?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0151",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: que tu primera impresión sea siempre que te tropiezas o siempre que se te cae algo?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0152",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: tener la despensa siempre llena de snacks raros o el refrigerador siempre lleno de sobras de ayer?",
+      "tags": []
+    },
+    {
+      "id": "rather-soft-0153",
+      "type": "RATHER",
+      "level": "SOFT",
+      "text": "¿Qué prefieres: organizar un viaje de grupo y que todo salga caótico o ser invitado a uno perfecto donde no conoces a nadie?",
+      "tags": []
+    }
+  ]
+}

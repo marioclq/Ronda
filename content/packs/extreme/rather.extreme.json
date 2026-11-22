@@ -1,0 +1,364 @@
+{
+  "id": "rather-extreme",
+  "version": 2,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "rather-extreme-0001",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: contar tu mayor secreto o que lo cuente otra persona?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0002",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una noche de pasión sin hablar o una noche entera de conversación íntima con besos?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0003",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: contar tu fantasía más secreta o escuchar la de tu pareja sin poder opinar?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0004",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que te sorprendan con una escapada romántica o que te dejen una nota muy atrevida?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0005",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: tener la mejor noche de tu vida y no recordar el nombre o recordarlo todo con alguien que no volverás a ver?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0006",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: seducir con la mirada toda una noche o seducir con un susurro al oído?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0007",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja tome siempre la iniciativa o tomarla tú siempre?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0008",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un encuentro apasionado en un hotel elegante o uno improvisado en la cocina de casa?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0009",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: confesar tu mayor experiencia atrevida o que tu pareja confiese la suya?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0010",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una pareja muy fogosa pero poco cariñosa o muy cariñosa pero poco fogosa?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0011",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja te cuente una fantasía que te sorprenda o que adivine una tuya sin que se la cuentes?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0012",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una noche de masajes largos con música suave o una noche de baile pegados en la sala?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0013",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que te digan lo que les gusta de ti con detalle o que te lo demuestren sin una palabra?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0014",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: haber tenido un amante secreto hace años o haber sido el secreto de otra persona?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0015",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja sea muy experimentada o que ambos aprendan juntos desde cero?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0016",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un beso largo contra la pared o un beso lento sobre el sofá?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0017",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: dejar que tu pareja elija la lencería o ropa interior que usarás o elegirla tú para sorprenderla?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0018",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una noche de intimidad con luces apagadas o con velas encendidas?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0019",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja gima fuerte sin importarle los vecinos o que se muerda los labios en silencio?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0020",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un juego de roles con disfraces o un juego de preguntas íntimas sin límite?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0021",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja te vende los ojos y te sorprenda o vendárselos tú a ella?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0022",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: contar cuántas parejas has tenido o adivinar cuántas ha tenido la otra persona?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0023",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un encuentro de media hora muy intenso o una noche entera tranquila y larga?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0024",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una pareja que te seduzca con mensajes durante el día o una que lo haga solo con miradas en la noche?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0025",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que te sorprendan en la ducha con una visita inesperada o en la cama con un desayuno atrevido?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0026",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja hable mucho durante la intimidad o que no diga una sola palabra?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0027",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una cita que termine en besos en el coche de otro o en un balcón con vista?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0028",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: repetir tu mejor noche con la misma persona o vivir una nueva con alguien distinto?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0029",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja recuerde cada detalle de tu cuerpo o cada fantasía que le contaste?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0030",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una pareja dominante en la cama o una pareja que siempre te deje decidir?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0031",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un fin de semana entero en cama sin salir o una semana de caricias y cero intimidad total?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0032",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que te digan cuál es tu punto más sensible o descubrirlo tú solo con calma?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0033",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja haya tenido más experiencias que tú o muchas menos?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0034",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: grabar una nota de voz muy seductora o escribir una carta provocadora a mano?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0035",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una luna de miel en una cabaña aislada o en un hotel de ciudad con servicio a la habitación?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0036",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: despertar con caricias o despertar con una nota sugerente en la almohada?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0037",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: tener química sexual enorme con poca conversación o conversación brillante con química justa?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0038",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja te cuente lo que más disfruta o que te lo muestre sin avisar?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0039",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu primera vez con alguien sea torpe y divertida o perfecta y algo fría?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0040",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un beso de despedida larguísimo en una estación o uno en la puerta de tu casa?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0041",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: tener una noche loca con un famoso o tener una noche tierna con tu amor de juventud?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0042",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja te susurre cosas atrevidas en una reunión familiar o te las escriba durante una cena de trabajo?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0043",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un baño juntos con espuma y música o una noche de películas con caricias lentas?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0044",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja pruebe algo nuevo contigo cada semana o repita lo que sabe que te encanta?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0045",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: confesar tu mayor fantasía a un grupo de amigos o a tu pareja en privado?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0046",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: un amante que te desee en secreto o una pareja que te desee a la vista de todos?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0047",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu cita te robe un beso por sorpresa o que te lo pida con mucha ceremonia?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0048",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una pareja que te provoque con indirectas durante días o una que vaya directo al grano?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0049",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: una noche inolvidable que arruine tu amistad o una amistad intacta con la duda de qué habría pasado?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0050",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu pareja te elija la música de la noche o que elija la ropa que llevarás puesta?",
+      "tags": []
+    },
+    {
+      "id": "rather-extreme-0051",
+      "type": "RATHER",
+      "level": "EXTREME",
+      "text": "¿Qué prefieres: que tu mayor secreto íntimo lo sepa tu mejor amigo o que lo sepa tu pareja actual?",
+      "tags": []
+    }
+  ]
+}

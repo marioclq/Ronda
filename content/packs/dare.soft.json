@@ -1,0 +1,1173 @@
+{
+  "id": "dare-soft",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "tod-d-soft-0001",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita a {otro} durante veinte segundos.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0002",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla con acento extranjero hasta tu próximo turno.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0003",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Baila como si nadie te viera durante treinta segundos.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0004",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Narra como locutor de fútbol lo que hace {otro} mientras esa persona camina por la sala.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0005",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz tu mejor cara de sorpresa y mantenla hasta que alguien adivine qué te sorprendió.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0006",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Canta el coro de una canción conocida usando solo la vocal «o».",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0007",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta tu día de hoy como si fuera un documental de la naturaleza.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0008",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Camina por la sala como un modelo en pasarela y haz una pose final.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0009",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz que {otro} adivine una película solo con mímica, sin hablar.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0010",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Di un trabalenguas tres veces seguidas sin equivocarte.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0011",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dibuja con los ojos cerrados un perro y muéstrale el resultado al grupo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0012",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz tu mejor imitación de un bebé que acaba de probar limón.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0013",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla sin mover los labios hasta que termine tu próximo turno.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0014",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Presenta el objeto más cercano como si lo vendieras en un canal de televisión.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0015",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz sonar tu mejor risa de villano de película.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0016",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Baila una canción que elija {otro} sin música, solo tarareándola tú.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0017",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz tres preguntas a {otro} usando solo palabras que empiecen con «p».",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0018",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla como robot hasta que pasen treinta segundos.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0019",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Enseña al grupo el último meme que guardaste en tu celular, sin publicarlo en ningún lado.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0020",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una reverencia dramática de teatro y agradece a un público imaginario.",
+      "tags": [],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-soft-0021",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Describe tu desayuno de hoy con el tono de un crítico de restaurante elegante.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0022",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita a un animal elegido por el grupo hasta que alguien lo adivine.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0023",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dile a {otro} un piropo de abuela que suene sincero, sin que sea romántico.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0024",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una rutina de calentamiento de gimnasio con el máximo de energía.",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0025",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Recita el abecedario al revés lo más rápido que puedas.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0026",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Da un discurso de agradecimiento como si acabaras de ganar un premio por tu talento oculto.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0027",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cambia de lugar con {otro} y actúa como esa persona hasta tu próximo turno.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0028",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz el sonido de tres electrodomésticos distintos y deja que el grupo los adivine.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0029",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Inventa en voz alta el eslogan de una marca de calcetines.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0030",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Camina de lado por toda la sala como si fueras un cangrejo.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0031",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Lee en voz alta tu último mensaje enviado con voz de telenovela, si no es privado.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0032",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Mantén el equilibrio en un solo pie con los ojos cerrados contando en voz alta.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0033",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz que {otro} te dé una orden absurda y cúmplela, siempre que sea segura.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0034",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta un chiste y no te rías tú; si el grupo no se ríe, cuenta otro.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0035",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta del uno al veinte intercalando una palabra inventada cada vez que digas un número par.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0036",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de reportero del clima y anuncia el pronóstico de mañana para esta sala.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0037",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita la forma de reír de {otro} hasta que esa persona se ría también.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0038",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Hazte una selfi con la peor cara que puedas y muéstrala, sin enviarla a nadie.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0039",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Describe a una persona del grupo sin decir su nombre y deja que adivinen quién es.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0040",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una coreografía de tres movimientos y enséñasela a {otro}.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0041",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla durante un minuto sobre tu planta favorita, real o inventada, con total convicción.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0042",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Pronuncia tu nombre completo como si fueras un presentador de lucha libre.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0043",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz un brindis solemne con agua por algo ridículo del día de hoy.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0044",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Simula que cocinas un plato imaginario y narra cada paso con detalle.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0045",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Deja que {otro} te ponga un apodo nuevo y úsalo para presentarte durante toda la ronda.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0046",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Describe cómo es tu rutina de la mañana a cámara lenta, moviéndote igual.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0047",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Menciona cinco países cuyo nombre empiece con la misma letra que tu nombre.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0048",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una cara de enojo y otra de ternura seguidas, lo más exageradas posible.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0049",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cambia la letra de una canción infantil para que hable del trabajo y cántala.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0050",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Recorre la sala como si el suelo fuera lava y no pudieras pisarlo mucho tiempo.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0051",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dile a {otro} tres cosas que admiras de su forma de trabajar o de estudiar.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0052",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una llamada de teatro: interpreta un enfado enorme por una cuchara perdida.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0053",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Enseña al grupo tu mejor truco inútil, el que sea.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0054",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dramatiza la escena más trágica que se te ocurra usando solo un objeto de la mesa.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0055",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Elige a alguien del grupo y adivina su comida favorita; si fallas, vuelve a intentarlo una vez.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0056",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla como si fueras un pirata hasta que pasen treinta segundos.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0057",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Escribe con el dedo en el aire tu firma con la mano que no usas normalmente.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0058",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Anuncia por megáfono imaginario que la reunión está por empezar y que hay snacks.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0059",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita el sonido de la alarma de tu celular por la mañana, con toda la actuación.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0060",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta cómo conociste a {otro}, inventando todos los detalles más exagerados.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0061",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Intenta lamerte el codo y, cuando falles, haz una reverencia al grupo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0062",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Hazte pasar por guía de museo y explica con seriedad una mancha en la pared.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0063",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Di tres cosas que ves en la sala sin usar las letras «a» ni «e».",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0064",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz un anuncio de radio para vender tu lugar favorito de la ciudad.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0065",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Deja que el grupo elija una frase y dila con tres emociones distintas.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0066",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de abogado defensor de {otro} por el delito de haber llegado tarde alguna vez.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0067",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Muestra al grupo la foto más antigua que tengas en el celular, sin enviarla a nadie.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0068",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Corre en el mismo lugar como si te persiguiera un gallo furioso.",
+      "tags": [],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-soft-0069",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita el caminar de alguien famoso y deja que el grupo adivine quién es.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0070",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla con la voz más aguda que puedas hasta que alguien te pida que pares.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0071",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Inventa una receta con tres ingredientes que hay en la sala y descríbela con orgullo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0072",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una escena de despedida dramática con tu taza o tu vaso como si se fuera de viaje.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0073",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Enseña tu mejor baile de cumpleaños sin música.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0074",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de entrenador motivacional y dale a {otro} una charla épica antes de lavar los platos.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0075",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Predice tres cosas absurdas que le pasarán a alguien del grupo el próximo mes.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0076",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Ponte un objeto de la sala como sombrero y desfila con dignidad.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0077",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Explica a {otro} cómo atarse los zapatos como si fuera una operación de alto riesgo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0078",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz un resumen de una película famosa usando solo tres frases de una palabra cada una.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0079",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Pon tu cara más seria y di «mi gato dirige esta empresa» sin reírte.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0080",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Hazte pasar por un abuelo gruñón y cuéntale a {otro} cómo era todo antes.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0081",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Nombra diez animales en menos de veinte segundos, sin repetir ninguno.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0082",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita a un camarero demasiado dramático que ofrece el menú del día.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0083",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Deja que el grupo te asigne una profesión ridícula y preséntate con ella.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0084",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Aplaude al ritmo de una canción y haz que {otro} la adivine.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0085",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta la historia de tu primer celular como si fuera una leyenda antigua.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0086",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de maestro de yoga y guía al grupo en una respiración profunda absurdamente seria.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0087",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla sin usar la letra «s» hasta que termine tu próximo turno.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0088",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Interpreta el mismo bostezo de cinco formas distintas, de la más tranquila a la más exagerada.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0089",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuéntale a {otro} un secreto inventado, con cara de que es un asunto de Estado.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0090",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz tu mejor cara de póker mientras el grupo intenta hacerte reír.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0091",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Ordena tres objetos de la sala por orden de importancia y defiende tu criterio.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0092",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz la mímica de tu actividad favorita del fin de semana sin hablar.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0093",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dedica un poema de cuatro versos a {otro} sobre su taza de café o su vaso, el que tenga.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0094",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de comentarista deportivo y narra cómo {otro} toma un puñado de snacks.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0095",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Inventa una palabra nueva, define su significado y úsala en una frase.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0096",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz el sonido de una ciudad en hora pico, solo con la voz.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0097",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Elige un objeto de la sala y defiéndelo como si fuera tu mejor amigo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0098",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Aplaude cuando alguien diga una vocal y haz una pausa cuando diga otra letra; empieza ya.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0099",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz una reseña de cinco estrellas de la última comida que pediste a domicilio.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0100",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Pasea por la sala imitando a un señor que acaba de perder las llaves.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0101",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz que {otro} elija una emoción y cuéntale tu día usando esa emoción.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0102",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dirige una orquesta imaginaria mientras el grupo tararea una canción.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0103",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Presenta al grupo tu superpoder más inútil y demuéstralo.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0104",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Describe esta sala como un agente inmobiliario que intenta vender una casa embrujada sin admitir que lo está.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0105",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz con la boca el sonido de un módem antiguo conectándose a internet.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-soft-0106",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Inventa tres títulos de películas de terror cuyo monstruo sea una verdura.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0107",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Lee la etiqueta de cualquier objeto cercano con voz de noticiero de última hora.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0108",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Pide a {otro} tres palabras al azar y arma con ellas un cuento de un minuto.",
+      "tags": [],
+      "timerSeconds": 60
+    },
+    {
+      "id": "tod-d-soft-0109",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Despídete de todos como si te mudaras a la Luna mañana mismo.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0110",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta hasta diez en tres idiomas; si no sabes alguno, invéntalo con total seguridad.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0111",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Dibuja a {otro} con la mano que no usas para escribir y muestra el resultado al grupo.",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0112",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Explica las reglas de un deporte inventado por ti, con tres movimientos y un árbitro imaginario.",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0113",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de GPS y guía a {otro} desde su asiento hasta la puerta de la sala, giro por giro.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0114",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta una leyenda urbana inventada en el barrio, con voz de fogata y pausas dramáticas.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0115",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Muestra tu cara de lunes por la mañana y, de inmediato, tu cara de viernes por la tarde.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-soft-0116",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla durante veinte segundos de lo que quieras, pero usando solo preguntas.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0117",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Conversa un minuto con {otro} sin poder decir nada que no empiece con «sí, pero».",
+      "tags": [],
+      "timerSeconds": 60
+    },
+    {
+      "id": "tod-d-soft-0118",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Recita tu lista de pendientes de la semana como si fuera un poema épico de guerra.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0119",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz de mayordomo inglés y sirve un plato imaginario a {otro}, con todo el protocolo.",
+      "tags": [],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-soft-0120",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Representa en cámara lenta un gol imposible, con repetición de la jugada incluida.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0121",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Explícale a {otro} tu plan para dominar el mundo en tres pasos, con la calma de un oficinista.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0122",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Deja en voz alta el mensaje de buzón de voz más extraño que se te ocurra.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0123",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Camina hasta la puerta de la sala y de vuelta con un cojín o una libreta en equilibrio sobre la cabeza.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0124",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Escribe tu nombre en el aire usando solo la nariz.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-soft-0125",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Reacciona como si te acabaran de anunciar que mañana es feriado, pero sin decir una sola palabra.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0126",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Presenta a cada persona de la sala como si fuera concursante de un reality de cocina.",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0127",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Imita una tormenta eléctrica usando solo las manos, los pies y la voz.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0128",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Expresa una emoción moviendo solo una ceja y haz que {otro} adivine cuál es.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0129",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Canta el cumpleaños feliz como si fuera una ópera, con vibrato y todo.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0130",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta una anécdota de tu infancia sin usar nunca la palabra «yo».",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0131",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Relata la última hora de hoy como narrador de cuento infantil, con voz suave y moraleja final.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0132",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Arma una escultura con tres objetos de la sala y ponle un título digno de museo.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0133",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Di los días de la semana al revés, sin pausas y sin equivocarte.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-soft-0134",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Responde a {otro} usando solo refranes durante veinte segundos, sin importar lo que pregunte.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0135",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Camina por la sala como si cada paso se hundiera en gelatina.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0136",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta un chiste de papá con tanta seriedad que nadie sepa si era un chiste.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0137",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta con mímica, sin hablar, el último sueño que recuerdes y deja que el grupo lo interprete.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0138",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Entrevista a {otro} como si acabara de volver de Marte y hazle tres preguntas serias.",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0139",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Inventa un superhéroe para {otro}: nombre, poder y una debilidad ridícula.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0140",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Lee en voz alta el nombre de tu última lista de reproducción como si fuera el título de una novela.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0141",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Pon la cara que haces cuando abres la nevera buscando algo sin saber qué.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-soft-0142",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Da tres órdenes seguidas a tu ejército imaginario de pingüinos, con tono de general.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0143",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Inventa un saludo para el trabajo o la escuela y enséñaselo a {otro}; practíquenlo dos veces.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0144",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Habla durante veinte segundos como si tuvieras un caramelo gigante en la boca.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0145",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Interpreta la vida de una palomita de maíz, desde el grano hasta el tazón.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0146",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Di cinco palabras que terminen en «ción» en menos de diez segundos.",
+      "tags": [],
+      "timerSeconds": 10
+    },
+    {
+      "id": "tod-d-soft-0147",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Anuncia los resultados de unas elecciones inventadas en las que ganó un electrodoméstico.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0148",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Haz la mímica de tres oficios distintos y deja que el grupo los adivine.",
+      "tags": [],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-soft-0149",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Cuenta la trama de una película inventada cuyo título sea lo primero que veas al levantar la vista.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-soft-0150",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Discute con tu pulgar como si fuera un compañero de piso que nunca limpia.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-soft-0151",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Narra con voz de tráiler de cine algo que te pasó hoy, empezando por «En un mundo donde…».",
+      "tags": [],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-soft-0152",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Simula una discusión entre tu mano izquierda y tu mano derecha, con voces distintas.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-soft-0153",
+      "type": "DARE",
+      "level": "SOFT",
+      "text": "Anuncia como animador de circo la llegada de {otro}, con presentación de sus tres mejores talentos.",
+      "tags": [],
+      "timerSeconds": 30
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "id": "most-likely-soft",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "likely-soft-0001",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí es el más probable de llegar tarde a su propia boda?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0002",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí es el más probable de hacerse famoso?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0003",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí es el más probable de perder el celular esta noche?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0004",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en quedarse dormido en medio de una película en el cine?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0005",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en llorar viendo una película de animales?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0006",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en perderse dentro de un centro comercial?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0007",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en soltar una carcajada en un acto solemne?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0008",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en apagar una película de terror a la mitad?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0009",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en hacerse amigo de un desconocido mientras espera en una fila?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0010",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en gritar si aparece una cucaracha en la sala?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0011",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en olvidar el cumpleaños de un amigo cercano?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0012",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en admitir que se equivocó en una discusión tonta?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0013",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en pedir comida a domicilio a las tres de la mañana?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0014",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en descubrir al culpable en una serie de misterio?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0015",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en estrenar un aparato nuevo sin leer el manual?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0016",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en mandar un mensaje a la persona equivocada?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0017",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en cansarse durante una caminata larga y pedir regresar?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0018",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en comerse la última porción sin preguntar a nadie?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0019",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en ofrecerse a cocinar para veinte personas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0020",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en quejarse del frío en pleno verano?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0021",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en sacar una teoría conspirativa en plena cena?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0022",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en pedir perdón por algo que no hizo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0023",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en comprar un aparato inútil por un anuncio de televisión?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0024",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de sobrevivir un mes entero en una isla desierta?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0025",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de tener la galería del celular llena de capturas de pantalla?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0026",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de hablarle a sus plantas por las mañanas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0027",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de haber sido villano en una caricatura?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0028",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de haber sido el rebelde del salón en la escuela?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0029",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de coleccionar objetos rarísimos en un cajón secreto?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0030",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de ganar un concurso de baile?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0031",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de escribir un libro sobre su propia vida?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0032",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de tener doscientas pestañas abiertas en el navegador?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0033",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de trabajar como detective?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0034",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de ser el espía secreto del grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0035",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de ganar un reality de cocina?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0036",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de terminar adoptando diez gatos?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0037",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de haber sido estrella de rock en otra vida?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0038",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de pasar el domingo entero en pijama?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0039",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de seguir usando un celular de hace diez años?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0040",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de planear unas vacaciones con una hoja de cálculo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0041",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de ser un genio que nadie entiende?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0042",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de darle las gracias al asistente de voz del celular?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0043",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de sobrevivir a un apocalipsis zombi?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0044",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien siempre llega primero a las fiestas.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0045",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien tarda más en contestar un mensaje.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0046",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien ya tendría comprados los regalos de Navidad en agosto.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0047",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien pierde las llaves una vez por semana.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0048",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien más se ríe de sus propios chistes.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0049",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se pondría a bailar aunque no suene música.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0050",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien tendría más seguidores si fuera influencer.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0051",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se queda hasta el final de los créditos de una película.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0052",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien guarda cada caja y cada bolsa por si acaso.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0053",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien le discutiría al narrador de un documental.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0054",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien contaría un secreto sin darse cuenta.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0055",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien manda los audios más largos del chat.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0056",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se creería una noticia falsa y la compartiría.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0057",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien tiene la risa más contagiosa del grupo.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0058",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien saldría de un escape room sin pedir ni una pista.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0059",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien le pondría nombre propio a su cafetera.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0060",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien pasa más tiempo eligiendo qué serie ver que viéndola.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0061",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se emociona más con un juego de mesa.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0062",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien aguantaría más horas sin mirar el celular.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0063",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien recuerda todos los cumpleaños sin usar calendario.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0064",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí sería el peor guardando una fiesta sorpresa?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0065",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí daría el mejor discurso improvisado en una boda?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0066",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se ofrecería de voluntario sin saber para qué?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0067",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí tiene la letra más ilegible?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0068",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí vería por quinta vez la misma serie?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0069",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se pondría a ordenar una casa ajena sin que se lo pidan?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0070",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí tiene más aplicaciones instaladas que jamás abre?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0071",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí le tiene miedo a algo completamente ridículo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0072",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí fingiría entender de arte en un museo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0073",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se tomaría una película en serio como si fuera un hecho real?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0074",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí tiene el mejor gusto musical?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0075",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí escucha a escondidas las canciones más vergonzosas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0076",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se haría vegetariano por una semana y se lo diría a todo el mundo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0077",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí hablaría sin parar con un micrófono en la mano?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0078",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí negaría haber dicho algo aunque haya testigos?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0079",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí exagera más los recuerdos de su infancia?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0080",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí ganaría un maratón de videojuegos de veinticuatro horas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0081",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se gastaría una fortuna en una afición rarísima?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0082",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí imitaría mejor a otra persona del grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0083",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se perdería siguiendo un mapa al revés?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0084",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿A quién le tocaría siempre la fila más lenta del supermercado?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0085",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿En quién confiarían para cuidar a su mascota durante un mes?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0086",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién terminaría haciendo todo el trabajo en un proyecto en equipo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0087",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Voten por quien convertiría una caminata corta en una aventura épica.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0088",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién ganaría una pelea de cosquillas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0089",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si hubiera una cámara oculta, ¿quién reaccionaría de la forma más graciosa?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0090",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién aguantaría más tiempo sin conexión a internet?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0091",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién es el que más se emociona con los fuegos artificiales?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0092",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién se pasaría tres horas al teléfono con un amigo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0093",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si se va la luz, ¿quién se pondría a contar historias de miedo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0094",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿A quién llamarían primero si se inunda la cocina?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0095",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el abuelo o la abuela más consentidor del grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0096",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Voten por quien hace la mejor imitación de un animal.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0097",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién podría venderle hielo a un pingüino?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0098",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién haría trampa en un juego de mesa y casi nadie lo notaría?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0099",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si el grupo fundara una empresa, ¿quién sería el jefe más desorganizado?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0100",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién se convertiría en leyenda en una noche de karaoke?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0101",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tendría la excusa más creativa para llegar tarde?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0102",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿A quién le creerían todos si dijera que vio un fantasma?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0103",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién se tomaría más en serio un concurso de talentos del barrio?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0104",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se quedaría atrapado en un ascensor y terminaría organizando a todos?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0105",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí tiene en casa un estante de recuerdos que nadie más entiende?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0106",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí le dejaría cinco estrellas a una pizzería por un detalle mínimo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0107",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se rendiría primero armando un mueble con instrucciones?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0108",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí defendería con pasión que la piña va en la pizza?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0109",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí lleva meses con una notificación pendiente que nunca abre?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0110",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se apuntaría al gimnasio en enero y lo dejaría en febrero?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0111",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí ganaría un campeonato mundial de siestas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0112",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí se sabe de memoria los diálogos de una película entera?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0113",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí tiene más fotos de comida que de personas en el celular?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0114",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí llegaría con el disfraz más elaborado a una fiesta temática?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0115",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién de aquí le contaría su vida entera a quien le corta el cabello?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0116",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en quedarse sin batería en el celular?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0117",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en quedarse dormido en un maratón de series?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0118",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en aprender un idioma solo para entender una canción?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0119",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en delatarse en un juego de mentiras?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0120",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en llorar de risa con un chiste malísimo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0121",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en ponerse a recoger platos en plena fiesta?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0122",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en inscribirse a una clase de cerámica por impulso?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0123",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en abrir sus regalos antes de tiempo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0124",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en caer en una broma del primero de abril?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0125",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién sería el primero en adueñarse del control remoto y no soltarlo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0126",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de guardar una lista secreta de canciones tristes?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0127",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de cargar siempre una bolsa con cosas por si acaso?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0128",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de haber sido el cerebro de los trabajos en grupo?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0129",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de guardar recetas secretas que jamás comparte?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0130",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de no sobrevivir una semana sin café?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0131",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de caerles bien a todos los perros del barrio?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0132",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de organizar el amigo secreto con hoja de reglas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0133",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de ser el rey o la reina del trivial?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0134",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de hablar dormido y contar secretos?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0135",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "¿Quién tiene más pinta de tener una lista de pendientes con más de cien tareas?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0136",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien siempre cambia la canción cuando suena una lenta.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0137",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien cuenta el final de una serie sin que nadie se lo pida.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0138",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien le pone filtro hasta a la foto de su desayuno.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0139",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien llega a cualquier reunión y revisa primero la cocina.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0140",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien daría las indicaciones más confusas para llegar a su casa.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0141",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se ríe en los momentos más inoportunos.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0142",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien aprendió una receta en un video y ya se cree chef.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0143",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se mudaría a vivir dentro de una librería.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0144",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien convierte cualquier conversación en una anécdota suya.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0145",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Señalen a quien se pasa la película entera preguntando quién es quién.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0146",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Voten por quien tuvo el apodo más ridículo en la escuela.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0147",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Voten por quien sería el mejor narrador de un partido de fútbol imaginario.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0148",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Voten por quien daría la mejor excusa de último minuto por una tarea sin hacer.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0149",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Voten por quien armaría el fuerte de cobijas más impresionante.",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0150",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si les regalaran un millón de dólares, ¿quién lo gastaría primero?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0151",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si el grupo montara una obra de teatro, ¿quién se quedaría con el papel principal sin discutir?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0152",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si el grupo grabara una película de terror, ¿a quién eliminarían primero?",
+      "tags": []
+    },
+    {
+      "id": "likely-soft-0153",
+      "type": "MOST_LIKELY",
+      "level": "SOFT",
+      "text": "Si el grupo participara en un programa de concursos, ¿quién se pondría más nervioso?",
+      "tags": []
+    }
+  ]
+}

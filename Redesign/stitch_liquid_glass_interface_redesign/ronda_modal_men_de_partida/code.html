@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Menú de la Partida - Liquid Glass Nocturne</title>
+<!-- Tailwind CSS v3 CDN with forms & container queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              amber: '#ff8c53',
+              amberGlow: '#ff7733',
+              purple: '#281c3e',
+              deepNight: '#0d0b14',
+            },
+            surface: {
+              dim: '#0c0a13',
+              card: 'rgba(28, 25, 42, 0.72)',
+              glass: 'rgba(38, 33, 56, 0.65)',
+              glassBorder: 'rgba(255, 255, 255, 0.12)',
+              glassPill: 'rgba(255, 255, 255, 0.08)'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          boxShadow: {
+            'glow-amber': '0 0 28px -4px rgba(255, 140, 83, 0.45)',
+            'sheet-top': '0 -15px 45px -5px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.12) inset',
+            'pill-inner': 'inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="liquid-glass-fx">
+    /* iOS Glass and Backdrop Filter Optimizations */
+    .liquid-sheet {
+      background: linear-gradient(180deg, rgba(32, 27, 48, 0.94) 0%, rgba(18, 15, 28, 0.98) 100%);
+      box-shadow: 0 -25px 60px rgba(0, 0, 0, 0.85), 
+                  inset 0 1px 1px 0 rgba(255, 255, 255, 0.22);
+      backdrop-filter: blur(48px) saturate(190%);
+      -webkit-backdrop-filter: blur(48px) saturate(190%);
+    }
+
+    .blurred-background {
+      filter: blur(14px) brightness(0.42);
+      transform: scale(1.05);
+    }
+
+    .pill-active-amber {
+      background: linear-gradient(135deg, #ff9b66 0%, #ff8346 100%);
+      box-shadow: 0 4px 20px rgba(255, 140, 83, 0.45), 
+                  inset 0 1px 1px rgba(255, 255, 255, 0.4);
+    }
+
+    .pill-glass-inactive {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .liquid-btn-row {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .liquid-btn-row:active {
+      transform: scale(0.98);
+      background: rgba(255, 255, 255, 0.09);
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="bg-black text-white font-sans antialiased h-full overflow-hidden select-none">
+<!-- BEGIN: MainContainer -->
+<main class="relative h-screen w-full flex flex-col justify-end overflow-hidden max-w-md mx-auto">
+<!-- BEGIN: BackgroundGameScreen -->
+<!-- Simulates SCREEN_30 (Ronda - Turno de Juego) deeply blurred behind the sheet -->
+<div aria-hidden="true" class="absolute inset-0 z-0 blurred-background flex flex-col p-6 pointer-events-none select-none" data-purpose="underlying-game-view">
+<!-- Simulated Header -->
+<div class="flex items-center justify-between pt-8 mb-6">
+<div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+</div>
+<span class="text-sm font-semibold tracking-wide text-white/90">Mesa De Juego</span>
+<div class="flex gap-2">
+<div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center"></div>
+<div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center"></div>
+</div>
+</div>
+<!-- Turn Info -->
+<div class="mt-4">
+<span class="text-xs uppercase font-bold tracking-widest text-white/50">TURNO DE</span>
+<h1 class="text-4xl font-extrabold mt-1 text-white">Beto</h1>
+</div>
+<!-- Simulated Game Action Buttons -->
+<div class="mt-8 space-y-4">
+<div class="h-16 rounded-full bg-surface-glass border border-white/10 flex items-center px-6">
+<div class="w-8 h-8 rounded-full bg-white/10"></div>
+<div class="ml-4 font-bold">Verdad</div>
+</div>
+<div class="h-18 rounded-full bg-gradient-to-r from-orange-400 to-amber-500 p-4 flex items-center justify-between">
+<div class="font-bold text-black text-lg">Al azar</div>
+</div>
+<div class="h-16 rounded-full bg-surface-glass border border-white/10 flex items-center px-6">
+<div class="w-8 h-8 rounded-full bg-white/10"></div>
+<div class="ml-4 font-bold">Reto</div>
+</div>
+</div>
+</div>
+<!-- END: BackgroundGameScreen -->
+<!-- Ambient Dark Overlay -->
+<div aria-hidden="true" class="absolute inset-0 bg-black/55 z-10 pointer-events-none"></div>
+<!-- BEGIN: ActionModalSheet -->
+<!-- The primary interactive sheet requested from image 19-menu-partida.png -->
+<section aria-labelledby="menu-title" class="relative z-20 w-full rounded-t-[36px] liquid-sheet pt-3.5 pb-8 px-6 flex flex-col max-h-[92vh] overflow-y-auto" data-purpose="game-menu-sheet" role="dialog">
+<!-- Sheet Grabber Bar (iOS standard) -->
+<div aria-hidden="true" class="w-10 h-1.5 bg-white/30 rounded-full mx-auto mb-5 shrink-0"></div>
+<!-- Header Title -->
+<header class="mb-5">
+<h2 class="text-[25px] font-bold tracking-tight text-white/95" id="menu-title">
+          Menú de la partida
+        </h2>
+</header>
+<!-- Section: Jugadores en la partida -->
+<section class="mb-6" data-purpose="players-in-game">
+<h3 class="text-[17px] font-semibold text-white/90 mb-3 tracking-tight">
+          Jugadores en la partida
+        </h3>
+<!-- Player List -->
+<ul class="space-y-2.5">
+<!-- Player Ana -->
+<li class="liquid-btn-row flex items-center justify-between py-2.5 px-4 rounded-2xl">
+<div class="flex items-center space-x-3">
+<div class="w-9 h-9 rounded-full bg-gradient-to-br from-pink-500/80 to-rose-600/80 flex items-center justify-center text-sm font-bold text-white shadow-sm ring-1 ring-white/20">
+                A
+              </div>
+<span class="text-[16px] font-medium text-white/95">Ana</span>
+</div>
+<button aria-label="Sacar a Ana" class="text-[14px] font-medium text-white/70 hover:text-white/90 active:opacity-60 transition px-2.5 py-1 rounded-lg hover:bg-white/5" type="button">
+              Sacar a Ana
+            </button>
+</li>
+<!-- Player Beto -->
+<li class="liquid-btn-row flex items-center justify-between py-2.5 px-4 rounded-2xl">
+<div class="flex items-center space-x-3">
+<div class="w-9 h-9 rounded-full bg-gradient-to-br from-amber-500/80 to-orange-600/80 flex items-center justify-center text-sm font-bold text-white shadow-sm ring-1 ring-white/20">
+                B
+              </div>
+<span class="text-[16px] font-medium text-white/95">Beto</span>
+</div>
+<button aria-label="Sacar a Beto" class="text-[14px] font-medium text-white/70 hover:text-white/90 active:opacity-60 transition px-2.5 py-1 rounded-lg hover:bg-white/5" type="button">
+              Sacar a Beto
+            </button>
+</li>
+<!-- Player Cami -->
+<li class="liquid-btn-row flex items-center justify-between py-2.5 px-4 rounded-2xl">
+<div class="flex items-center space-x-3">
+<div class="w-9 h-9 rounded-full bg-gradient-to-br from-purple-500/80 to-indigo-600/80 flex items-center justify-center text-sm font-bold text-white shadow-sm ring-1 ring-white/20">
+                C
+              </div>
+<span class="text-[16px] font-medium text-white/95">Cami</span>
+</div>
+<button aria-label="Sacar a Cami" class="text-[14px] font-medium text-white/70 hover:text-white/90 active:opacity-60 transition px-2.5 py-1 rounded-lg hover:bg-white/5" type="button">
+              Sacar a Cami
+            </button>
+</li>
+</ul>
+</section>
+<!-- Section: Sumar jugador -->
+<section class="mb-6 pt-1" data-purpose="add-player-state">
+<h3 class="text-[17px] font-semibold text-white/90 tracking-tight mb-1">
+          Sumar jugador
+        </h3>
+<p class="text-[15px] text-white/60 font-normal">
+          No hay más jugadores guardados.
+        </p>
+</section>
+<!-- Section: Cambiar nivel -->
+<section class="mb-7" data-purpose="change-level-selector">
+<h3 class="text-[17px] font-semibold text-white/90 mb-3 tracking-tight">
+          Cambiar nivel
+        </h3>
+<!-- Segmented Liquid Glass Pills -->
+<div aria-label="Nivel de intensidad" class="flex items-center gap-2.5" role="radiogroup">
+<!-- Level: Suave (Selected in original screenshot) -->
+<button aria-checked="true" class="pill-active-amber px-5 py-2.5 rounded-full text-black font-semibold text-[15px] tracking-tight active:scale-95 transition-transform" role="radio" type="button">
+            Suave
+          </button>
+<!-- Level: Picante -->
+<button aria-checked="false" class="pill-glass-inactive px-5 py-2.5 rounded-full text-white/85 font-medium text-[15px] hover:bg-white/10 active:scale-95 transition" role="radio" type="button">
+            Picante
+          </button>
+<!-- Level: Extremo -->
+<button aria-checked="false" class="pill-glass-inactive px-5 py-2.5 rounded-full text-white/85 font-medium text-[15px] hover:bg-white/10 active:scale-95 transition" role="radio" type="button">
+            Extremo
+          </button>
+</div>
+</section>
+<!-- Section: Bottom Actions -->
+<footer class="space-y-3.5 mt-auto pt-1 flex flex-col items-center">
+<!-- Danger/Action Button: Terminar partida -->
+<button class="w-full h-[52px] rounded-full flex items-center justify-center space-x-2 border border-white/20 bg-white/[0.06] hover:bg-white/[0.1] active:bg-white/[0.14] active:scale-[0.99] transition text-white font-medium text-[16px] backdrop-blur-md shadow-sm" data-purpose="btn-end-game" type="button">
+<svg class="w-4 h-4 text-white/70" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<line x1="18" x2="6" y1="6" y2="18"></line>
+<line x1="6" x2="18" y1="6" y2="18"></line>
+</svg>
+<span class="tracking-tight text-white/95">Terminar partida</span>
+</button>
+<!-- Secondary iOS Dismiss Button: Cerrar -->
+<button class="w-full py-2.5 text-center text-[16px] font-semibold text-white/80 hover:text-white active:opacity-50 transition" data-purpose="btn-close-sheet" type="button">
+          Cerrar
+        </button>
+</footer>
+<!-- iOS Home Bar Indicator Space -->
+<div class="h-4 w-full shrink-0"></div>
+</section>
+<!-- END: ActionModalSheet -->
+</main>
+<!-- END: MainContainer -->
+<!-- BEGIN: Interactive Logic Scripts -->
+<script data-purpose="segmented-control-interactions">
+    document.addEventListener('DOMContentLoaded', () => {
+      // Manage level pill selection toggling visually
+      const pills = document.querySelectorAll('[role="radio"]');
+      pills.forEach((pill) => {
+        pill.addEventListener('click', () => {
+          pills.forEach(p => {
+            p.setAttribute('aria-checked', 'false');
+            p.className = 'pill-glass-inactive px-5 py-2.5 rounded-full text-white/85 font-medium text-[15px] hover:bg-white/10 active:scale-95 transition';
+          });
+          pill.setAttribute('aria-checked', 'true');
+          pill.className = 'pill-active-amber px-5 py-2.5 rounded-full text-black font-semibold text-[15px] tracking-tight active:scale-95 transition-transform';
+        });
+      });
+    });
+  </script>
+<!-- END: Interactive Logic Scripts -->
+</body></html>

@@ -1,0 +1,452 @@
+{
+  "id": "dare-extreme",
+  "version": 2,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "tod-d-extreme-0001",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Mira a los ojos a {compatible} durante quince segundos sin reírte.",
+      "tags": [],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-extreme-0002",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Susúrrale a {compatible} al oído lo que más te atrae de esa persona, sin tocarla.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0003",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Besa suavemente el cuello de {compatible} durante veinte segundos, si esa persona acepta.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0004",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Baila pegado a {compatible} una canción lenta, con las manos solo en su cintura o sus hombros.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 40
+    },
+    {
+      "id": "tod-d-extreme-0005",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Sostén la mirada de {compatible} sin hablar y deja que sea esa persona quien rompa el silencio.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0006",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dale a {compatible} un beso lento en la mejilla, lo más cerca posible de la comisura de sus labios.",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-d-extreme-0007",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Cuéntale a {compatible} en voz baja una fantasía romántica que tengas, sin entrar en detalles explícitos.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0008",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Recorre con la yema de tus dedos la palma de {compatible} despacio durante treinta segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0009",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} con voz grave y pausada qué es lo primero que harías en una cita perfecta con esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0010",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Besa el dorso de la mano de {compatible} y sube lentamente hasta la muñeca.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-extreme-0011",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Haz un baile sensual a un metro de {compatible}, sin tocarla, durante treinta segundos.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0012",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Acaricia con suavidad el cabello de {compatible} mientras le susurras un cumplido al oído.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0013",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Confiesa a {compatible} el momento de esta noche en que más te ha gustado esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0014",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Da un beso a {compatible} en la frente y luego otro en cada mejilla, despacio.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0015",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Seduce a {compatible} solo con la mirada y una media sonrisa, sin tocarla ni hablar.",
+      "tags": [],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-extreme-0016",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dale un masaje en los hombros a {compatible} durante treinta segundos y pregunta si la presión es la adecuada.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0017",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} qué parte de su estilo, de su voz o de su risa te resulta más seductora.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0018",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Apoya tu frente en la de {compatible}, cierra los ojos y respiren juntos durante veinte segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0019",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Describe a {compatible} cómo te imaginas un beso con esa persona, en tono de narrador romántico.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0020",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Besa a {compatible} en la mejilla y luego en la mano, con la actitud más elegante que puedas.",
+      "tags": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "tod-d-extreme-0021",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Susúrrale a {compatible} una frase que suene a promesa para esta noche, y que solo esa persona la escuche.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0022",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Baila con {compatible} una canción pegada, mirándose a los ojos todo el tiempo.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0023",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} cuál es la cosa más atrevida que harías por una cita con esa persona.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0024",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Pasa tus labios sin presionar por el dorso de la mano de {compatible}, mirándola a los ojos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0025",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Interpreta a un galán o una diva misteriosa que intenta cautivar a {compatible} con tres frases.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0026",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Acerca tu rostro al de {compatible}, deja un silencio de cinco segundos y besa su mejilla.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-extreme-0027",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Revela a {compatible} qué prenda o accesorio suyo te parece más atractivo y por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0028",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Acaricia con el dorso de los dedos la mejilla de {compatible}, mientras le dices algo tierno.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-extreme-0029",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Cuéntale a {compatible} un recuerdo en el que sintieras mucha química con alguien, sin dar nombres.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0030",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Abraza a {compatible} por detrás, apoya tu barbilla en su hombro y susúrrale lo que quieras.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0031",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} en voz baja qué te hace sentir nervios y ganas al mismo tiempo cuando está cerca.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0032",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Besa el hombro de {compatible} por encima de la ropa y acompáñalo con una mirada cómplice.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0033",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Haz un striptease de mentira... solo de actitud, sin quitarte nada, ante {compatible}.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0034",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Toma a {compatible} de la mano, gírala una vuelta de baile y termina con un beso en la mejilla.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0035",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} cuál de sus gestos te cuesta más resistir y por qué.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0036",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Besa la mejilla de {compatible} y baja despacio hasta el cuello, con su permiso.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0037",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Susúrrale a {compatible} dos palabras que describan cómo te hace sentir esta noche.",
+      "tags": [],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0038",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Siéntate junto a {compatible} con los hombros pegados y háblale en susurros durante treinta segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0039",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Cuenta a {compatible} cómo sería tu seducción ideal hacia esa persona, de principio a fin y sin vulgaridad.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0040",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Acaricia con los dedos la nuca de {compatible} despacio, si esa persona te da permiso.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0041",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Hazle a {compatible} la mirada más intensa que tengas y pronuncia su nombre muy despacio.",
+      "tags": [],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-extreme-0042",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Bailen pegados {compatible} y tú, y en medio del baile dale un beso en la mejilla.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0043",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} qué te gustaría que esa persona te susurrara al oído esta noche.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0044",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Acerca tus labios al oído de {compatible} sin tocarlo y dile cuál es tu rincón favorito de esta casa.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0045",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Actúa como si tu cita con {compatible} acabara de terminar y no quisieras despedirte.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0046",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Deja un beso lento en la frente de {compatible} y abrázala durante quince segundos.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 15
+    },
+    {
+      "id": "tod-d-extreme-0047",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} cuál es el mejor primer beso que has imaginado y dónde ocurriría.",
+      "tags": []
+    },
+    {
+      "id": "tod-d-extreme-0048",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Guía la mano de {compatible} hasta tu hombro y baila una canción lenta sin apartar la mirada.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 25
+    },
+    {
+      "id": "tod-d-extreme-0049",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Coquetea con {compatible} usando solo palabras de la cocina y manteniendo la cara seria.",
+      "tags": [],
+      "timerSeconds": 30
+    },
+    {
+      "id": "tod-d-extreme-0050",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Besa suavemente la mano de {compatible}, luego su muñeca, y termina con una sonrisa.",
+      "tags": [
+        "contacto"
+      ],
+      "timerSeconds": 20
+    },
+    {
+      "id": "tod-d-extreme-0051",
+      "type": "DARE",
+      "level": "EXTREME",
+      "text": "Dile a {compatible} cuál sería tu despedida ideal después de una noche perfecta juntos.",
+      "tags": []
+    }
+  ]
+}

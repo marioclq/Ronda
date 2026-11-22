@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;min-height:100vh;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#c00175", "on-error": "#690005", "error": "#ffb4ab", "on-surface": "#e5e0f3", "on-surface-variant": "#ddc1b5", "primary-fixed": "#ffdbcc", "surface-dim": "#14121f", "inverse-primary": "#9e430d", "tertiary-fixed-dim": "#ffb2b7", "surface-container-high": "#2b2836", "outline": "#a48b81", "on-secondary-fixed": "#3e0022", "outline-variant": "#56423a", "on-tertiary-fixed-variant": "#92002a", "surface-container-lowest": "#0e0c1a", "on-tertiary-fixed": "#40000d", "on-error-container": "#ffdad6", "surface-tint": "#ffb694", "surface-container": "#201e2c", "error-container": "#93000a", "secondary-fixed-dim": "#ffb0ce", "background": "#14121f", "surface-container-low": "#1c1a27", "on-secondary": "#64003a", "on-tertiary-container": "#840025", "surface-bright": "#3a3746", "on-background": "#e5e0f3", "surface-container-highest": "#363342", "on-primary-fixed": "#351000", "on-primary": "#571f00", "primary": "#ffb694", "tertiary-container": "#ff8791", "surface-variant": "#363342", "on-primary-fixed-variant": "#7b2f00", "on-primary-container": "#6f2900", "tertiary": "#ffb2b7", "on-secondary-container": "#ffd5e3", "inverse-on-surface": "#312f3d", "surface": "#14121f", "on-secondary-fixed-variant": "#8c0054", "tertiary-fixed": "#ffdadb", "on-tertiary": "#67001b", "primary-fixed-dim": "#ffb694", "inverse-surface": "#e5e0f3", "secondary-fixed": "#ffd9e5", "primary-container": "#ff8c53", "secondary": "#ffb0ce" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-xl": "2.25rem", "gutter": "1rem", "space-xs": "0.375rem", "space-sm": "0.625rem", "margin": "1.25rem", "space-md": "1rem", "gutter-sm": "0.75rem", "margin-lg": "2rem", "margin-md": "1.5rem", "space-lg": "1.5rem" }, fontFamily: { "label-lg": ["Inter"], "headline-lg-mobile": ["Inter"], "display-hero": ["Inter"], "headline-lg": ["Inter"], "display-hero-mobile": ["Inter"], "label-md": ["Inter"], "body-lg": ["Inter"], "label-sm": ["Inter"], "body-md": ["Inter"], "title-md": ["Inter"], "headline-md": ["Inter"] }, fontSize: { "label-lg": ["16px", { lineHeight: "20px", letterSpacing: "-0.005em", fontWeight: "600" }], "headline-lg-mobile": ["26px", { lineHeight: "32px", letterSpacing: "-0.02em", fontWeight: "700" }], "display-hero": ["56px", { lineHeight: "60px", letterSpacing: "-0.03em", fontWeight: "800" }], "headline-lg": ["32px", { lineHeight: "38px", letterSpacing: "-0.02em", fontWeight: "700" }], "display-hero-mobile": ["44px", { lineHeight: "48px", letterSpacing: "-0.03em", fontWeight: "800" }], "label-md": ["14px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "500" }], "body-lg": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "500" }], "label-sm": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "500" }], "body-md": ["16px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }], "title-md": ["18px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }], "headline-md": ["22px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen relative overflow-x-hidden selection:bg-primary selection:text-on-primary"><div class="fixed inset-0 pointer-events-none z-0 overflow-hidden"><div class="absolute -top-[15%] left-[20%] w-[80vw] h-[80vw] rounded-full bg-secondary-container/20 blur-[130px]"></div><div class="absolute bottom-[20%] -left-[10%] w-[70vw] h-[70vw] rounded-full bg-primary-container/15 blur-[120px]"></div></div><header class="fixed top-0 w-full z-50 pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Volver" class="w-11 h-11 rounded-full bg-surface-container/60 backdrop-blur-xl flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.2)]" onclick="history.back()"><span class="material-symbols-outlined text-[20px]">arrow_back_ios_new</span></button><h1 class="font-title-md text-title-md text-on-surface tracking-tight">Gestion De Jugadores</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Opciones de sesión" class="w-11 h-11 rounded-full bg-surface-container/60 backdrop-blur-xl flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.2)]"><span class="material-symbols-outlined text-[20px]">tune</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_2px_10px_rgba(255,182,148,0.3)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-16 pb-margin-lg z-10 flex-1 bg-surface/30"><div class="flex flex-col w-full relative">
+<!-- Interactive Toast Notification Anchor -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 pointer-events-none opacity-0 translate-y-[-8px] px-space-md py-space-xs rounded-full bg-surface-container-high/90 backdrop-blur-2xl shadow-[0_8px_24px_rgba(0,0,0,0.5)] flex items-center gap-space-xs" id="statusToast">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface" id="toastMsg">Lista de jugadores sincronizada</span>
+</div>
+<!-- Header Action Bar (Contextual inline actions complementing the App Shell) -->
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex flex-col">
+<div class="flex items-baseline gap-space-xs">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Juegan esta noche</h2>
+<span class="font-label-sm text-label-sm text-primary bg-primary/10 px-space-xs py-0.5 rounded-full" id="playerBadgeCount">(3)</span>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Configura quiénes participan en la ronda</p>
+</div>
+<!-- Quick Add Button with Warm Peach/Amber Volumetric Glow -->
+<button aria-label="Agregar nuevo participante" class="w-12 h-12 rounded-full bg-gradient-to-br from-primary-container via-primary to-primary-fixed-dim text-on-primary flex items-center justify-center shadow-[0_8px_24px_rgba(255,140,83,0.38)] active:scale-95 transition-transform" id="openAddSheetBtn">
+<span class="material-symbols-outlined text-[24px]">add</span>
+</button>
+</div>
+<!-- Dynamic Game Night Contextual Card / Visual Sparkle -->
+<div class="relative w-full rounded-2xl p-space-md mb-space-md bg-gradient-to-br from-surface-container/70 via-surface-container-high/40 to-surface-container-lowest/80 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.18),0_12px_32px_-6px_rgba(0,0,0,0.4)] flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary shrink-0 shadow-[0_0_16px_rgba(192,1,117,0.3)]">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Modo Picante Activo</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Dinámicas orientadas a atracción mutua</span>
+</div>
+</div>
+<div class="px-space-sm py-1 rounded-full bg-secondary/15 text-secondary font-label-sm text-label-sm shrink-0">
+      Intenso
+    </div>
+</div>
+<!-- Players List Section -->
+<div class="flex flex-col gap-space-sm mb-space-xl" id="playerDeckList">
+<!-- Player 1: Ana -->
+<div class="group relative w-full rounded-2xl p-space-md bg-gradient-to-br from-white/[0.10] via-white/[0.04] to-surface-container-lowest/60 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.22),0_10px_28px_rgba(0,0,0,0.35)] transition-all duration-200" id="player-row-ana">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<!-- Toggle Included Checkmark -->
+<button aria-label="Desactivar Ana de la ronda" class="w-7 h-7 rounded-full bg-gradient-to-tr from-primary-container to-primary flex items-center justify-center text-on-primary-fixed shadow-[0_2px_10px_rgba(255,140,83,0.5)] shrink-0 active:scale-90 transition-transform" onclick="togglePlayerCheck('ana')">
+<span class="material-symbols-outlined text-[18px]" id="check-icon-ana">check</span>
+</button>
+<!-- Player Info & Badges -->
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface tracking-tight truncate">Ana</span>
+<div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest/60 text-on-surface-variant font-label-sm text-label-sm">Mujer</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">favorite</span>
+                Hombres
+              </span>
+</div>
+</div>
+</div>
+<!-- Action Glass Buttons -->
+<div class="flex items-center gap-space-xs shrink-0">
+<button aria-label="Editar datos de Ana" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-surface-bright/80 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95" onclick="openEditModal('Ana', 'Mujer', 'Hombres')">
+<span class="material-symbols-outlined text-[17px]">edit</span>
+</button>
+<button aria-label="Eliminar a Ana de la lista" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-error-container/30 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-error transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95" onclick="removePlayerRow('player-row-ana', 'Ana')">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Player 2: Beto -->
+<div class="group relative w-full rounded-2xl p-space-md bg-gradient-to-br from-white/[0.10] via-white/[0.04] to-surface-container-lowest/60 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.22),0_10px_28px_rgba(0,0,0,0.35)] transition-all duration-200" id="player-row-beto">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<button aria-label="Desactivar Beto de la ronda" class="w-7 h-7 rounded-full bg-gradient-to-tr from-primary-container to-primary flex items-center justify-center text-on-primary-fixed shadow-[0_2px_10px_rgba(255,140,83,0.5)] shrink-0 active:scale-90 transition-transform" onclick="togglePlayerCheck('beto')">
+<span class="material-symbols-outlined text-[18px]" id="check-icon-beto">check</span>
+</button>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface tracking-tight truncate">Beto</span>
+<div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest/60 text-on-surface-variant font-label-sm text-label-sm">Hombre</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-secondary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">favorite</span>
+                Mujeres
+              </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<button aria-label="Editar datos de Beto" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-surface-bright/80 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95" onclick="openEditModal('Beto', 'Hombre', 'Mujeres')">
+<span class="material-symbols-outlined text-[17px]">edit</span>
+</button>
+<button aria-label="Eliminar a Beto de la lista" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-error-container/30 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-error transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95" onclick="removePlayerRow('player-row-beto', 'Beto')">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Player 3: Cami -->
+<div class="group relative w-full rounded-2xl p-space-md bg-gradient-to-br from-white/[0.10] via-white/[0.04] to-surface-container-lowest/60 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.22),0_10px_28px_rgba(0,0,0,0.35)] transition-all duration-200" id="player-row-cami">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<button aria-label="Desactivar Cami de la ronda" class="w-7 h-7 rounded-full bg-gradient-to-tr from-primary-container to-primary flex items-center justify-center text-on-primary-fixed shadow-[0_2px_10px_rgba(255,140,83,0.5)] shrink-0 active:scale-90 transition-transform" onclick="togglePlayerCheck('cami')">
+<span class="material-symbols-outlined text-[18px]" id="check-icon-cami">check</span>
+</button>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface tracking-tight truncate">Cami</span>
+<div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest/60 text-on-surface-variant font-label-sm text-label-sm">Mujer</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/20 text-tertiary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">favorite</span>
+                Todos
+              </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<button aria-label="Editar datos de Cami" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-surface-bright/80 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95" onclick="openEditModal('Cami', 'Mujer', 'Todos')">
+<span class="material-symbols-outlined text-[17px]">edit</span>
+</button>
+<button aria-label="Eliminar a Cami de la lista" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-error-container/30 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-error transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95" onclick="removePlayerRow('player-row-cami', 'Cami')">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Intimate Deck Statistics Pill Grid -->
+<div class="grid grid-cols-2 gap-space-sm mb-space-lg">
+<div class="rounded-2xl p-space-sm bg-surface-container-low/70 backdrop-blur-xl flex items-center gap-space-sm shadow-[inset_0_1px_1px_rgba(255,255,255,0.08)]">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[18px]">shuffle</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Turnos</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Aleatorios</span>
+</div>
+</div>
+<div class="rounded-2xl p-space-sm bg-surface-container-low/70 backdrop-blur-xl flex items-center gap-space-sm shadow-[inset_0_1px_1px_rgba(255,255,255,0.08)]">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[18px]">lock_open</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Filtro</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Sin tabúes</span>
+</div>
+</div>
+</div>
+<!-- Pinned Persistent Bottom Launch Trigger -->
+<div class="sticky bottom-0 left-0 right-0 pt-space-xs pb-safe mt-auto">
+<button class="w-full h-14 rounded-full bg-gradient-to-r from-primary-container via-primary to-primary-fixed text-on-primary-fixed font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-[0_12px_36px_-4px_rgba(255,140,83,0.5),inset_0_1px_1px_rgba(255,255,255,0.6)] active:scale-[0.98] transition-transform" onclick="triggerContinue()">
+<span>Continuar</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+<!-- iOS Liquid Glass Sheet (Modal): Agregar/Editar Jugador -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300 flex flex-col justify-end" id="playerModalBackdrop">
+<div class="w-full max-h-[751px] rounded-t-xl bg-gradient-to-b from-surface-container-high/95 via-surface-container/95 to-surface-container-lowest/98 backdrop-blur-3xl shadow-[inset_0_1px_1.5px_rgba(255,255,255,0.25),0_-12px_48px_rgba(0,0,0,0.7)] p-margin flex flex-col transform translate-y-full transition-transform duration-300 ease-out overflow-y-auto" id="playerModalContent">
+<!-- Top Pull-down handle -->
+<div class="w-12 h-1 rounded-full bg-on-surface-variant/40 mx-auto mb-space-md"></div>
+<!-- Sheet Header -->
+<div class="flex items-center justify-between mb-space-md">
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight" id="sheetTitle">Agregar jugador</h3>
+<button aria-label="Cerrar modal" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" id="closeModalCrossBtn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Name Input Field -->
+<div class="flex flex-col gap-space-xs mb-space-md">
+<label class="font-label-md text-label-md text-on-surface-variant" for="playerNameInput">Nombre</label>
+<div class="relative w-full">
+<input class="w-full h-13 px-space-md rounded-2xl bg-surface-container-highest/60 text-on-surface font-title-md text-title-md placeholder-outline focus:outline-none focus:bg-surface-container-highest shadow-[inset_0_1px_1px_rgba(0,0,0,0.4)]" id="playerNameInput" placeholder="Ej. Valentina" type="text"/>
+</div>
+</div>
+<!-- Gender Selection -->
+<div class="flex flex-col gap-space-xs mb-space-md">
+<label class="font-label-md text-label-md text-on-surface-variant">Género</label>
+<div class="flex flex-wrap gap-space-xs" id="genderGroup">
+<button class="sheet-chip-gender active px-space-md py-space-xs rounded-full font-label-md text-label-md bg-gradient-to-tr from-primary-container to-primary text-on-primary-fixed shadow-[0_2px_12px_rgba(255,140,83,0.3)] transition-all" data-val="Mujer" type="button">
+            Mujer
+          </button>
+<button class="sheet-chip-gender px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all" data-val="Hombre" type="button">
+            Hombre
+          </button>
+<button class="sheet-chip-gender px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all" data-val="Otro" type="button">
+            Otro
+          </button>
+<button class="sheet-chip-gender px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all" data-val="Prefiero no decir" type="button">
+            Prefiero no decir
+          </button>
+</div>
+</div>
+<!-- Attraction Preference -->
+<div class="flex flex-col gap-space-xs mb-space-lg">
+<label class="font-label-md text-label-md text-on-surface-variant">Le atraen</label>
+<div class="flex flex-wrap gap-space-xs" id="attractionGroup">
+<button class="sheet-chip-attraction px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all" data-val="Mujeres" type="button">
+            Mujeres
+          </button>
+<button class="sheet-chip-attraction active px-space-md py-space-xs rounded-full font-label-md text-label-md bg-gradient-to-tr from-primary-container to-primary text-on-primary-fixed shadow-[0_2px_12px_rgba(255,140,83,0.3)] transition-all" data-val="Hombres" type="button">
+            Hombres
+          </button>
+<button class="sheet-chip-attraction px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all" data-val="Todos" type="button">
+            Todos
+          </button>
+<button class="sheet-chip-attraction px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all" data-val="Prefiero no decir" type="button">
+            Prefiero no decir
+          </button>
+</div>
+</div>
+<!-- Action Buttons Pair -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<button class="h-13 rounded-full bg-surface-container-highest/60 backdrop-blur-xl text-on-surface font-label-md text-label-md flex items-center justify-center hover:bg-surface-container-highest transition-colors active:scale-98" id="cancelModalBtn" type="button">
+          Cancelar
+        </button>
+<button class="h-13 rounded-full bg-gradient-to-r from-primary-container to-primary text-on-primary-fixed font-label-md text-label-md font-semibold flex items-center justify-center shadow-[0_6px_20px_rgba(255,140,83,0.4),inset_0_1px_1px_rgba(255,255,255,0.5)] active:scale-98 transition-transform" id="savePlayerBtn" type="button">
+<span id="saveBtnText">Agregar</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function initRondaPlayerFlow() {
+    let currentGender = "Mujer";
+    let currentAttraction = "Hombres";
+    let activePlayerCount = 3;
+
+    const modalBackdrop = document.getElementById("playerModalBackdrop");
+    const modalContent = document.getElementById("playerModalContent");
+    const playerNameInput = document.getElementById("playerNameInput");
+    const openAddSheetBtn = document.getElementById("openAddSheetBtn");
+    const closeModalCrossBtn = document.getElementById("closeModalCrossBtn");
+    const cancelModalBtn = document.getElementById("cancelModalBtn");
+    const savePlayerBtn = document.getElementById("savePlayerBtn");
+    const sheetTitle = document.getElementById("sheetTitle");
+    const saveBtnText = document.getElementById("saveBtnText");
+    const toast = document.getElementById("statusToast");
+    const toastMsg = document.getElementById("toastMsg");
+    const playerBadgeCount = document.getElementById("playerBadgeCount");
+    const playerDeckList = document.getElementById("playerDeckList");
+
+    function showToast(text) {
+      toastMsg.textContent = text;
+      toast.classList.remove("opacity-0", "translate-y-[-8px]");
+      toast.classList.add("opacity-100", "translate-y-0");
+      setTimeout(() => {
+        toast.classList.remove("opacity-100", "translate-y-0");
+        toast.classList.add("opacity-0", "translate-y-[-8px]");
+      }, 2400);
+    }
+
+    function openModal(mode = 'add', initialName = '', initialGender = 'Mujer', initialAttr = 'Hombres') {
+      sheetTitle.textContent = mode === 'edit' ? 'Editar jugador' : 'Agregar jugador';
+      saveBtnText.textContent = mode === 'edit' ? 'Guardar' : 'Agregar';
+      playerNameInput.value = initialName;
+      currentGender = initialGender;
+      currentAttraction = initialAttr;
+
+      refreshChipStyles('sheet-chip-gender', currentGender);
+      refreshChipStyles('sheet-chip-attraction', currentAttraction);
+
+      modalBackdrop.classList.remove("pointer-events-none", "opacity-0");
+      modalBackdrop.classList.add("opacity-100");
+      modalContent.classList.remove("translate-y-full");
+      modalContent.classList.add("translate-y-0");
+      setTimeout(() => playerNameInput.focus(), 250);
+    }
+
+    function closeModal() {
+      modalContent.classList.remove("translate-y-0");
+      modalContent.classList.add("translate-y-full");
+      modalBackdrop.classList.remove("opacity-100");
+      modalBackdrop.classList.add("opacity-0", "pointer-events-none");
+    }
+
+    function refreshChipStyles(className, selectedValue) {
+      document.querySelectorAll('.' + className).forEach(btn => {
+        const val = btn.getAttribute('data-val');
+        if (val === selectedValue) {
+          btn.className = className + " px-space-md py-space-xs rounded-full font-label-md text-label-md bg-gradient-to-tr from-primary-container to-primary text-on-primary-fixed shadow-[0_2px_12px_rgba(255,140,83,0.3)] transition-all";
+        } else {
+          btn.className = className + " px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-highest/60 text-on-surface hover:bg-surface-bright/70 transition-all";
+        }
+      });
+    }
+
+    // Attach Gender Chip Selectors
+    document.querySelectorAll('.sheet-chip-gender').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentGender = btn.getAttribute('data-val');
+        refreshChipStyles('sheet-chip-gender', currentGender);
+      });
+    });
+
+    // Attach Attraction Chip Selectors
+    document.querySelectorAll('.sheet-chip-attraction').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentAttraction = btn.getAttribute('data-val');
+        refreshChipStyles('sheet-chip-attraction', currentAttraction);
+      });
+    });
+
+    openAddSheetBtn.addEventListener('click', () => openModal('add'));
+    closeModalCrossBtn.addEventListener('click', closeModal);
+    cancelModalBtn.addEventListener('click', closeModal);
+
+    modalBackdrop.addEventListener('click', (e) => {
+      if (e.target === modalBackdrop) closeModal();
+    });
+
+    savePlayerBtn.addEventListener('click', () => {
+      const name = playerNameInput.value.trim();
+      if (!name) {
+        showToast("Por favor escribe un nombre");
+        return;
+      }
+      activePlayerCount++;
+      playerBadgeCount.textContent = `(${activePlayerCount})`;
+
+      // Create new dynamic card
+      const newCard = document.createElement('div');
+      const uniqueId = 'player-dyn-' + Date.now();
+      newCard.id = uniqueId;
+      newCard.className = "group relative w-full rounded-2xl p-space-md bg-gradient-to-br from-white/[0.10] via-white/[0.04] to-surface-container-lowest/60 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.22),0_10px_28px_rgba(0,0,0,0.35)] transition-all duration-300 animate-fadeIn";
+      newCard.innerHTML = `
+        <div class="flex items-center justify-between gap-space-sm">
+          <div class="flex items-center gap-space-sm min-w-0">
+            <button onclick="togglePlayerCheck('${uniqueId}')" aria-label="Desactivar ${name} de la ronda" class="w-7 h-7 rounded-full bg-gradient-to-tr from-primary-container to-primary flex items-center justify-center text-on-primary-fixed shadow-[0_2px_10px_rgba(255,140,83,0.5)] shrink-0 active:scale-90 transition-transform">
+              <span id="check-icon-${uniqueId}" class="material-symbols-outlined text-[18px]">check</span>
+            </button>
+            <div class="flex flex-col min-w-0">
+              <span class="font-title-md text-title-md text-on-surface tracking-tight truncate">${name}</span>
+              <div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
+                <span class="px-2 py-0.5 rounded-full bg-surface-container-highest/60 text-on-surface-variant font-label-sm text-label-sm">${currentGender}</span>
+                <span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm flex items-center gap-1">
+                  <span class="material-symbols-outlined text-[12px]">favorite</span>
+                  ${currentAttraction}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-space-xs shrink-0">
+            <button onclick="openEditModal('${name}', '${currentGender}', '${currentAttraction}')" aria-label="Editar" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-surface-bright/80 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95">
+              <span class="material-symbols-outlined text-[17px]">edit</span>
+            </button>
+            <button onclick="removePlayerRow('${uniqueId}', '${name}')" aria-label="Eliminar" class="w-9 h-9 rounded-full bg-surface-container/60 hover:bg-error-container/30 backdrop-blur-xl flex items-center justify-center text-on-surface-variant hover:text-error transition-colors shadow-[inset_0_1px_0.5px_rgba(255,255,255,0.15)] active:scale-95">
+              <span class="material-symbols-outlined text-[18px]">close</span>
+            </button>
+          </div>
+        </div>
+      `;
+
+      playerDeckList.appendChild(newCard);
+      closeModal();
+      showToast(`${name} agregado a la ronda`);
+    });
+
+    window.openEditModal = function(name, gender, attr) {
+      openModal('edit', name, gender, attr);
+    };
+
+    window.removePlayerRow = function(elementId, name) {
+      const el = document.getElementById(elementId);
+      if (el) {
+        el.classList.add("scale-95", "opacity-0");
+        setTimeout(() => {
+          el.remove();
+          activePlayerCount = Math.max(0, activePlayerCount - 1);
+          playerBadgeCount.textContent = `(${activePlayerCount})`;
+          showToast(`${name} eliminado`);
+        }, 220);
+      }
+    };
+
+    window.togglePlayerCheck = function(id) {
+      const icon = document.getElementById('check-icon-' + id);
+      if (icon) {
+        const isChecked = icon.textContent.trim() === 'check';
+        icon.textContent = isChecked ? 'remove' : 'check';
+        const parentBtn = icon.parentElement;
+        if (isChecked) {
+          parentBtn.className = "w-7 h-7 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant shrink-0 active:scale-90 transition-transform";
+        } else {
+          parentBtn.className = "w-7 h-7 rounded-full bg-gradient-to-tr from-primary-container to-primary flex items-center justify-center text-on-primary-fixed shadow-[0_2px_10px_rgba(255,140,83,0.5)] shrink-0 active:scale-90 transition-transform";
+        }
+      }
+    };
+
+    window.triggerContinue = function() {
+      showToast("Comenzando la ronda...");
+    };
+  })();
+</script></main></body></html>

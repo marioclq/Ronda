@@ -1,0 +1,1071 @@
+{
+  "id": "never-spicy",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "never-spicy-0001",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mandado un mensaje que luego me dieron ganas de borrar.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0002",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca me he enamorado de un amigo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0003",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he stalkeado las redes de la nueva pareja de mi ex.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0004",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he fingido que me daba igual cuando alguien me dejó de hablar.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0005",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he besado a alguien en una primera cita.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0006",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dejado en visto a alguien que me gustaba para hacerme el interesante.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0007",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una cita en la que quería huir a los diez minutos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0008",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido celos de una persona a la que ni siquiera conocía.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0009",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he usado una aplicación de citas.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0010",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he ensayado frente al espejo lo que le iba a decir a alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0011",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he cambiado mi foto de perfil esperando que cierta persona la viera.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0012",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito un mensaje largo a mi ex y no lo he enviado.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0013",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mirado a alguien en una reunión de trabajo con segundas intenciones.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0014",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he terminado una relación por mensaje.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0015",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un amor platónico que nunca supo nada.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0016",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dado un beso del que me arrepentí al instante.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0017",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mentido en mi perfil de citas sobre mi estatura o mis gustos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0018",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he coqueteado con alguien solo para conseguir algo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0019",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mandado un mensaje de buenas noches a alguien con quien no tenía nada formal.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0020",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he guardado un regalo de un ex por nostalgia.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0021",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he conocido a los padres de una pareja y me ha ido mal.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0022",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido atracción por el amigo o la amiga de mi pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0023",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pedido el número de alguien que me atraía en un lugar público.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0024",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dicho \"te quiero\" primero y no he recibido la misma respuesta.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0025",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he revisado el celular de mi pareja a escondidas.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0026",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he vuelto con un ex más de una vez.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0027",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una cita a ciegas.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0028",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he enviado un mensaje a alguien por error pensando que era otra persona.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0029",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he fingido risa ante un chiste malo de alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0030",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sido el tercero incómodo en una cita ajena.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0031",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he cambiado de planes para coincidir con alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0032",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito el nombre de alguien que me gustaba en un cuaderno.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0033",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sido rechazado frente a otras personas.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0034",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una relación a distancia.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0035",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he comparado a una pareja nueva con mi ex en silencio.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0036",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mandado una canción a alguien como indirecta.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0037",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca me he enamorado de alguien en un viaje.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0038",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he usado una excusa falsa para terminar una cita.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0039",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mirado de reojo a alguien atractivo en el transporte público.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0040",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he ido a una boda a la que asistía mi ex.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0041",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mandado flores o un detalle a alguien de forma anónima.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0042",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una pareja que me presentó como \"un amigo\".",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0043",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he leído antiguos mensajes de una relación terminada para recordar los buenos tiempos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0044",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dado una segunda oportunidad a alguien que no la merecía.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0045",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he preparado una cena romántica que salió mal.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0046",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mantenido en secreto una relación ante mis amigos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0047",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un sueño romántico con alguien del grupo de amigos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0048",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he buscado el signo zodiacal de alguien para saber si éramos compatibles.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0049",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he puesto una canción a propósito para que cierta persona la escuchara.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0050",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dejado de seguir a un ex en redes y luego lo he vuelto a seguir.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0051",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pasado una noche entera hablando por mensajes con alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0052",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he reaccionado a una historia vieja de alguien para llamar su atención.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0053",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he cancelado una cita porque no sabía qué ponerme.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0054",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido mariposas con alguien que no debía.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0055",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sido el motivo de una pelea entre dos personas.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0056",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pedido consejos a mis amigos sobre qué responder a un mensaje.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0057",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he acompañado a alguien a su casa después de una cita sin saber si me iba a besar.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0058",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mentido sobre dónde estaba para ver a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0059",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dicho el nombre de un ex estando con otra persona.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0060",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un flechazo con un compañero de trabajo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0061",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he hecho \"match\" con alguien conocido en una aplicación de citas.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0062",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he perdonado una infidelidad.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0063",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he ido a un concierto o evento solo por la persona con la que iba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0064",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito una carta o un poema para alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0065",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he soportado una relación por miedo a quedarme solo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0066",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pasado semanas pensando en alguien que conocí un solo día.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0067",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he hecho una escena de celos en público.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0068",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he confesado mis sentimientos a alguien que ya tenía pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0069",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sido el último en enterarme de que mi pareja ya no quería seguir.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0070",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mirado el celular de alguien y he visto un mensaje que no debía.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0071",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he fingido que me iba bien después de una ruptura.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0072",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he bailado pegado con alguien que apenas conocía.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0073",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido química con alguien por una videollamada.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0074",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he cambiado mi forma de vestir por querer impresionar a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0075",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he elogiado a alguien solo para ver cómo reaccionaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0076",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sido el \"plan B\" de alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0077",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una pareja que le cayó mal a todos mis amigos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0078",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he quedado con alguien con quien solo había hablado por internet.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0079",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pensado en alguien especial justo al escuchar una canción romántica.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0080",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he vuelto a un lugar solo con la esperanza de encontrarme con alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0081",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un aniversario que se me olvidó.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0082",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido que alguien me coqueteaba y no supe qué responder.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0083",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he terminado con alguien por algo muy pequeño.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0084",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pedido perdón en una discusión de pareja sin tener la culpa.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0085",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mandado un audio coqueto a la persona equivocada.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0086",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he besado a alguien en un cine, un parque o un ascensor.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0087",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mirado fijamente a alguien hasta que se dio cuenta.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0088",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he usado un perfume o una colonia solo porque le gustaba a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0089",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido envidia de la pareja de un amigo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0090",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he guardado una captura de pantalla de una conversación con alguien especial.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0091",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he organizado una reunión solo para volver a ver a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0092",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sido ignorado por alguien a quien le escribí primero.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0093",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un ex que me escribió de la nada años después.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0094",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dado una indirecta tan sutil que nadie la entendió.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0095",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he cocinado para impresionar a alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0096",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he compartido un abrigo o una chaqueta con alguien como excusa para acercarme.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0097",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una cita doble que terminó siendo un desastre.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0098",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dicho \"solo somos amigos\" sabiendo que no era cierto.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0099",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he fingido estar ocupado para hacerme el difícil.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0100",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he soñado con casarme con alguien a quien apenas conocía.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0101",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he recibido un mensaje anónimo de alguien a quien le gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0102",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he mirado a mi ex con ganas de volver aun sabiendo que era mala idea.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0103",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he coqueteado con alguien del gimnasio sin haberle dirigido nunca la palabra.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0104",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he fingido que me gustaba un pasatiempo para impresionar a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0105",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una cita en la que la otra persona hablara solo de su ex.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0106",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pasado una boda entera pegado a alguien que acababa de conocer.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0107",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito \"jaja\" para disimular que algo que dijo alguien que me gustaba me dolió.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0108",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he guardado el contacto de alguien con otro nombre para que nadie sospechara.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0109",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dado un beso muy esperado que resultó decepcionante.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0110",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido celos por cómo mi pareja miraba a otra persona.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0111",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca le he preguntado a un amigo si le gustaba alguien que a mí también me interesaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0112",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he salido con alguien cuyo mejor amigo no me soportaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0113",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito \"te extraño\" sin saber si era buena idea enviarlo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0114",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he recibido un piropo que me dejó sin palabras.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0115",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca me he escondido al ver a mi ex con otra persona.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0116",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he vuelto a casa después de una cita sonriendo sin poder parar.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0117",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito de madrugada un mensaje que de día jamás habría enviado.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0118",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido atracción por alguien que me atendía en una tienda o un restaurante.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0119",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he discutido con mi pareja por culpa de las redes sociales.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0120",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he visto las historias de alguien con una cuenta secundaria para que no se enterara.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0121",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca me he enamorado de alguien por su forma de reír.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0122",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he llevado a una cita a un lugar solo para parecer más interesante.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0123",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido tanta química con alguien que no hizo falta hablar.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0124",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he competido con un amigo por la atención de la misma persona.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0125",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he estado tan nervioso antes de un beso que no supe qué hacer con las manos.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0126",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he recibido una invitación a salir de alguien que no me atraía y no supe cómo decir que no.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0127",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he escrito a un ex solo para saber cómo le estaba yendo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0128",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he aceptado una cita solo por compromiso.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0129",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he enviado una foto mía a alguien que me gustaba solo para ver cómo reaccionaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0130",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un apodo cariñoso que odiaba y nunca lo dije.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0131",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he pensado en una fiesta que un desconocido sería mi pareja ideal.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0132",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he terminado una relación justo antes de un viaje o un evento importante.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0133",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he fingido no conocer a alguien con quien salí antes.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0134",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca me han descubierto sonriendo como tonto frente al celular por un mensaje.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0135",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he comparado mi vida amorosa con la de mis amigos y me he sentido atrasado.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0136",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he preparado un plan romántico de cumpleaños que la otra persona ni notó.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0137",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he abrazado a alguien más tiempo de lo normal porque no quería soltarlo.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0138",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he sentido que el corazón se me salía al tomar la mano de alguien por primera vez.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0139",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido que elegir entre un plan con amigos y ver a alguien que me gustaba.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0140",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he descubierto que le gustaba a alguien desde hacía meses y yo sin enterarme.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0141",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dado mi opinión sincera sobre la ropa de mi pareja y he causado un problema.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0142",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he hecho una lista de lo que quiero y no quiero en una pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0143",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he cambiado un hábito por una pareja y luego me he arrepentido.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0144",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he coqueteado por mensaje con alguien durante una reunión familiar.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0145",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido una cita que se alargó hasta el amanecer.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0146",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he revisado quién da me gusta a las fotos de mi pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0147",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he soñado con un ex y me ha afectado todo el día.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0148",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca le he cantado una canción romántica a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0149",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he propuesto una segunda cita y recibido una respuesta tibia.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0150",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he dicho \"fue un gusto conocerte\" queriendo decir mucho más.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0151",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he conservado una sudadera de alguien que me gustaba sin devolverla.",
+      "tags": []
+    },
+    {
+      "id": "never-spicy-0152",
+      "type": "NEVER",
+      "level": "SPICY",
+      "text": "Yo nunca he tenido un flechazo con alguien que conocí en una fila o una sala de espera.",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Cómo terminaron - Modo Cita iOS 26</title>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration for iOS 26 Fluid Design System -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', '"SF Pro Text"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            ios: {
+              wine: '#240815',
+              berry: '#4A0E2E',
+              crimson: '#7A1841',
+              coral: '#FF7B93',
+              glow: '#FF5E89',
+              gold: '#D97706',
+            }
+          },
+          boxShadow: {
+            'liquid-glow': '0 20px 45px -10px rgba(255, 94, 137, 0.45), 0 0 20px 2px rgba(255, 123, 147, 0.25)',
+            'glass-specular': 'inset 0 1px 1.5px rgba(255, 255, 255, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.25), 0 15px 35px -5px rgba(0, 0, 0, 0.4)',
+            'pill-inner': 'inset 0 1px 2px rgba(255, 255, 255, 0.6), inset 0 -2px 4px rgba(180, 40, 80, 0.35)',
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="ambient-canvas">
+    body {
+      background-color: #12030B;
+      color: #FFFFFF;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* iOS 26 Liquid Mesh Background Simulation */
+    .liquid-mesh-bg {
+      background: 
+        radial-gradient(ellipse 90% 70% at 75% 15%, rgba(185, 28, 86, 0.55) 0%, transparent 60%),
+        radial-gradient(ellipse 70% 60% at 20% 40%, rgba(136, 19, 55, 0.6) 0%, transparent 70%),
+        radial-gradient(circle 380px at 95% 65%, rgba(194, 65, 12, 0.35) 0%, transparent 60%),
+        radial-gradient(ellipse 110% 80% at 50% 95%, rgba(159, 18, 57, 0.65) 0%, rgba(18, 3, 11, 0.95) 75%),
+        linear-gradient(180deg, #1C0512 0%, #10020B 100%);
+      background-attachment: fixed;
+    }
+  </style>
+<style data-purpose="liquid-glassmorphism">
+    /* iOS 26 Specular Refractive Surface */
+    .liquid-glass-card {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.04) 50%, rgba(200, 50, 100, 0.08) 100%);
+      backdrop-filter: blur(40px) saturate(190%);
+      -webkit-backdrop-filter: blur(40px) saturate(190%);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      position: relative;
+    }
+
+    .liquid-glass-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(160deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.05) 45%, rgba(255, 120, 160, 0.3) 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    /* iOS Button Primary Interactive Refraction */
+    .ios-liquid-button {
+      background: linear-gradient(180deg, #FFAEC0 0%, #FF82A0 35%, #F45279 100%);
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .ios-liquid-button:active {
+      transform: scale(0.975);
+      filter: brightness(0.94);
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="h-full flex flex-col justify-center items-center p-0 m-0 liquid-mesh-bg overflow-x-hidden">
+<!-- BEGIN: PhoneFrame -->
+<main class="relative w-full max-w-[430px] min-h-screen flex flex-col justify-between px-6 pt-12 pb-8 sm:py-12 z-10" data-purpose="app-container">
+<!-- BEGIN: TopNavigation -->
+<header class="w-full flex items-center justify-between pt-2 pb-6" data-purpose="header-navigation">
+<!-- Back Action -->
+<button aria-label="Volver atrás" class="group flex items-center gap-1.5 text-white/90 text-[17px] font-normal tracking-tight active:opacity-60 transition duration-150" type="button">
+<svg class="w-5 h-5 stroke-current stroke-[2.4] fill-none transition-transform group-active:-translate-x-0.5" stroke-linecap="round" stroke-linejoin="round" viewbox="0 0 24 24">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+<span>Volver</span>
+</button>
+<!-- Context Indicator (Modo Cita) -->
+<div class="px-3.5 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/15 shadow-sm">
+<span class="text-white/80 text-[15px] font-medium tracking-tight">Modo cita</span>
+</div>
+</header>
+<!-- END: TopNavigation -->
+<!-- BEGIN: MainContent -->
+<section class="w-full flex-1 flex flex-col justify-center space-y-7 my-auto" data-purpose="results-section">
+<!-- Headline -->
+<div class="space-y-1">
+<h1 class="text-white text-[34px] sm:text-[36px] font-bold tracking-tight leading-tight">
+          Cómo terminaron
+        </h1>
+<p class="text-white/60 text-sm font-normal">Nivel de cercanía subjetiva (IOS Scale)</p>
+</div>
+<!-- BEGIN: ResultsComparisonGrid -->
+<div class="grid grid-cols-2 gap-3.5 sm:gap-4 w-full" data-purpose="liquid-cards-grid">
+<!-- Card 1: Ana -->
+<article class="liquid-glass-card rounded-[32px] p-5 flex flex-col justify-between h-[256px] shadow-glass-specular" data-purpose="user-result-ana">
+<!-- User Title -->
+<div class="border-b border-white/10 pb-2.5">
+<h2 class="text-white text-[22px] font-semibold tracking-tight">Ana</h2>
+</div>
+<!-- Section: Antes -->
+<div class="space-y-1">
+<span class="text-xs uppercase font-medium tracking-wider text-white/50 block">Antes</span>
+<div class="flex items-center justify-between">
+<!-- Visual Metaphor: Círculos Tangentes / Mínima Intersección (Score 3) -->
+<svg aria-label="Icono de cercanía moderada-baja" class="w-12 h-7" fill="none" viewbox="0 0 52 30">
+<circle cx="15" cy="15" fill="white" fill-opacity="0.05" r="13" stroke="white" stroke-opacity="0.9" stroke-width="1.8"></circle>
+<circle cx="37" cy="15" fill="white" fill-opacity="0.05" r="13" stroke="white" stroke-opacity="0.9" stroke-width="1.8"></circle>
+</svg>
+<span class="text-white text-3xl font-light tracking-tight font-sans">3</span>
+</div>
+</div>
+<!-- Section: Después -->
+<div class="space-y-1 pt-1 border-t border-white/5">
+<span class="text-xs uppercase font-medium tracking-wider text-rose-300/80 block">Después</span>
+<div class="flex items-center justify-between">
+<!-- Visual Metaphor: Círculos con Mayor Solapamiento (Score 5) -->
+<svg aria-label="Icono de cercanía profunda" class="w-12 h-7" fill="none" viewbox="0 0 52 30">
+<circle cx="21" cy="15" fill="rgba(255, 174, 192, 0.15)" r="13" stroke="#FFAEC0" stroke-opacity="0.95" stroke-width="2"></circle>
+<circle cx="31" cy="15" fill="rgba(255, 174, 192, 0.15)" r="13" stroke="#FFAEC0" stroke-opacity="0.95" stroke-width="2"></circle>
+</svg>
+<span class="text-rose-200 text-3xl font-medium tracking-tight font-sans">5</span>
+</div>
+</div>
+</article>
+<!-- Card 2: Beto -->
+<article class="liquid-glass-card rounded-[32px] p-5 flex flex-col justify-between h-[256px] shadow-glass-specular" data-purpose="user-result-beto">
+<!-- User Title -->
+<div class="border-b border-white/10 pb-2.5">
+<h2 class="text-white text-[22px] font-semibold tracking-tight">Beto</h2>
+</div>
+<!-- Section: Antes -->
+<div class="space-y-1">
+<span class="text-xs uppercase font-medium tracking-wider text-white/50 block">Antes</span>
+<div class="flex items-center justify-between">
+<!-- Visual Metaphor: Círculos Solapados Ligeramente (Score 4) -->
+<svg aria-label="Icono de cercanía intermedia" class="w-12 h-7" fill="none" viewbox="0 0 52 30">
+<circle cx="18" cy="15" fill="white" fill-opacity="0.05" r="13" stroke="white" stroke-opacity="0.9" stroke-width="1.8"></circle>
+<circle cx="34" cy="15" fill="white" fill-opacity="0.05" r="13" stroke="white" stroke-opacity="0.9" stroke-width="1.8"></circle>
+</svg>
+<span class="text-white text-3xl font-light tracking-tight font-sans">4</span>
+</div>
+</div>
+<!-- Section: Después -->
+<div class="space-y-1 pt-1 border-t border-white/5">
+<span class="text-xs uppercase font-medium tracking-wider text-rose-300/80 block">Después</span>
+<div class="flex items-center justify-between">
+<!-- Visual Metaphor: Círculos Casi Concéntricos (Score 6) -->
+<svg aria-label="Icono de máxima compenetración" class="w-12 h-7" fill="none" viewbox="0 0 52 30">
+<circle cx="23" cy="15" fill="rgba(255, 174, 192, 0.15)" r="13" stroke="#FFAEC0" stroke-opacity="0.95" stroke-width="2"></circle>
+<circle cx="29" cy="15" fill="rgba(255, 174, 192, 0.15)" r="13" stroke="#FFAEC0" stroke-opacity="0.95" stroke-width="2"></circle>
+</svg>
+<span class="text-rose-200 text-3xl font-medium tracking-tight font-sans">6</span>
+</div>
+</div>
+</article>
+</div>
+<!-- END: ResultsComparisonGrid -->
+<!-- BEGIN: ScientificContextBlock -->
+<aside class="liquid-glass-card rounded-2xl px-5 py-4 border border-white/10" data-purpose="scientific-reference-note">
+<div class="flex items-start gap-3">
+<svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-rose-300/90" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24">
+<path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<p class="text-white/85 text-[15px] leading-snug tracking-normal">
+            En el estudio original, tras 45 minutos de preguntas, la media fue <strong class="text-white font-semibold underline decoration-rose-400/50 underline-offset-2">3,82 de 7</strong>.
+          </p>
+</div>
+</aside>
+<!-- END: ScientificContextBlock -->
+</section>
+<!-- END: MainContent -->
+<!-- BEGIN: FooterAction -->
+<footer class="w-full pt-4 pb-2" data-purpose="bottom-action-bar">
+<!-- iOS 26 Liquid Capsule Button -->
+<button class="ios-liquid-button shadow-liquid-glow shadow-pill-inner w-full h-[58px] rounded-full flex items-center justify-center gap-2 text-stone-900 font-semibold text-[17px] tracking-tight text-center active:scale-[0.98]" type="button">
+<svg class="w-5 h-5 stroke-stone-900 stroke-[2.4] fill-none" stroke-linecap="round" stroke-linejoin="round" viewbox="0 0 24 24">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+<span>Volver al inicio</span>
+</button>
+<!-- Home Indicator Spacing for iOS Bottom Bar -->
+<div aria-hidden="true" class="w-32 h-1 bg-white/20 rounded-full mx-auto mt-6"></div>
+</footer>
+<!-- END: FooterAction -->
+</main>
+<!-- END: PhoneFrame -->
+<!-- BEGIN: Interactive Feedback Handler -->
+<script data-purpose="haptic-and-interactions">
+    document.addEventListener('DOMContentLoaded', () => {
+      // Simulate native tactile feedback on interactive buttons
+      const buttons = document.querySelectorAll('button');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (window.navigator && window.navigator.vibrate) {
+            window.navigator.vibrate(10);
+          }
+        });
+      });
+    });
+  </script>
+<!-- END: Interactive Feedback Handler -->
+</body></html>

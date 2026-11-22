@@ -1,0 +1,1078 @@
+{
+  "id": "never-soft",
+  "version": 3,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "never-soft-0001",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido estar enfermo para faltar al trabajo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0002",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he quedado dormido en el cine.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0003",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he buscado a alguien en redes sociales solo por curiosidad.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0004",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he saludado de vuelta a alguien que en realidad saludaba a la persona detrás de mí.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0005",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he empujado una puerta que decía \"jalar\" frente a un montón de gente.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0006",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he llegado a una videollamada con la cámara encendida sin querer.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0007",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido que entendía un chiste para no quedar mal.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0008",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he cantado a todo pulmón en la ducha una canción cuya letra no sabía.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0009",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he olvidado el nombre de alguien un minuto después de que me lo dijeran.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0010",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he leído el final de un libro antes de terminarlo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0011",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dejado la ropa limpia en una silla durante semanas en lugar de guardarla.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0012",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hablado solo en voz alta y me han escuchado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0013",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pedido en un restaurante algo solo porque no sabía pronunciar lo que quería.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0014",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho \"ya voy llegando\" cuando todavía estaba en casa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0015",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he mandado un mensaje al grupo equivocado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0016",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he visto una serie entera en un solo fin de semana sin salir de casa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0017",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he llorado viendo un comercial.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0018",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comido algo que se me cayó al suelo aplicando la regla de los cinco segundos.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0019",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he guardado un regalo que no me gustó para dárselo a otra persona.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0020",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido una llamada para evitar hablar con alguien en la calle.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0021",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he subido a un ascensor y le he dado al botón de cerrar al ver venir a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0022",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he quedado sin batería justo cuando más necesitaba el celular.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0023",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido más de cincuenta pestañas abiertas en el navegador a la vez.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0024",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he renunciado a un gimnasio al que pagué y nunca fui.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0025",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he puesto una alarma y la he pospuesto más de cinco veces.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0026",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho \"igualmente\" cuando el mesero me dijo \"buen provecho\".",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0027",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he cocinado algo y lo he tirado a la basura por quedar incomible.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0028",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he ganado algo en una rifa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0029",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido una mascota con un nombre que me da vergüenza decir en público.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0030",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he perdido las llaves y las he encontrado en el lugar más obvio.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0031",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he disfrazado y llegué a una fiesta donde nadie más llevaba disfraz.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0032",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido saber hablar otro idioma.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0033",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he usado la misma contraseña en todas mis cuentas.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0034",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he bailado solo en mi cuarto como si nadie me viera.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0035",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido un apodo vergonzoso que todavía me persigue.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0036",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comprado algo por internet y al recibirlo era mucho más pequeño de lo que imaginé.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0037",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he quedado encerrado en un baño ajeno por no poder abrir la puerta.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0038",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he mentido en una entrevista de trabajo sobre lo bien que manejo un programa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0039",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho \"estoy en reunión\" cuando en realidad estaba viendo televisión.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0040",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he reciclado un chiste viejo con gente que ya lo había escuchado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0041",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido un ataque de risa en un momento totalmente inapropiado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0042",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pedido una pizza solo para mí y me la he terminado completa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0043",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he cambiado de ruta para no cruzarme con alguien conocido.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0044",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he mirado mi propio reflejo en un escaparate y he hecho una pose.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0045",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he escuchado la misma canción en repetición durante todo un día.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0046",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comprado ropa y la he dejado con la etiqueta puesta durante años.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0047",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido que me gustaba una película para no arruinar el plan de otros.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0048",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he roto algo en casa ajena y lo he escondido.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0049",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido un sueño tan raro que se lo conté a todo el mundo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0050",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hablado con un cajero automático como si me pudiera entender.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0051",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he cantado el cumpleaños feliz desafinando a propósito.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0052",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he puesto la camiseta al revés y me di cuenta horas después.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0053",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he saltado la parte de leer las instrucciones y armé el mueble mal.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0054",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he estado en un chat grupal en silencio durante años sin escribir nada.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0055",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho \"te llamo luego\" sin intención de llamar.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0056",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he abierto el refrigerador cinco veces seguidas esperando que apareciera algo nuevo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0057",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he reservado un viaje y lo he cancelado a última hora por pereza.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0058",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he usado un traductor en línea para escribir un mensaje importante.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0059",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comido el último trozo de algo que era para compartir sin preguntar.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0060",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he mandado una nota de voz de más de cinco minutos.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0061",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he caído en una estafa sencilla de internet.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0062",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tropezado frente a un grupo y fingido que no pasó nada.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0063",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he sido el último en enterarse de una noticia que todos ya sabían.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0064",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he usado la excusa del tráfico cuando en realidad me quedé dormido.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0065",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pasado una noche entera jugando videojuegos sin darme cuenta.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0066",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he leído los comentarios de un video más tiempo que el video mismo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0067",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he plantado una planta y la he dejado morir.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0068",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido una fase en la que quería ser famoso por algo muy raro.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0069",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he escrito un diario o un blog que ahora me da vergüenza releer.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0070",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he llevado a la oficina un almuerzo y lo he escondido porque olía fuerte.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0071",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido estar ocupado para no ayudar con una mudanza.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0072",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he entrado a una tienda solo para usar el aire acondicionado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0073",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he colgado una llamada sin querer al intentar silenciarla.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0074",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he aprendido un truco de magia solo para presumirlo en reuniones.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0075",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he soñado con volver a la escuela y no poder terminar un examen.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0076",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he copiado en un examen.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0077",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido un profesor al que le tenía auténtico terror.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0078",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he vuelto a casa a revisar si apagué la plancha o la estufa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0079",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he compartido un meme y lo he borrado al ver que ya lo había enviado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0080",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hecho cola durante horas por algo que no valía la pena.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0081",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he contado una anécdota ajena como si me hubiera pasado a mí.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0082",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he visto la misma película más de diez veces.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0083",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pedido que me traduzcan una frase que en realidad sí entendí.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0084",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he escondido un snack para que nadie en casa me lo quitara.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0085",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he respondido \"nada\" cuando me preguntaron en qué estaba pensando, y estaba pensando algo absurdo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0086",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hecho un baile viral frente a un espejo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0087",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he usado una app de meditación y me he quedado dormido a los dos minutos.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0088",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido un jefe al que imitaba a sus espaldas.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0089",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he olvidado el cumpleaños de alguien muy cercano.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0090",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he perdido un vuelo o un autobús por llegar tarde.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0091",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he acampado en una tienda de campaña y he querido volver a casa a mitad de la noche.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0092",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he llamado \"mamá\" o \"papá\" a un profesor o a un jefe por error.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0093",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido un corte de pelo que me hizo querer esconderme un mes.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0094",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hecho una lista de propósitos de año nuevo y la he abandonado en enero.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0095",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he cantado en un karaoke frente a desconocidos.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0096",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dado una reseña de cinco estrellas por pura lástima.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0097",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he aplaudido en el momento equivocado de un concierto o una obra.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0098",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he confundido a un desconocido con un amigo y lo he abrazado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0099",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido tener más tareas de las que tenía para salir temprano.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0100",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comprado un instrumento musical y lo he dejado juntando polvo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0101",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hablado en una reunión y me he dado cuenta de que mi micrófono estaba apagado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0102",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he visto un tutorial de cocina y luego pedido comida a domicilio.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0103",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he mentido sobre mi edad para conseguir algo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0104",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he enviado un mensaje en el que el corrector automático cambió por completo lo que quería decir.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0105",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he saludado durante años a un vecino sin saber cómo se llama.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0106",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hecho trampa en un juego de mesa.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0107",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he seguido una receta de internet y terminado con algo que no se parecía en nada a la foto.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0108",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he llevado de un hotel el jabón, las pantuflas o el champú.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0109",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he entrado al baño equivocado y he seguido caminando como si nada.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0110",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho que leí un libro famoso sin haber pasado de la primera página.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0111",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he respondido \"sí, claro\" en una conversación sin haber escuchado la pregunta.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0112",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he guardado bolsas de plástico dentro de otra bolsa de plástico por si acaso.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0113",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he mantenido una conversación entera con una mascota esperando que me respondiera.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0114",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hecho una maleta y olvidado lo más básico, como el cargador o el cepillo de dientes.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0115",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he usado un emoji sin saber realmente qué significaba.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0116",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he guardado un contacto con un nombre gracioso en lugar de su nombre real.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0117",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he puesto la misma ropa del día anterior porque ya no quedaba nada limpio.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0118",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido estar dormido para no tener que levantarme a hacer algo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0119",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he intentado arreglar algo en casa con un video y lo he dejado peor que antes.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0120",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comido a escondidas en la cocina de madrugada.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0121",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he buscado mis síntomas en internet y me he convencido de tener algo grave.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0122",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he silenciado un chat familiar por exceso de cadenas de mensajes.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0123",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he cambiado la voz al contestar una llamada de un número desconocido.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0124",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he tomado más de treinta selfies para elegir una sola.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0125",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he apuntado a una carrera solo por la camiseta.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0126",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho que sabía cocinar un plato para quedar bien con alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0127",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he perdido caminando por seguir al pie de la letra el mapa del celular.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0128",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he roto un plato y he dicho que ya estaba roto desde antes.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0129",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he comprado un curso de idiomas y no he pasado de la primera lección.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0130",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he tenido más de mil correos sin leer en la bandeja de entrada.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0131",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dormido con la televisión encendida toda la noche.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0132",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he buscado mi celular por toda la casa mientras lo tenía en la mano.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0133",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he hecho ejercicio solo cuando alguien me estaba mirando.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0134",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pedido en un restaurante lo mismo que otra persona solo por no decidirme.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0135",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he escondido un regalo tan bien que luego no pude encontrarlo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0136",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he empezado a contar una historia y olvidado cómo terminaba a la mitad.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0137",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pasado un día de trabajo desde casa en pijama de la cabeza a los pies.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0138",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he escuchado un audio a doble velocidad para ahorrar tiempo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0139",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca le he pedido a un desconocido que me tome una foto y me ha salido todo cortado.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0140",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he perdido un trabajo entero por no haber guardado el archivo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0141",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he conservado un peluche de la infancia y todavía le tengo cariño.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0142",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he limpiado toda la casa en una hora porque llegaba una visita.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0143",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he devuelto una prenda a la tienda después de haberla usado una vez.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0144",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pasado más tiempo eligiendo una película que viéndola.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0145",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he pronunciado mal una palabra durante años hasta que alguien me corrigió.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0146",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he estornudado en un momento de silencio total y he sentido que todos me miraban.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0147",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca me he quedado atrapado en una conversación con alguien que no paraba de hablar.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0148",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he fingido saber jugar un deporte en un partido entre amigos.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0149",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he guardado una foto graciosa de un amigo para usarla algún día.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0150",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dado otro nombre en una cafetería para no tener que deletrear el mío.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0151",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he dicho \"luego lo hago\" sobre algo que llevo meses posponiendo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0152",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he llevado el paraguas y aun así me he mojado por completo.",
+      "tags": []
+    },
+    {
+      "id": "never-soft-0153",
+      "type": "NEVER",
+      "level": "SOFT",
+      "text": "Yo nunca he reconocido una canción de mi infancia y la he cantado entera sin querer.",
+      "tags": []
+    }
+  ]
+}

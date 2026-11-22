@@ -1,0 +1,364 @@
+{
+  "id": "never-extreme",
+  "version": 2,
+  "lang": "es",
+  "cards": [
+    {
+      "id": "never-extreme-0001",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he mandado una foto que no debía.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0002",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido un sueño erótico con alguien de este grupo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0003",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he fingido placer con una pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0004",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una aventura de una sola noche.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0005",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he sido sorprendido en un momento íntimo por alguien que entró sin avisar.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0006",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad con alguien en casa de sus padres.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0007",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he usado ropa interior especial para impresionar a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0008",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad con un ex después de terminar.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0009",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he mandado un mensaje subido de tono a la persona equivocada.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0010",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una fantasía con una persona famosa.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0011",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad en un lugar donde podían descubrirme.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0012",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he sentido atracción por alguien del trabajo y he fantaseado con algo más.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0013",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad con alguien de cuyo nombre no me acordaba después.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0014",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he hecho una videollamada subida de tono.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0015",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he escrito una fantasía y se la he contado a una pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0016",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad con alguien más de dos veces en un solo día.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0017",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca me he sentido incómodo después de un encuentro íntimo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0018",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido un encuentro íntimo con un amigo o amiga cercana.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0019",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he comprado un juguete íntimo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0020",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he escuchado a mis vecinos en un momento íntimo y me he quedado oyendo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0021",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una cita que acabó en algo más en la primera noche.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0022",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una conversación franca con una pareja sobre lo que me gusta en la intimidad.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0023",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he mandado una foto atrevida a alguien.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0024",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una pareja con la que la química en la intimidad fue un desastre.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0025",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he besado a alguien de este grupo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0026",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad en un hotel, un auto o una playa.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0027",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una fantasía que me da vergüenza confesar.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0028",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he mantenido una relación solo por la parte física.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0029",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he leído o visto algo erótico y me he sentido culpable.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0030",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he sido infiel.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0031",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido que salir a escondidas de la casa de alguien por la mañana.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0032",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he sentido deseo por la pareja de un amigo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0033",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he dicho algo en un momento íntimo que luego me dio vergüenza.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0034",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he usado una excusa para evitar la intimidad con mi pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0035",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido un encuentro íntimo con un compañero de trabajo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0036",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una noche de pasión que me dejó sin poder dormir.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0037",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he sentido atracción por alguien del mismo sexo y lo he mantenido en secreto.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0038",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una conversación íntima con un desconocido por internet.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0039",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido intimidad después de una pelea de pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0040",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he guardado un recuerdo íntimo de alguien que ya no está en mi vida.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0041",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he sentido que alguien me deseaba y no me atreví a dar el primer paso.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0042",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he hecho un striptease o un baile sensual para una pareja.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0043",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido un triángulo amoroso con consecuencias.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0044",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una pareja que tuvo que irse corriendo en un momento íntimo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0045",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he mandado un mensaje coqueto a mi jefe o a un profesor.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0046",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he usado un disfraz o un juego de roles para animar la intimidad.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0047",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he hecho que alguien se enamorara de mí sin sentir lo mismo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0048",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he soñado despierto con alguien presente en esta sala.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0049",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido una cita en la que la tensión física era casi insoportable.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0050",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he escrito algo muy atrevido y lo he borrado antes de enviarlo.",
+      "tags": []
+    },
+    {
+      "id": "never-extreme-0051",
+      "type": "NEVER",
+      "level": "EXTREME",
+      "text": "Yo nunca he tenido un encuentro íntimo del que me haya arrepentido al día siguiente.",
+      "tags": []
+    }
+  ]
+}
