@@ -110,9 +110,9 @@ pre.banner { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-fam
 .file-btn:focus-within { outline: 3px solid var(--accent); outline-offset: 3px; }
 
 /* Seats: a player row is one toggle for "plays tonight", with edit and remove beside it. */
-.seat { display: flex; align-items: center; gap: var(--space-2); padding: var(--space-3) var(--space-3) var(--space-3) var(--space-2); border-radius: var(--radius-lg); }
+.seat { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: var(--space-2); padding: var(--space-3) var(--space-3) var(--space-3) var(--space-2); border-radius: var(--radius-lg); }
 .seat__pick {
-  flex: 1;
+  flex: 1 1 11rem;
   min-width: 0;
   display: flex;
   align-items: center;
@@ -150,7 +150,8 @@ pre.banner { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-fam
   font-weight: 650;
   line-height: 1.15;
   letter-spacing: var(--tracking-head);
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 .seat__tags { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .seat__pick[aria-pressed='false'] .seat__name,
@@ -752,3 +753,16 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 }
 
 .glass-toggle { align-self: flex-start; }
+
+/* ---------- Layout: game screens keep the actions under the thumb ---------- */
+
+/* The focus (who plays, the card) centres in the space left; the actions sit at the bottom edge. */
+.stage--dock { justify-content: flex-start; }
+.stage--dock > .stage__focus { margin-block: auto; }
+.stage--dock > .stage__dock { margin-top: auto; }
+
+.date-progress-row__set { display: inline-flex; align-items: center; gap: var(--space-2); font-size: var(--step--1); font-weight: 600; color: var(--text-muted); }
+.date-progress-row__set .icon { color: var(--accent); }
+
+/* Settings-like screens: more air above a section heading than inside the section. */
+.section--plain + .section--plain { margin-top: var(--space-3); }

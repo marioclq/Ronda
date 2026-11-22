@@ -81,6 +81,7 @@ export const es = {
   },
   play: {
     turnOf: 'Turno de',
+    turnOfPrefix: 'Turno de ',
     truth: 'Verdad',
     random: 'Al azar',
     dare: 'Reto',
@@ -119,6 +120,7 @@ export const es = {
     penaltyDrinks: (count: number) => (count === 1 ? 'Bebe 1 trago' : `Bebe ${count} tragos`),
     penaltyGarment: 'Quítate una prenda',
     groupHint: 'Para todos',
+    groupLabel: (type: string) => `Para todos · ${type}`,
     groupDrinks: (count: number) => (count === 1 ? 'Si lo hiciste, bebe 1 trago' : `Si lo hiciste, bebe ${count} tragos`),
     previousTurn: 'Turno anterior',
     paused: 'Faltan jugadores. Súmalos desde el menú.',

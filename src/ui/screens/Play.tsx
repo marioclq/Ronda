@@ -69,13 +69,10 @@ function ChoiceView({
 }) {
   const noneAvailable = phase.unavailable.length === 2;
   return (
-    <div className="stage stage--turn">
-      <div className="turn-head">
-        <p className="eyebrow">
-          <Icon name="replay" size={16} />
-          {es.play.turnOf}
-        </p>
+    <div className="stage stage--dock">
+      <div className="turn-head stage__focus">
         <h1 className="turn-head__name" data-testid="turn-name">
+          <span className="visually-hidden">{es.play.turnOfPrefix}</span>
           {nameOf(game, phase.playerId)}
         </h1>
         <span className="turn-head__rule" aria-hidden="true" />
@@ -91,7 +88,7 @@ function ChoiceView({
           </Button>
         </>
       ) : (
-        <div className="choices">
+        <div className="choices stage__dock">
           <ChoiceRow choice="TRUTH" primary={false} disabled={phase.unavailable.includes('TRUTH')} onChoose={() => onChoose('TRUTH')} />
           <ChoiceRow choice="RANDOM" primary disabled={false} onChoose={() => onChoose('RANDOM')} />
           <ChoiceRow choice="DARE" primary={false} disabled={phase.unavailable.includes('DARE')} onChoose={() => onChoose('DARE')} />
@@ -132,8 +129,10 @@ function CardView({
     return (
       <div className="stage">
         <div className="turn-head">
-          <p className="eyebrow">{es.play.turnOf}</p>
-          <h1 className="turn-head__name turn-head__name--compact">{nameOf(game, phase.playerId)}</h1>
+          <h1 className="turn-head__name turn-head__name--compact">
+            <span className="visually-hidden">{es.play.turnOfPrefix}</span>
+            {nameOf(game, phase.playerId)}
+          </h1>
         </div>
         <RandomReveal result={type} onDone={onRevealDone} />
       </div>
@@ -144,11 +143,12 @@ function CardView({
       ? es.play.groupDrinks(game.config.penalty.count)
       : null;
   return (
-    <div className="stage">
+    <div className="stage stage--dock">
+      <div className="stage__focus stack">
       {phase.playerId === null ? (
         <p className="pill pill--accent">
-          <Icon name="users" size={16} />
-          {es.play.groupHint}
+          <Icon name={CARD_TYPE_ICONS[type]} size={16} />
+          {es.play.groupLabel(es.cards.types[type])}
         </p>
       ) : (
         <div className="card-head">
@@ -161,12 +161,6 @@ function CardView({
         </div>
       )}
       <LensGlass thick className={cx('stage__card play-card', phase.playerId === null && 'play-card--group')} data-testid="play-card">
-        {phase.playerId === null ? (
-          <span className="play-card__tag">
-            <Icon name={CARD_TYPE_ICONS[type]} size={18} />
-            {es.cards.types[type]}
-          </span>
-        ) : null}
         <p className="play-card__text" data-testid="card-text">
           {phase.text}
         </p>
@@ -178,8 +172,9 @@ function CardView({
           </p>
         )}
       </LensGlass>
+      </div>
       {phase.playerId === null ? (
-        <div className="stack stack--tight">
+        <div className="stack stack--tight stage__dock">
           <Button variant="primary" onClick={onNext} icon="next" data-testid="card-next">
             {es.play.next}
           </Button>
@@ -188,7 +183,7 @@ function CardView({
           </Button>
         </div>
       ) : (
-        <>
+        <div className="stack stack--tight stage__dock">
           <div className="stage__actions stage__actions--wide">
             <Button variant="primary" onClick={onComplete} icon="check" data-testid="card-complete">
               {es.play.complete}
@@ -200,7 +195,7 @@ function CardView({
           <Button variant="quiet" icon="swap" onClick={() => setAskingWhy(true)} data-testid="card-replace">
             {es.play.replace}
           </Button>
-        </>
+        </div>
       )}
 
       {askingWhy ? (

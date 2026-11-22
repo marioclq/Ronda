@@ -68,10 +68,10 @@ export function MyCards({ onBack }: { onBack: () => void }) {
       <p className="roster-head__subtitle">{es.cards.subtitle}</p>
 
       <section className="stack stack--tight" aria-label={es.cards.active}>
-        <p className="eyebrow">
+        <h2 className="roster-head__title">
           {es.cards.active}
           <span className="count-pill">{state.customCards.length}</span>
-        </p>
+        </h2>
         {state.customCards.length === 0 ? <p className="section__note">{es.cards.empty}</p> : null}
         <ul className="list">
           {state.customCards.map((card) => (

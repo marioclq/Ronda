@@ -228,7 +228,7 @@ export function DateMode({ tonight, onExit }: DateModeProps) {
                 <h1 className="visually-hidden">{es.date.questionOf(question.number)}</h1>
                 <div className="stack stack--tight">
                   <div className="date-progress-row">
-                    <span className="eyebrow">
+                    <span className="date-progress-row__set">
                       <Icon name="heart" size={16} />
                       {romanSet(question.set)}
                     </span>
