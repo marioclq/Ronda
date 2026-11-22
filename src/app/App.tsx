@@ -6,6 +6,7 @@ import { Aurora } from '../ui/components/Aurora';
 import { Screen } from '../ui/components/Screen';
 import { DateMode } from '../ui/screens/DateMode';
 import { Home } from '../ui/screens/Home';
+import { GlassSettings } from '../ui/screens/GlassSettings';
 import { Kit } from '../ui/screens/Kit';
 import { MyCards } from '../ui/screens/MyCards';
 import { Play } from '../ui/screens/Play';
@@ -82,9 +83,12 @@ function renderRoute(route: Route, ctx: RouteContext) {
       return (
         <Settings
           onBack={() => navigate('home')}
+          onGlass={() => navigate('glass')}
           onBackupImported={(players) => ctx.setTonight(players.map((p) => p.id))}
         />
       );
+    case 'glass':
+      return <GlassSettings onBack={() => navigate('settings')} />;
     case 'unknown':
       return (
         <Screen title={es.appName} onBack={() => navigate('home')}>

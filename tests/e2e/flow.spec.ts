@@ -288,3 +288,28 @@ test('a passed card can be undone, and "another card" swaps it and records why',
     )
     .toEqual(['REPLACED:UNCLEAR']);
 });
+
+test('glass settings change the look live, survive a reload, reset, and can turn transparency down', async ({ page }) => {
+  const rootVar = (name: string) => page.evaluate((n) => document.documentElement.style.getPropertyValue(n), name);
+  await page.goto('/#/settings');
+  await page.getByTestId('settings-glass').click();
+  await expect(page.getByTestId('glass-preview')).toHaveAttribute('data-refract', 'true');
+
+  await page.getByTestId('glass-frost').fill('6');
+  await page.getByTestId('glass-curvature').fill('1.8');
+  expect(await rootVar('--lg-frost')).toBe('6px');
+
+  await page.waitForTimeout(700);
+  await page.reload();
+  await expect(page.getByTestId('glass-frost')).toHaveValue('6');
+  expect(await rootVar('--lg-frost')).toBe('6px');
+
+  await page.getByTestId('glass-reduce-transparency').click();
+  expect(await page.evaluate(() => document.documentElement.hasAttribute('data-rt'))).toBe(true);
+  await expect(page.getByTestId('glass-preview')).not.toHaveAttribute('data-refract', 'true');
+
+  await page.getByTestId('glass-reset').click();
+  expect(await rootVar('--lg-frost')).toBe('28px');
+  expect(await page.evaluate(() => document.documentElement.hasAttribute('data-rt'))).toBe(false);
+  await expect(page.getByTestId('glass-curvature')).toHaveValue('1');
+});

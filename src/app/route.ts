@@ -1,4 +1,4 @@
-export const ROUTE_NAMES = ['home', 'players', 'setup', 'play', 'cards', 'settings', 'date'] as const;
+export const ROUTE_NAMES = ['home', 'players', 'setup', 'play', 'cards', 'settings', 'glass', 'date'] as const;
 export type RouteName = (typeof ROUTE_NAMES)[number];
 
 export type Route =

@@ -21,10 +21,11 @@ type Confirm = null | 'CLEAR_HISTORY' | 'VIEW_LOG' | 'CLEAR_LOG';
 
 interface SettingsProps {
   readonly onBack: () => void;
+  readonly onGlass: () => void;
   readonly onBackupImported: (players: readonly Player[]) => void;
 }
 
-export function Settings({ onBack, onBackupImported }: SettingsProps) {
+export function Settings({ onBack, onGlass, onBackupImported }: SettingsProps) {
   const { state, update } = useUserState();
   const { discard } = useGame();
   const [confirm, setConfirm] = useState<Confirm>(null);
@@ -74,6 +75,13 @@ export function Settings({ onBack, onBackupImported }: SettingsProps) {
           onChange={(theme) => update((current) => ({ ...current, settings: { ...current.settings, theme } }))}
           testIdPrefix="theme"
         />
+      </Section>
+
+      <Section plain title={es.glass.title}>
+        <p className="section__note">{es.glass.entryHelp}</p>
+        <Button icon="sparkle" onClick={onGlass} data-testid="settings-glass">
+          {es.glass.entry}
+        </Button>
       </Section>
 
       <Section
