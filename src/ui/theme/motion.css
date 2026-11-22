@@ -63,6 +63,26 @@
 @keyframes handoff {
   from { opacity: 0; transform: translateX(32px); filter: blur(4px); }
 }
+/* Delight: on a new turn the name swings in like a pane of glass turning toward the next person. */
+.turn-head__name:not(.turn-head__name--compact) {
+  transform-origin: 0 60%;
+  animation: pass-phone 640ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes pass-phone {
+  from { opacity: 0; transform: perspective(700px) rotateY(-58deg) translateX(20px); filter: blur(6px); }
+  55% { filter: blur(0); }
+}
+/* Delight: a completed card rings once on the undo pill that confirms it. */
+.toast[data-outcome='COMPLETED'] .toast__icon {
+  background: var(--accent);
+  color: var(--accent-ink);
+  animation: done-ring 760ms cubic-bezier(0.16, 1, 0.3, 1) 80ms both;
+}
+@keyframes done-ring {
+  from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 75%, transparent); transform: scale(0.6); }
+  45% { transform: scale(1.08); }
+  to { box-shadow: 0 0 0 16px transparent; transform: scale(1); }
+}
 
 .stage__label,
 .stage__name--compact {
@@ -208,6 +228,7 @@ dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-ar
   .seat,
   .timer-done,
   .home__title,
+  .toast[data-outcome='COMPLETED'] .toast__icon,
   .deck__card--back,
   .deck__card--mid,
   .deck__card--top { animation: fade 160ms linear both; }
@@ -227,4 +248,20 @@ dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-ar
 }
 @keyframes fade {
   from { opacity: 0; }
+}
+
+/* ---------- Delight: the date result moves the circles from before to after ---------- */
+
+.ios-circles--from circle { transform-box: fill-box; }
+.ios-circles--from circle:first-of-type { animation: ios-left 1200ms cubic-bezier(0.16, 1, 0.3, 1) 450ms both; }
+.ios-circles--from circle:last-of-type { animation: ios-right 1200ms cubic-bezier(0.16, 1, 0.3, 1) 450ms both; }
+@keyframes ios-left {
+  from { transform: translateX(calc(-1 * var(--ios-shift))); }
+}
+@keyframes ios-right {
+  from { transform: translateX(var(--ios-shift)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ios-circles--from circle:first-of-type,
+  .ios-circles--from circle:last-of-type { animation: fade 160ms linear both; }
 }

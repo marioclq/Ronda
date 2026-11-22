@@ -59,6 +59,11 @@ function ChoiceRow({ choice, primary, disabled, onChoose }: { choice: Choice; pr
   );
 }
 
+/** Haptic feedback where the device has it; a missing API simply means no buzz. */
+function buzz(pattern: number | number[]): void {
+  if ('vibrate' in navigator) navigator.vibrate(pattern);
+}
+
 function ChoiceView({
   game,
   phase,
@@ -71,6 +76,8 @@ function ChoiceView({
   onSkip: () => void;
 }) {
   const noneAvailable = phase.unavailable.length === 2;
+  // Delight: a short buzz as the phone passes to the next person (each turn mounts its own ChoiceView).
+  useEffect(() => buzz(12), []);
   return (
     <div className="stage stage--dock">
       <div className="turn-head stage__focus">
@@ -269,7 +276,7 @@ export function Play() {
       )}
 
       {undoable === null ? null : (
-        <div className="toast glass" role="status" data-testid="undo-toast">
+        <div className="toast glass" role="status" data-outcome={undoable.outcome} data-testid="undo-toast">
           <span className="toast__icon">
             <Icon name={OUTCOME_ICONS[undoable.outcome]} size={18} />
           </span>
@@ -300,7 +307,10 @@ export function Play() {
           key={`${game.round}-${phase.card.id}`}
           game={game}
           phase={phase}
-          onComplete={() => dispatch({ type: 'COMPLETE' })}
+          onComplete={() => {
+            buzz([12, 40, 12]);
+            dispatch({ type: 'COMPLETE' });
+          }}
           onRefuse={() => dispatch({ type: 'REFUSE' })}
           onNext={() => dispatch({ type: 'NEXT' })}
           onReplace={(reason) => dispatch({ type: 'REPLACE', reason })}

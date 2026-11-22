@@ -320,7 +320,7 @@ export function DateMode({ tonight, onExit }: DateModeProps) {
                   </span>
                   <span className="date-result__row">
                     <span className="eyebrow">{es.date.after}</span>
-                    <IosCircles value={after} size={48} />
+                    <IosCircles value={after} from={before} size={48} />
                     <strong>{after}</strong>
                   </span>
                 </Glass>
