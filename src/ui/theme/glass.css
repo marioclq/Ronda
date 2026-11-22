@@ -1,6 +1,7 @@
 /*
- * Liquid glass material (DESIGN.md "Elevation & Depth"): blur(28px) saturate(190%),
- * a 135° white fill from 12% to 3%, and a 1px specular rim lit from the top.
+ * Liquid glass material (DESIGN.md "Elevation & Depth"): frosted blur and saturation, a 135° fill,
+ * a specular film on top and a rim lit from the upper left. Every value follows the --lg-* settings.
+ * Film, three-stop rim and the fallbacks below adapted from xenitV1/liquid-glass-skill (MIT).
  * The refraction layer (LensGlass) only adds to it.
  */
 .glass,
@@ -9,16 +10,17 @@
   position: relative;
   isolation: isolate;
   background:
+    linear-gradient(180deg, var(--film-top) 0%, var(--film-mid) 34%, transparent 62%),
     linear-gradient(135deg, var(--glass-fill-hi), var(--glass-fill-lo)),
     var(--glass-tint);
-  -webkit-backdrop-filter: blur(28px) saturate(1.9);
-  backdrop-filter: blur(28px) saturate(1.9);
+  -webkit-backdrop-filter: blur(var(--lg-frost)) saturate(var(--lg-saturation));
+  backdrop-filter: blur(var(--lg-frost)) saturate(var(--lg-saturation));
   box-shadow:
     inset 0 1px 0 0 var(--glass-edge-hi),
-    0 24px 48px -24px var(--glass-shadow);
+    0 calc(24px * var(--lg-depth)) calc(48px * var(--lg-depth)) -24px var(--glass-shadow);
 }
 
-/* Specular rim: a 1px border, bright on top and fading down (DESIGN.md: 0.35 to 0.08). */
+/* Rim: brightest on the upper left, faint along the middle, picking up again lower right, like a bevel catching light. */
 .glass::before,
 .btn--glass::before,
 .chip::before {
@@ -27,7 +29,7 @@
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: linear-gradient(180deg, var(--glass-edge-hi), var(--glass-edge-lo));
+  background: linear-gradient(135deg, var(--rim-1) 0%, var(--rim-2) 45%, var(--rim-3) 100%);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -74,9 +76,9 @@ dialog.glass { position: fixed; }
 /* Secondary glass pill: thinner fill and a softer rim than panels. */
 .btn--glass {
   min-height: 3.25rem;
-  background: rgb(255 255 255 / 0.07);
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+  background: color-mix(in srgb, var(--lg-tint-color) min(100%, calc(7% * var(--lg-tint) * var(--lg-contrast))), transparent);
+  -webkit-backdrop-filter: blur(calc(var(--lg-frost) * 0.72));
+  backdrop-filter: blur(calc(var(--lg-frost) * 0.72));
   box-shadow: none;
 }
 :root[data-theme='light'] .btn--glass { background: rgb(255 255 255 / 0.55); }
@@ -192,4 +194,32 @@ textarea.input { padding-block: var(--space-3); min-height: 7rem; resize: vertic
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-sm);
   background: var(--banner-bg);
+}
+
+/* ---------- Fallbacks (adapted from xenitV1/liquid-glass-skill) ---------- */
+
+/* No backdrop-filter at all: a translucent fill would read as a flat, too-clear colour. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass,
+  .btn--glass,
+  .chip:not([aria-pressed='true']) { background: var(--glass-thick); }
+}
+
+/* Reduced transparency, from the system or from Ajustes → Vidrio (data-rt): opaque glass, no film, no lens.
+   !important because LensGlass sets its refraction filter inline. */
+@media (prefers-reduced-transparency: reduce) {
+  .glass,
+  .btn--glass,
+  .chip:not([aria-pressed='true']) {
+    background: var(--glass-thick);
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+}
+:root[data-rt] .glass,
+:root[data-rt] .btn--glass,
+:root[data-rt] .chip:not([aria-pressed='true']) {
+  background: var(--glass-thick);
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }

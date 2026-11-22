@@ -65,6 +65,20 @@
   --avatar-6: #f59e0b;
   --avatar-ink: #0d0b18;
 
+  /*
+   * Liquid glass controls (Ajustes → Vidrio). Multipliers over each theme's base values, so one setting
+   * works in light and dark. Set from the user's settings by useGlassStyle; these are the defaults.
+   * Mechanisms adapted from xenitV1/liquid-glass-skill assets/tokens.css (MIT).
+   */
+  --lg-frost: 28px;      /* backdrop blur */
+  --lg-saturation: 1.9;  /* backdrop saturation */
+  --lg-tint: 1;          /* fill density, 0 to 2 */
+  --lg-film: 0.15;       /* specular sheen at the top, 0 to 0.5 */
+  --lg-rim: 1;           /* rim light, 0 to 2 */
+  --lg-depth: 1;         /* shadow under the glass, 0 to 2 */
+  --lg-tint-color: #ffffff;
+  --lg-contrast: 1;      /* raised by prefers-contrast: more */
+
   transition:
     --hue-a 1100ms ease,
     --hue-b 1100ms ease,
@@ -98,10 +112,15 @@
   --blob-alpha: 0.72;
   --text: #e5e0f3;
   --text-muted: rgb(229 224 243 / 0.7);
-  --glass-fill-hi: rgb(255 255 255 / 0.12);
-  --glass-fill-lo: rgb(255 255 255 / 0.03);
+  /* Base alphas the --lg-* multipliers scale. */
+  --fill-hi-base: 12%;
+  --fill-lo-base: 3%;
+  --rim-1-base: 0.42;
+  --rim-2-base: 0.06;
+  --rim-3-base: 0.2;
+  --film-base: 1;
   --glass-tint: rgb(20 18 31 / 0.35);
-  --glass-edge-hi: rgb(255 255 255 / 0.35);
+  --glass-thick: rgb(30 26 46 / 0.94);
   --glass-edge-lo: rgb(255 255 255 / 0.08);
   --glass-shadow: rgb(0 0 0 / 0.45);
   --track: rgb(0 0 0 / 0.28);
@@ -118,10 +137,14 @@
   --blob-alpha: 0.82;
   --text: #1c1a27;
   --text-muted: rgb(28 26 39 / 0.68);
-  --glass-fill-hi: rgb(255 255 255 / 0.62);
-  --glass-fill-lo: rgb(255 255 255 / 0.28);
+  --fill-hi-base: 62%;
+  --fill-lo-base: 28%;
+  --rim-1-base: 0.95;
+  --rim-2-base: 0.35;
+  --rim-3-base: 0.7;
+  --film-base: 2;
   --glass-tint: rgb(255 255 255 / 0.12);
-  --glass-edge-hi: rgb(255 255 255 / 0.95);
+  --glass-thick: rgb(250 249 253 / 0.95);
   --glass-edge-lo: rgb(28 26 39 / 0.08);
   --glass-shadow: rgb(40 30 70 / 0.18);
   --track: rgb(28 26 39 / 0.07);
@@ -162,4 +185,25 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   :root { transition: none; }
+}
+
+/* Derived glass colors: the theme's base scaled by the user's settings (and by high contrast). */
+:root {
+  --glass-fill-hi: color-mix(in srgb, var(--lg-tint-color) min(100%, calc(var(--fill-hi-base) * var(--lg-tint) * var(--lg-contrast))), transparent);
+  --glass-fill-lo: color-mix(in srgb, var(--lg-tint-color) min(100%, calc(var(--fill-lo-base) * var(--lg-tint) * var(--lg-contrast))), transparent);
+  --glass-edge-hi: rgb(255 255 255 / calc(var(--rim-1-base) * var(--lg-rim) * var(--lg-contrast)));
+  --rim-1: rgb(255 255 255 / calc(var(--rim-1-base) * var(--lg-rim) * var(--lg-contrast)));
+  --rim-2: rgb(255 255 255 / calc(var(--rim-2-base) * var(--lg-rim) * var(--lg-contrast)));
+  --rim-3: rgb(255 255 255 / calc(var(--rim-3-base) * var(--lg-rim) * var(--lg-contrast)));
+  --film-top: rgb(255 255 255 / calc(var(--lg-film) * var(--film-base)));
+  --film-mid: rgb(255 255 255 / calc(var(--lg-film) * var(--film-base) * 0.2));
+}
+/* Glass tinted by the level instead of neutral white. */
+:root[data-glass-tint='ACCENT'] { --lg-tint-color: color-mix(in srgb, var(--accent) 45%, #ffffff); }
+
+/* High contrast: denser fill, stronger rim, muted text closer to full. */
+@media (prefers-contrast: more) {
+  :root { --lg-contrast: 1.6; }
+  :root[data-theme='dark'] { --text-muted: rgb(229 224 243 / 0.88); }
+  :root[data-theme='light'] { --text-muted: rgb(28 26 39 / 0.85); }
 }
