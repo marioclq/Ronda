@@ -385,7 +385,9 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 }
 .date-result__row { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: var(--space-2); }
 .date-result__row .eyebrow { grid-column: 1 / -1; }
-.date-result__row strong { font-family: var(--font-display); font-size: 2.25rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.date-result__row strong { font-family: var(--font-display); font-size: 2rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--text-muted); }
+/* Bolder: how close they ended up is the outcome; before is context. */
+.date-result__row:last-child strong { font-size: 3.25rem; font-weight: 800; line-height: 1; letter-spacing: var(--tracking-tight); color: var(--text); }
 
 .date-record { display: flex; align-items: center; gap: var(--space-2); padding: var(--space-3) var(--space-2) var(--space-3) var(--space-4); border-radius: var(--radius-md); }
 .date-record__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: var(--space-1); }
@@ -540,7 +542,7 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
   overflow-wrap: anywhere;
 }
 .turn-head__name--compact { font-size: var(--step-2); }
-.turn-head__rule { display: block; width: 5.5rem; height: 3px; border-radius: 999px; background: linear-gradient(90deg, var(--accent), transparent); }
+.turn-head__rule { display: block; width: 5.5rem; height: 4px; border-radius: 999px; background: linear-gradient(90deg, var(--accent), transparent); }
 .turn-head__hint { max-width: 22rem; font-size: var(--step-1); color: var(--text-muted); }
 
 .choices { display: flex; flex-direction: column; gap: var(--space-3); }
@@ -592,7 +594,7 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 
 .card-head { display: flex; flex-direction: column; align-items: center; gap: var(--space-2); text-align: center; }
 .card-head .turn-head__rule { background: linear-gradient(90deg, transparent, var(--accent), transparent); }
-.card-head__name { font-size: clamp(2.25rem, 10vw, 3rem); font-weight: 800; line-height: 1.05; letter-spacing: var(--tracking-tight); overflow-wrap: anywhere; }
+.card-head__name { font-size: clamp(1.875rem, 8.5vw, 2.5rem); font-weight: 800; line-height: 1.05; letter-spacing: var(--tracking-tight); overflow-wrap: anywhere; }
 .type-tag--accent {
   align-self: center;
   min-height: 2rem;
@@ -604,7 +606,9 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 }
 
 .play-card { display: flex; flex-direction: column; gap: var(--space-5); }
-.play-card__text { margin: 0; text-align: center; line-height: 1.25; text-wrap: pretty; }
+.play-card__text { margin: 0; text-align: center; line-height: 1.2; text-wrap: pretty; }
+/* Bolder: the card is what the table reads aloud, so it takes the screen's heaviest type. */
+.play-card:not(.play-card--group) .play-card__text { font-size: clamp(1.625rem, 7vw, 2.125rem); font-weight: 700; letter-spacing: var(--tracking-head); }
 .play-card--group { min-height: 18rem; }
 .play-card--group .play-card__text { margin-block: auto; text-align: start; font-weight: 800; letter-spacing: var(--tracking-head); }
 .play-card__tag {
@@ -766,3 +770,11 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 
 /* Settings-like screens: more air above a section heading than inside the section. */
 .section--plain + .section--plain { margin-top: var(--space-3); }
+
+/* Bolder: the name on the turn screen reads from across the table as the phone passes. */
+.turn-head__name:not(.turn-head__name--compact) {
+  font-size: clamp(3.5rem, 19vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+.turn-head__name[data-long]:not(.turn-head__name--compact) { font-size: clamp(2.75rem, 13vw, 4rem); }

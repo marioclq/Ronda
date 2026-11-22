@@ -28,6 +28,9 @@ function nameOf(game: GameState, playerId: string): string {
   return player.name;
 }
 
+/** Names longer than this get a smaller display size so they never break mid-word. */
+const LONG_NAME = 8;
+
 const CHOICE_ICONS: Readonly<Record<Choice, IconName>> = { TRUTH: 'truth', RANDOM: 'random', DARE: 'dare' };
 const CHOICE_WORDS: Readonly<Record<Choice, string>> = { TRUTH: es.play.truth, RANDOM: es.play.random, DARE: es.play.dare };
 const OUTCOME_ICONS: Readonly<Record<PlayOutcome, IconName>> = { COMPLETED: 'check', PASSED: 'next', REPLACED: 'swap', SHOWN: 'cards' };
@@ -71,7 +74,7 @@ function ChoiceView({
   return (
     <div className="stage stage--dock">
       <div className="turn-head stage__focus">
-        <h1 className="turn-head__name" data-testid="turn-name">
+        <h1 className="turn-head__name" data-long={nameOf(game, phase.playerId).length > LONG_NAME ? '' : undefined} data-testid="turn-name">
           <span className="visually-hidden">{es.play.turnOfPrefix}</span>
           {nameOf(game, phase.playerId)}
         </h1>
