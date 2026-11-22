@@ -187,7 +187,7 @@ dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-ar
 /* Home: the glass layers rise out of the top card, in the same breath as the title. */
 .deck__card--back { animation: fan-back var(--dur-focal) var(--ease-arrive) 120ms both; }
 .deck__card--mid { animation: fan-mid var(--dur-focal) var(--ease-arrive) 60ms both; }
-.deck__card--top { animation: card-frost var(--dur-focal) var(--ease-arrive) both; }
+.deck__card--top { animation: card-frost var(--dur-focal) var(--ease-arrive) backwards; }
 @keyframes fan-back {
   from { transform: translateY(0) scale(1); opacity: 0; }
 }

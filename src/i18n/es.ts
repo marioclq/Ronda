@@ -12,6 +12,8 @@ export const es = {
   },
   home: {
     tagline: 'Un teléfono, una mesa.',
+    shuffle: 'Carta de muestra. Toca o desliza para barajar.',
+    shuffleHint: 'Desliza para barajar',
     newGame: 'Nueva partida',
     replay: 'Jugar otra vez',
     replaySummary: (modes: string, level: string) => `${modes}, nivel ${level.toLowerCase()}`,
