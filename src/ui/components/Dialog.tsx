@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef, type MouseEvent, type ReactNode } from 'react';
+import { isOutside } from '../logic/outside';
 import { cx } from './cx';
 
 interface DialogProps {
@@ -15,8 +16,7 @@ interface DialogProps {
 /** A tap on the backdrop reaches the <dialog> itself, outside its box; a tap on its own padding is inside. */
 function tappedOutside(event: MouseEvent<HTMLDialogElement>): boolean {
   if (event.target !== event.currentTarget) return false;
-  const box = event.currentTarget.getBoundingClientRect();
-  return event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom;
+  return isOutside(event.currentTarget.getBoundingClientRect(), event.clientX, event.clientY);
 }
 
 /** Native <dialog>: focus trap and Escape come from the browser; a tap outside closes it too. */
