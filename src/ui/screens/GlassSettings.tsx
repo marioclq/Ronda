@@ -113,6 +113,20 @@ export function GlassSettings({ onBack }: { onBack: () => void }) {
         </Section>
       ))}
 
+      <Section plain title={es.glass.groups.light}>
+        <button
+          type="button"
+          className="chip glass-toggle"
+          aria-pressed={draft.tiltLight}
+          onClick={() => change({ ...draft, tiltLight: !draft.tiltLight })}
+          data-testid="glass-tilt-light"
+        >
+          <Icon name={draft.tiltLight ? 'check' : 'sparkle'} size={18} />
+          {es.glass.tiltLight}
+        </button>
+        <p className="section__note">{es.glass.tiltHelp}</p>
+      </Section>
+
       <Section plain title={es.glass.groups.access}>
         <button
           type="button"

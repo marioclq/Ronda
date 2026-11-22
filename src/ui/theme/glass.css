@@ -10,7 +10,7 @@
   position: relative;
   isolation: isolate;
   background:
-    linear-gradient(180deg, var(--film-top) 0%, var(--film-mid) 34%, transparent 62%),
+    linear-gradient(calc(180deg + var(--tilt-x) * 28deg), var(--film-top) 0%, var(--film-mid) calc(34% + var(--tilt-y) * 12%), transparent 62%),
     linear-gradient(135deg, var(--glass-fill-hi), var(--glass-fill-lo)),
     var(--glass-tint);
   -webkit-backdrop-filter: blur(var(--lg-frost)) saturate(var(--lg-saturation));
@@ -29,7 +29,8 @@
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: linear-gradient(135deg, var(--rim-1) 0%, var(--rim-2) 45%, var(--rim-3) 100%);
+  /* The light source moves with the phone's tilt (overdrive): the bright corner follows it. */
+  background: linear-gradient(calc(135deg + var(--tilt-x) * 50deg + var(--tilt-y) * 20deg), var(--rim-1) 0%, var(--rim-2) 45%, var(--rim-3) 100%);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;

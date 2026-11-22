@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { DEFAULT_GLASS, type GlassStyle } from '../store/glassStyle';
 import { glassCssVars } from '../ui/theme/glassVars';
+import { useTiltLight } from '../ui/theme/useTiltLight';
 import { useUserState } from './UserStateContext';
 
 interface GlassStyleApi {
@@ -30,6 +31,8 @@ export function GlassStyleProvider({ children }: { children: ReactNode }) {
     root.dataset.glassTint = style.tintColor;
     root.toggleAttribute('data-rt', style.reduceTransparency);
   }, [style]);
+
+  useTiltLight(style.tiltLight && !style.reduceTransparency);
 
   const api = useMemo<GlassStyleApi>(() => ({ style, preview: setPreviewed }), [style]);
   return <Context.Provider value={api}>{children}</Context.Provider>;

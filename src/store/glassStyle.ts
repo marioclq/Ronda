@@ -21,6 +21,8 @@ export type GlassStyle = Readonly<Record<GlassNumber, number>> & {
   readonly tintColor: GlassTintColor;
   /** Opaque glass without refraction, whatever the system says. */
   readonly reduceTransparency: boolean;
+  /** Rim light and film follow how the phone is tilted (device orientation). */
+  readonly tiltLight: boolean;
 };
 
 export interface GlassRange {
@@ -55,9 +57,10 @@ export const DEFAULT_GLASS: GlassStyle = {
   depth: 1,
   tintColor: 'NEUTRAL',
   reduceTransparency: false,
+  tiltLight: true,
 };
 
-const FIELDS = new Set<string>([...GLASS_NUMBERS, 'tintColor', 'reduceTransparency']);
+const FIELDS = new Set<string>([...GLASS_NUMBERS, 'tintColor', 'reduceTransparency', 'tiltLight']);
 
 /** Validates settings.glass. Each problem is reported with the value found; nothing is repaired. */
 export function parseGlassStyle(raw: unknown, problems: string[]): GlassStyle {
@@ -87,5 +90,9 @@ export function parseGlassStyle(raw: unknown, problems: string[]): GlassStyle {
   let reduceTransparency = DEFAULT_GLASS.reduceTransparency;
   if (typeof record.reduceTransparency === 'boolean') reduceTransparency = record.reduceTransparency;
   else problems.push(`${where}.reduceTransparency must be true or false, got ${JSON.stringify(record.reduceTransparency)}`);
-  return { ...numbers, tintColor, reduceTransparency };
+  // Added after the first release: a saved style without it takes the default.
+  let tiltLight = DEFAULT_GLASS.tiltLight;
+  if (typeof record.tiltLight === 'boolean') tiltLight = record.tiltLight;
+  else if (record.tiltLight !== undefined) problems.push(`${where}.tiltLight must be true or false, got ${JSON.stringify(record.tiltLight)}`);
+  return { ...numbers, tintColor, reduceTransparency, tiltLight };
 }

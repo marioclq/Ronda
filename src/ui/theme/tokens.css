@@ -11,6 +11,9 @@
 @property --hue-b { syntax: '<number>'; inherits: true; initial-value: 295; }
 @property --hue-c { syntax: '<number>'; inherits: true; initial-value: 330; }
 @property --hue-base { syntax: '<number>'; inherits: true; initial-value: 290; }
+/* Phone tilt, -1 to 1 (useTiltLight); registered so the light glides instead of jittering. */
+@property --tilt-x { syntax: '<number>'; inherits: true; initial-value: 0; }
+@property --tilt-y { syntax: '<number>'; inherits: true; initial-value: 0; }
 
 :root {
   --font-display: 'Inter Variable', system-ui, sans-serif;
@@ -83,7 +86,9 @@
     --hue-a 1100ms ease,
     --hue-b 1100ms ease,
     --hue-c 1100ms ease,
-    --hue-base 1100ms ease;
+    --hue-base 1100ms ease,
+    --tilt-x 180ms linear,
+    --tilt-y 180ms linear;
 }
 
 /* Level: aurora hues and the accent that marks every active control */

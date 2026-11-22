@@ -223,7 +223,7 @@ export const es = {
     entryHelp: 'Escarcha, tinte, luz del borde, curvatura y más. Los cambios se ven al instante.',
     previewLabel: 'Vista previa',
     previewCard: '¿Qué prefieres: una cena a la luz de las velas o una noche de karaoke?',
-    groups: { surface: 'Superficie', rim: 'Borde y lente', depth: 'Profundidad', access: 'Accesibilidad' },
+    groups: { surface: 'Superficie', rim: 'Borde y lente', depth: 'Profundidad', light: 'Luz', access: 'Accesibilidad' },
     labels: {
       frost: 'Escarcha',
       saturation: 'Saturación',
@@ -251,6 +251,8 @@ export const es = {
     tintColor: 'Color del tinte',
     tintColors: { NEUTRAL: 'Neutro', ACCENT: 'Del nivel' },
     reduceTransparency: 'Reducir transparencia',
+    tiltLight: 'Luz que sigue al teléfono',
+    tiltHelp: 'Al inclinar el teléfono, el borde de luz y la película se mueven como bajo una lámpara real.',
     reduceHelp: 'Vidrio opaco y sin refracción: se lee mejor y gasta menos batería.',
     refractionOff: 'Aquí el fondo no se dobla (navegador sin soporte o transparencia reducida): curvatura, separación del color y lupa no se notan.',
     reset: 'Restablecer',
