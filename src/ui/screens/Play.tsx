@@ -75,9 +75,9 @@ function ChoiceView({
           <Icon name="replay" size={16} />
           {es.play.turnOf}
         </p>
-        <h2 className="turn-head__name" data-testid="turn-name">
+        <h1 className="turn-head__name" data-testid="turn-name">
           {nameOf(game, phase.playerId)}
-        </h2>
+        </h1>
         <span className="turn-head__rule" aria-hidden="true" />
         {noneAvailable ? null : <p className="turn-head__hint">{es.play.choiceHint}</p>}
       </div>
@@ -133,7 +133,7 @@ function CardView({
       <div className="stage">
         <div className="turn-head">
           <p className="eyebrow">{es.play.turnOf}</p>
-          <h2 className="turn-head__name turn-head__name--compact">{nameOf(game, phase.playerId)}</h2>
+          <h1 className="turn-head__name turn-head__name--compact">{nameOf(game, phase.playerId)}</h1>
         </div>
         <RandomReveal result={type} onDone={onRevealDone} />
       </div>
@@ -156,7 +156,7 @@ function CardView({
             <Icon name={CARD_TYPE_ICONS[type]} size={16} />
             {es.cards.types[type]}
           </span>
-          <h2 className="card-head__name">{nameOf(game, phase.playerId)}</h2>
+          <h1 className="card-head__name">{nameOf(game, phase.playerId)}</h1>
           <span className="turn-head__rule" aria-hidden="true" />
         </div>
       )}

@@ -84,7 +84,7 @@ export const es = {
     truth: 'Verdad',
     random: 'Al azar',
     dare: 'Reto',
-    roundLabel: (round: number, level: string) => `Ronda ${round} · ${level}`,
+    roundLabel: (turn: number, level: string) => `Turno ${turn} · ${level}`,
     choiceHint: 'Elige verdad o reto, o deja que el azar decida por ti.',
     choiceHints: {
       TRUTH: 'Responde con total sinceridad',

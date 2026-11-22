@@ -131,7 +131,7 @@ function IosStep({ name, onRate }: { name: string; onRate: (value: number) => vo
   return (
     <>
       <div className="stage">
-        <h2 className="date-title">{es.date.iosTitle(name)}</h2>
+        <h1 className="date-title">{es.date.iosTitle(name)}</h1>
         <p className="date-lead">{es.date.iosHelp}</p>
         <IosPicker value={value} onChange={setValue} />
       </div>
@@ -194,7 +194,7 @@ export function DateMode({ tonight, onExit }: DateModeProps) {
       {phase.kind === 'CONSENT' ? (
         <>
           <div className="stage">
-            <h2 className="date-title">{es.date.consentTitle}</h2>
+            <h1 className="date-title">{es.date.consentTitle}</h1>
             <Glass thick className="consent">
               <p>{es.date.consentBody}</p>
               <ul className="consent__rules">
@@ -225,6 +225,7 @@ export function DateMode({ tonight, onExit }: DateModeProps) {
             const tip = tips[phase.index % tips.length];
             return (
               <div className="stage stage--date-question" key={phase.index}>
+                <h1 className="visually-hidden">{es.date.questionOf(question.number)}</h1>
                 <div className="stack stack--tight">
                   <div className="date-progress-row">
                     <span className="eyebrow">
@@ -285,7 +286,7 @@ export function DateMode({ tonight, onExit }: DateModeProps) {
 
       {phase.kind === 'SET_BREAK' ? (
         <div className="stage">
-          <h2 className="stage__name">{es.date.breakTitle(romanSet(phase.nextSet === 2 ? 1 : 2))}</h2>
+          <h1 className="stage__name">{es.date.breakTitle(romanSet(phase.nextSet === 2 ? 1 : 2))}</h1>
           <p className="stage__label">{es.date.breakBody}</p>
           <div className="date-actions">
             <Button variant="primary" icon="next" onClick={() => dispatch({ type: 'NEXT' })} data-testid="date-next">
@@ -301,7 +302,7 @@ export function DateMode({ tonight, onExit }: DateModeProps) {
       {phase.kind === 'RESULT' ? (
         <div className="stage" data-testid="date-result">
           <div className="stack stack--tight">
-            <h2 className="date-title">{es.date.resultTitle}</h2>
+            <h1 className="date-title">{es.date.resultTitle}</h1>
             <p className="date-lead">{es.date.resultSubtitle}</p>
           </div>
           <div className="date-result">

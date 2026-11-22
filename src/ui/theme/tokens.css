@@ -111,7 +111,8 @@
   --blob-c: 0.2;
   --blob-alpha: 0.72;
   --text: #e5e0f3;
-  --text-muted: rgb(229 224 243 / 0.7);
+  /* 0.84: the lowest alpha that keeps 4.5:1 over the brightest part of the aurora (audit 2026-11-21). */
+  --text-muted: rgb(229 224 243 / 0.84);
   /* Base alphas the --lg-* multipliers scale. */
   --fill-hi-base: 12%;
   --fill-lo-base: 3%;
@@ -204,6 +205,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* High contrast: denser fill, stronger rim, muted text closer to full. */
 @media (prefers-contrast: more) {
   :root { --lg-contrast: 1.6; }
-  :root[data-theme='dark'] { --text-muted: rgb(229 224 243 / 0.88); }
+  :root[data-theme='dark'] { --text-muted: rgb(229 224 243 / 0.94); }
   :root[data-theme='light'] { --text-muted: rgb(28 26 39 / 0.85); }
 }
