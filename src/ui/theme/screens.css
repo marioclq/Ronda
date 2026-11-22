@@ -88,7 +88,6 @@
 .stage__name { font-family: var(--font-display); font-size: var(--step-4); font-weight: 700; line-height: 1; overflow-wrap: anywhere; }
 .stage__card { padding: var(--space-6) var(--space-5); font-family: var(--font-display); font-size: var(--step-3); font-weight: 600; line-height: 1.15; text-wrap: pretty; }
 .stage__actions { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
-.stage__actions--stacked { grid-template-columns: 1fr; }
 .stage__actions--wide { grid-template-columns: 1.4fr 1fr; }
 .timer { font-family: var(--font-display); font-size: var(--step-4); font-weight: 700; font-variant-numeric: tabular-nums; }
 
@@ -205,9 +204,6 @@ input, textarea { caret-color: var(--accent); }
 
 .icon-btn--glass { width: 2.75rem; height: 2.75rem; background: rgb(255 255 255 / 0.06); box-shadow: inset 0 0 0 1px var(--glass-edge-lo); color: var(--text); }
 :root[data-theme='light'] .icon-btn--glass { background: rgb(255 255 255 / 0.5); }
-.icon-btn--accent { background: var(--accent); color: var(--accent-ink); }
-.icon-btn--accent:active { background: var(--accent); color: var(--accent-ink); filter: brightness(1.1); }
-@media (hover: hover) and (pointer: fine) { .icon-btn--accent:hover { color: var(--accent-ink); filter: brightness(1.08); } }
 
 /* Empty screens invite the one action that fills them. */
 .empty { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: var(--space-5); }
@@ -223,15 +219,6 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 /* Icons inside buttons sit on the text baseline and never shrink. */
 .btn .icon { flex: none; margin-inline-start: -0.1em; }
 
-/* Truth / random / dare: three big choices, icon first, read left to right. */
-.stage__actions--stacked .btn {
-  min-height: 3.75rem;
-  justify-content: flex-start;
-  gap: var(--space-3);
-  padding-inline: var(--space-5);
-  font-family: var(--font-display);
-  font-size: var(--step-1);
-}
 
 /* Random choice: one glass slab where the two options take turns until one lands. */
 .roulette {
@@ -540,7 +527,6 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 }
 .eyebrow .icon { flex: none; color: var(--accent); }
 
-.stage--turn { gap: var(--space-6); }
 .turn-head { display: flex; flex-direction: column; gap: var(--space-2); }
 .turn-head__name {
   font-size: var(--step-4);
@@ -619,18 +605,6 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
 .play-card:not(.play-card--group) .play-card__text { font-size: clamp(1.625rem, 7vw, 2.125rem); font-weight: 700; letter-spacing: var(--tracking-head); }
 .play-card--group { min-height: 18rem; }
 .play-card--group .play-card__text { margin-block: auto; text-align: start; font-weight: 800; letter-spacing: var(--tracking-head); }
-.play-card__tag {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  font-family: var(--font-body);
-  font-size: var(--step--1);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-.play-card__tag .icon { flex: none; color: var(--accent); }
 .play-card__rule {
   display: flex;
   align-items: center;
@@ -786,3 +760,7 @@ fieldset.choice-group > legend { padding: 0; margin-bottom: var(--space-2); }
   letter-spacing: -0.04em;
 }
 .turn-head__name[data-long]:not(.turn-head__name--compact) { font-size: clamp(2.75rem, 13vw, 4rem); }
+
+/* Polish: the penalty card reads like the other cards, its icon in the accent. */
+.stage__card--penalty { display: flex; align-items: center; justify-content: center; gap: var(--space-3); text-align: center; }
+.stage__card--penalty .icon { flex: none; color: var(--accent); }

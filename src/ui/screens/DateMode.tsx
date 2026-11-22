@@ -115,6 +115,7 @@ function Setup({ tonight, onStart, onExit }: { tonight: readonly string[]; onSta
       {adding ? (
         <PlayerSheet
           editing={null}
+          addTitle={es.date.addPerson}
           onSaved={(player) => {
             if (picked.length < 2) setPicked([...picked, player.id]);
           }}

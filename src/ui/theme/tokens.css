@@ -213,3 +213,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
   :root[data-theme='dark'] { --text-muted: rgb(229 224 243 / 0.94); }
   :root[data-theme='light'] { --text-muted: rgb(28 26 39 / 0.85); }
 }
+
+/* Browser surfaces: the scrollbar belongs to the palette too. */
+html { scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--text) 28%, transparent) transparent; }

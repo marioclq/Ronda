@@ -110,13 +110,6 @@
 
 /* ---------- Timer: the last seconds press on the player ---------- */
 
-.timer--urgent {
-  color: var(--accent);
-  animation: tick 520ms var(--ease-arrive);
-}
-@keyframes tick {
-  from { transform: scale(1.18); }
-}
 .timer-done { animation: settle var(--dur-view) var(--ease-arrive) both; }
 
 /* ---------- Random choice: the wheel flips, slows, and lands ---------- */
@@ -240,7 +233,6 @@ dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-ar
   .deck__card--mid,
   .deck__card--top { animation: fade 160ms linear both; }
   .chip[aria-pressed='true'],
-  .timer--urgent,
   .countdown[data-state='done'] { animation: none; }
   .roulette__face,
   .roulette--landed .roulette__face,

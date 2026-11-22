@@ -334,15 +334,22 @@ export function Play() {
         />
       ) : null}
       {phase.kind === 'SHOWING_PENALTY' ? (
-        <div className="stage">
-          <div>
-            <p className="stage__label">{es.play.passedLabel}</p>
-            <h2 className="stage__name stage__name--compact">{nameOf(game, phase.playerId)}</h2>
+        <div className="stage stage--dock">
+          <div className="stage__focus stack">
+            <div className="card-head">
+              <span className="type-tag type-tag--accent">
+                <Icon name="next" size={16} />
+                {es.play.passedLabel}
+              </span>
+              <h1 className="card-head__name">{nameOf(game, phase.playerId)}</h1>
+              <span className="turn-head__rule" aria-hidden="true" />
+            </div>
+            <Glass thick className="stage__card stage__card--penalty" data-testid="penalty-text">
+              <Icon name="drink" size={28} />
+              {describePenalty(phase.penalty)}
+            </Glass>
           </div>
-          <Glass thick className="stage__card stage__card--penalty" data-testid="penalty-text">
-            {describePenalty(phase.penalty)}
-          </Glass>
-          <Button variant="primary" onClick={() => dispatch({ type: 'NEXT' })} icon="next" data-testid="penalty-next">
+          <Button variant="primary" className="stage__dock" onClick={() => dispatch({ type: 'NEXT' })} icon="next" data-testid="penalty-next">
             {es.play.next}
           </Button>
         </div>
@@ -355,9 +362,9 @@ export function Play() {
         </div>
       ) : null}
       {phase.kind === 'ENDED' ? (
-        <div className="stage">
-          <h2 className="stage__name stage__name--compact">{es.play.ended}</h2>
-          <Button variant="primary" onClick={leave} data-testid="ended-home">
+        <div className="stage stage--dock">
+          <h1 className="date-title stage__focus">{es.play.ended}</h1>
+          <Button variant="primary" className="stage__dock" icon="back" onClick={leave} data-testid="ended-home">
             {es.play.backHome}
           </Button>
         </div>

@@ -16,6 +16,8 @@ interface PlayerSheetProps {
   readonly onClose: () => void;
   /** The browser refused to keep the data; the message is ready to show. */
   readonly onPersistError: (message: string) => void;
+  /** Title when adding; defaults to "Agregar jugador". */
+  readonly addTitle?: string;
 }
 
 function errorText(error: PlayerFormError): string {
@@ -23,7 +25,7 @@ function errorText(error: PlayerFormError): string {
 }
 
 /** Bottom sheet to add or edit a player: name, gender and who they are attracted to. Used by Players and date mode. */
-export function PlayerSheet({ editing, onSaved, onClose, onPersistError }: PlayerSheetProps) {
+export function PlayerSheet({ editing, onSaved, onClose, onPersistError, addTitle = es.players.add }: PlayerSheetProps) {
   const { state, update } = useUserState();
   const [draft, setDraft] = useState<PlayerDraft>(() =>
     editing === null ? EMPTY_DRAFT : { name: editing.name, gender: editing.gender, attractedTo: editing.attractedTo },
@@ -57,7 +59,7 @@ export function PlayerSheet({ editing, onSaved, onClose, onPersistError }: Playe
   };
 
   return (
-    <Dialog title={editing === null ? es.players.add : es.players.editTitle} onClose={onClose} testId="player-sheet">
+    <Dialog title={editing === null ? addTitle : es.players.editTitle} onClose={onClose} testId="player-sheet">
       <form className="stack" onSubmit={submit} data-testid="player-form">
         <label className="field">
           <span className="field__label">{es.players.nameLabel}</span>
