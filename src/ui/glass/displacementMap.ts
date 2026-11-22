@@ -1,51 +1,80 @@
+/*
+ * Displacement map for the liquid glass lens, ported from xenitV1/liquid-glass-skill
+ * (assets/refraction.js, MIT License, Copyright (c) xenitV1).
+ * Neutral in the middle; inside a rim band ("bezel") every pixel samples from further inward,
+ * so what is behind the glass curves and compresses at the edge like the rim of a thick lens.
+ */
+
 export interface LensSpec {
   /** Size of the element in CSS pixels. */
   readonly width: number;
   readonly height: number;
-  /** Corner radius in CSS pixels. */
+  /** Corner radius in CSS pixels (already capped to half the short side). */
   readonly radius: number;
   /** Width of the refracting rim in CSS pixels; the interior stays neutral. */
   readonly bezel: number;
+  /** Gentle zoom toward the centre across the whole surface, 0 for none. */
+  readonly magnify: number;
 }
 
-/** Distance from a point to the edge of a rounded rectangle; positive inside, zero on the edge. */
-export function signedInsideDistance(x: number, y: number, spec: LensSpec): number {
-  const halfWidth = spec.width / 2;
-  const halfHeight = spec.height / 2;
-  const qx = Math.abs(x - halfWidth) - (halfWidth - spec.radius);
-  const qy = Math.abs(y - halfHeight) - (halfHeight - spec.radius);
-  const outside = Math.hypot(Math.max(qx, 0), Math.max(qy, 0)) + Math.min(Math.max(qx, qy), 0) - spec.radius;
-  return -outside;
+interface Field {
+  /** Signed distance to the outline, negative inside. */
+  readonly d: number;
+  /** Outward normal. */
+  readonly nx: number;
+  readonly ny: number;
 }
 
-/** Unit vector pointing from the edge toward the inside, from a numeric gradient of the distance. */
-function inwardDirection(x: number, y: number, spec: LensSpec): readonly [number, number] {
-  const step = 0.75;
-  const gx = signedInsideDistance(x + step, y, spec) - signedInsideDistance(x - step, y, spec);
-  const gy = signedInsideDistance(x, y + step, spec) - signedInsideDistance(x, y - step, spec);
-  const length = Math.hypot(gx, gy);
-  return length === 0 ? [0, 0] : [gx / length, gy / length];
+/** Signed distance from a point to a rounded rectangle centred at 0,0, with its outward normal. */
+export function roundedRectField(x: number, y: number, halfWidth: number, halfHeight: number, radius: number): Field {
+  const qx = Math.abs(x) - (halfWidth - radius);
+  const qy = Math.abs(y) - (halfHeight - radius);
+  const sx = x < 0 ? -1 : 1;
+  const sy = y < 0 ? -1 : 1;
+  if (qx > 0 && qy > 0) {
+    const length = Math.hypot(qx, qy) || 1;
+    return { d: length - radius, nx: (qx / length) * sx, ny: (qy / length) * sy };
+  }
+  if (qx > qy) return { d: qx - radius, nx: sx, ny: 0 };
+  return { d: qy - radius, nx: 0, ny: sy };
 }
 
 const NEUTRAL = 128;
 
-/**
- * RGBA pixels of a displacement map for feDisplacementMap (R = x, G = y, 128 = no shift).
- * The shift is strongest on the edge and falls to zero at the inner side of the bezel, and it
- * points inward, so the rim shows content bent toward the center like a convex lens.
- */
+function channel(value: number): number {
+  return Math.round(NEUTRAL + Math.max(-1, Math.min(1, value)) * 127);
+}
+
+/** RGBA pixels for feDisplacementMap: R = x shift, G = y shift, 128 = none. */
 export function renderDisplacementPixels(spec: LensSpec): Uint8ClampedArray<ArrayBuffer> {
-  const data = new Uint8ClampedArray(spec.width * spec.height * 4);
-  for (let y = 0; y < spec.height; y += 1) {
-    for (let x = 0; x < spec.width; x += 1) {
-      const px = x + 0.5;
-      const py = y + 0.5;
-      const depth = signedInsideDistance(px, py, spec) / spec.bezel;
-      const strength = depth >= 1 ? 0 : (1 - Math.max(depth, 0)) ** 2;
-      const [dx, dy] = inwardDirection(px, py, spec);
-      const offset = (y * spec.width + x) * 4;
-      data[offset] = Math.round(NEUTRAL + 127 * dx * strength);
-      data[offset + 1] = Math.round(NEUTRAL + 127 * dy * strength);
+  const { width, height, radius, bezel, magnify } = spec;
+  if (bezel <= 0) throw new Error(`The lens bezel must be positive, got ${bezel} for a ${width}x${height} map`);
+  const data = new Uint8ClampedArray(width * height * 4);
+  const halfWidth = width / 2;
+  const halfHeight = height / 2;
+  for (let py = 0; py < height; py += 1) {
+    for (let px = 0; px < width; px += 1) {
+      const x = px + 0.5 - halfWidth;
+      const y = py + 0.5 - halfHeight;
+      const field = roundedRectField(x, y, halfWidth, halfHeight, radius);
+      const inside = -field.d;
+      let vx = 0;
+      let vy = 0;
+      if (inside < bezel && inside > -1) {
+        // 1 at the outline, 0 at the inner edge of the bezel; steep near the outline.
+        const t = 1 - Math.max(0, inside) / bezel;
+        const m = (t * t * (3 - 2 * t)) ** 1.6;
+        vx = -field.nx * m;
+        vy = -field.ny * m;
+      }
+      if (magnify > 0) {
+        // The original turns a fixed 0.25 zoom on or off; here it grows with magnify (0.1 = the original).
+        vx -= (x / halfWidth) * magnify * 2.5;
+        vy -= (y / halfHeight) * magnify * 2.5;
+      }
+      const offset = (py * width + px) * 4;
+      data[offset] = channel(vx);
+      data[offset + 1] = channel(vy);
       data[offset + 2] = NEUTRAL;
       data[offset + 3] = 255;
     }
