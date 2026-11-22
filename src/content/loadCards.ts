@@ -21,6 +21,14 @@ export const BANNED_SOFT_WORDS: readonly string[] = readBannedWords(banned);
 
 const CORPUS_RULES = { bannedSoftWords: BANNED_SOFT_WORDS, nearDuplicateThreshold: DEFAULT_NEAR_DUPLICATE_THRESHOLD } as const;
 
+/**
+ * The corpus check compares every card with every other (near duplicates): about 130 ms on a desktop for the
+ * base deck, several times that on a low-end phone, on every launch. The shipped packs are static, and this
+ * module runs under the tests (loadCards.test.ts) and in development, where a bad pack still fails loudly;
+ * the production build skips it. Per-pack parsing and conventions below still run everywhere.
+ */
+const CHECK_CORPUS = import.meta.env.MODE !== 'production';
+
 function parseEntries(entries: readonly (readonly [string, unknown])[]): Pack[] {
   return entries.map(([path, raw]) => {
     const pack = parsePack(raw, path);
@@ -40,7 +48,7 @@ function requireLevel(packs: readonly Pack[], allowed: (level: Card['level']) =>
 
 const basePacks = parseEntries(Object.entries(baseModules));
 requireLevel(basePacks, (level) => level !== 'EXTREME', 'Base packs');
-assertCorpus(basePacks, CORPUS_RULES);
+if (CHECK_CORPUS) assertCorpus(basePacks, CORPUS_RULES);
 
 export function loadBaseCards(): Card[] {
   return basePacks.flatMap((pack) => [...pack.cards]);
@@ -52,6 +60,6 @@ export async function loadExtremeCards(): Promise<Card[]> {
   );
   const extremePacks = parseEntries(entries);
   requireLevel(extremePacks, (level) => level === 'EXTREME', 'Extreme packs');
-  assertCorpus([...basePacks, ...extremePacks], CORPUS_RULES);
+  if (CHECK_CORPUS) assertCorpus([...basePacks, ...extremePacks], CORPUS_RULES);
   return extremePacks.flatMap((pack) => [...pack.cards]);
 }

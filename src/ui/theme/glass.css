@@ -262,3 +262,13 @@ textarea.input { padding-block: var(--space-3); min-height: 7rem; resize: vertic
   .segmented__option:active,
   .chip:active { transform: none; }
 }
+
+/* ---------- Performance: no blur on blur ---------- */
+
+/* Inside a glass panel the backdrop is already frosted, so a chip or glass button there needs no blur of its own:
+   it looks the same and saves a GPU pass per element (optimize, 2026-11-21). */
+.glass .chip,
+.glass .btn--glass {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
