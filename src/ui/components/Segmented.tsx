@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react';
 import type { Level } from '../../core/content/types';
 import { Icon, type IconName } from './Icon';
 
@@ -20,10 +21,17 @@ interface SegmentedProps<T extends string> {
   readonly wrap?: boolean;
 }
 
-/** One track, one lit segment (DESIGN.md "Dynamic Mode & Level Selectors"). */
+/**
+ * One track, one lit segment (DESIGN.md "Dynamic Mode & Level Selectors").
+ * On a single track the lit segment is one shape that flows to the chosen option, like liquid in a channel.
+ */
 export function Segmented<T extends string>({ label, options, value, onChange, testIdPrefix, wrap = false }: SegmentedProps<T>) {
+  const index = options.findIndex((option) => option.value === value);
+  const selected = options[index];
+  const track = { '--count': options.length, '--index': Math.max(index, 0) } as CSSProperties;
   return (
-    <div className={wrap ? 'segmented segmented--wrap' : 'segmented'} role="group" aria-label={label}>
+    <div className={wrap ? 'segmented segmented--wrap' : 'segmented'} role="group" aria-label={label} style={wrap ? undefined : track}>
+      {wrap || selected === undefined ? null : <span className="segmented__thumb" data-level={selected.level} aria-hidden="true" />}
       {options.map((option) => (
         <button
           key={option.value}

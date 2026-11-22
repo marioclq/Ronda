@@ -223,3 +223,41 @@ textarea.input { padding-block: var(--space-3); min-height: 7rem; resize: vertic
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
 }
+
+/* ---------- Segmented thumb: the lit segment flows between options ---------- */
+
+.segmented:not(.segmented--wrap) { position: relative; isolation: isolate; }
+.segmented__thumb {
+  position: absolute;
+  z-index: 0;
+  top: var(--space-1);
+  bottom: var(--space-1);
+  left: var(--space-1);
+  width: calc((100% - 2 * var(--space-1) - (var(--count) - 1) * var(--space-1)) / var(--count));
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 8px 22px -8px color-mix(in srgb, var(--accent) 60%, transparent);
+  transform: translateX(calc(var(--index) * (100% + var(--space-1))));
+  transition:
+    transform 340ms cubic-bezier(0.32, 0.72, 0, 1),
+    background-color 220ms var(--ease-out);
+  pointer-events: none;
+}
+.segmented__thumb[data-level='SOFT'] { background: var(--level-soft); box-shadow: 0 8px 22px -8px color-mix(in srgb, var(--level-soft) 60%, transparent); }
+.segmented__thumb[data-level='SPICY'] { background: var(--level-spicy); box-shadow: 0 8px 22px -8px color-mix(in srgb, var(--level-spicy) 60%, transparent); }
+.segmented__thumb[data-level='EXTREME'] { background: var(--level-extreme); box-shadow: 0 8px 22px -8px color-mix(in srgb, var(--level-extreme) 60%, transparent); }
+/* On a single track the thumb paints the lit option; the option only changes its ink. */
+.segmented:not(.segmented--wrap) > .segmented__option { position: relative; z-index: 1; }
+.segmented:not(.segmented--wrap) > .segmented__option[aria-pressed='true'] { background: transparent; box-shadow: none; }
+
+/* Press: a small pop that confirms the tap (DESIGN.md: scale 0.96). */
+.segmented__option,
+.chip { transition: transform var(--dur-quick) var(--ease-out), background-color var(--dur-quick) var(--ease-out), color var(--dur-quick) var(--ease-out); }
+.segmented__option:active,
+.chip:active { transform: scale(0.96); }
+
+@media (prefers-reduced-motion: reduce) {
+  .segmented__thumb { transition: background-color 160ms linear; }
+  .segmented__option:active,
+  .chip:active { transform: none; }
+}

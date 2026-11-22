@@ -142,6 +142,8 @@
 
 .banner { animation: settle var(--dur-state) var(--ease-arrive) both; }
 .list__item { animation: settle var(--dur-state) var(--ease-arrive) both; }
+/* A player joins the list. */
+.seat { animation: settle var(--dur-state) var(--ease-arrive) both; }
 
 dialog.sheet[open] { animation: sheet-rise var(--dur-view) var(--ease-arrive); }
 dialog.sheet--top[open] { animation: sheet-drop var(--dur-view) var(--ease-arrive); }
@@ -203,6 +205,7 @@ dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-ar
   .stage__actions,
   .banner,
   .list__item,
+  .seat,
   .timer-done,
   .home__title,
   .deck__card--back,
