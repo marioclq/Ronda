@@ -197,6 +197,13 @@ dialog.sheet[open]::backdrop { animation: scrim-in var(--dur-view) var(--ease-ar
 
 /* ---------- Continuity between screens (View Transitions) ---------- */
 
+/* Overdrive: the tapped option and the card (or roulette) are one element across the change (src/ui/morph.ts). */
+.play-card,
+.roulette { view-transition-name: play-card; }
+::view-transition-group(play-card) { animation-duration: 480ms; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+::view-transition-old(play-card),
+::view-transition-new(play-card) { animation-duration: 480ms; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); height: 100%; }
+
 .aurora { view-transition-name: aurora; }
 ::view-transition-group(aurora),
 ::view-transition-old(aurora),

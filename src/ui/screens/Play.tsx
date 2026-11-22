@@ -14,6 +14,7 @@ import { Dialog } from '../components/Dialog';
 import { Glass } from '../components/Glass';
 import { Icon, type IconName } from '../components/Icon';
 import { CARD_TYPE_ICONS } from '../components/typeIcons';
+import { morphInto } from '../morph';
 import { LensGlass } from '../glass/LensGlass';
 import { describePenalty } from '../logic/penaltyText';
 import { useLevelBackdrop } from '../theme/useAppearance';
@@ -36,13 +37,23 @@ const CHOICE_WORDS: Readonly<Record<Choice, string>> = { TRUTH: es.play.truth, R
 const OUTCOME_ICONS: Readonly<Record<PlayOutcome, IconName>> = { COMPLETED: 'check', PASSED: 'next', REPLACED: 'swap', SHOWN: 'cards' };
 
 /** One of the three turn options: icon, name and what it means, as one big row. */
-function ChoiceRow({ choice, primary, disabled, onChoose }: { choice: Choice; primary: boolean; disabled: boolean; onChoose: () => void }) {
+function ChoiceRow({
+  choice,
+  primary,
+  disabled,
+  onChoose,
+}: {
+  choice: Choice;
+  primary: boolean;
+  disabled: boolean;
+  onChoose: (row: HTMLElement) => void;
+}) {
   return (
     <button
       type="button"
       className={cx('choice', primary ? 'choice--primary' : 'glass')}
       disabled={disabled}
-      onClick={onChoose}
+      onClick={(event) => onChoose(event.currentTarget)}
       data-testid={`choice-${choice.toLowerCase()}`}
     >
       <span className="choice__icon">
@@ -72,7 +83,8 @@ function ChoiceView({
 }: {
   game: GameState;
   phase: Extract<Phase, { kind: 'AWAITING_CHOICE' }>;
-  onChoose: (choice: Choice) => void;
+  /** `row` is the tapped option, which morphs into the card. */
+  onChoose: (choice: Choice, row: HTMLElement) => void;
   onSkip: () => void;
 }) {
   const noneAvailable = phase.unavailable.length === 2;
@@ -99,9 +111,9 @@ function ChoiceView({
         </>
       ) : (
         <div className="choices stage__dock">
-          <ChoiceRow choice="TRUTH" primary={false} disabled={phase.unavailable.includes('TRUTH')} onChoose={() => onChoose('TRUTH')} />
-          <ChoiceRow choice="RANDOM" primary disabled={false} onChoose={() => onChoose('RANDOM')} />
-          <ChoiceRow choice="DARE" primary={false} disabled={phase.unavailable.includes('DARE')} onChoose={() => onChoose('DARE')} />
+          <ChoiceRow choice="TRUTH" primary={false} disabled={phase.unavailable.includes('TRUTH')} onChoose={(row) => onChoose('TRUTH', row)} />
+          <ChoiceRow choice="RANDOM" primary disabled={false} onChoose={(row) => onChoose('RANDOM', row)} />
+          <ChoiceRow choice="DARE" primary={false} disabled={phase.unavailable.includes('DARE')} onChoose={(row) => onChoose('DARE', row)} />
         </div>
       )}
     </div>
@@ -295,10 +307,13 @@ export function Play() {
           key={game.round}
           game={game}
           phase={phase}
-          onChoose={(choice) => {
-            setRandomPending(choice === 'RANDOM');
-            dispatch({ type: 'CHOOSE', choice });
-          }}
+          onChoose={(choice, row) =>
+            // Overdrive: the tapped option becomes the card (or the roulette) instead of cutting to it.
+            morphInto(row, () => {
+              setRandomPending(choice === 'RANDOM');
+              dispatch({ type: 'CHOOSE', choice });
+            })
+          }
           onSkip={() => dispatch({ type: 'SKIP_TURN' })}
         />
       ) : null}
